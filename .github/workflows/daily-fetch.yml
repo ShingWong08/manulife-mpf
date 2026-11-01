@@ -25,14 +25,20 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-          cache: 'pip'
 
-      - name: Install Dependencies
+      - name: Ensure Chrome Browser is Ready
         run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          if command -v google-chrome &> /dev/null; then
+            echo "Google Chrome 已預裝: $(google-chrome --version)"
+          elif command -v chromium-browser &> /dev/null; then
+            echo "Chromium 已預裝: $(chromium-browser --version)"
+          else
+            echo "正在安裝 Google Chrome..."
+            sudo apt-get update
+            sudo apt-get install -y google-chrome-stable
+          fi
 
-      - name: Run Fetch Script
+      - name: Run Fetch Script (Using Chrome Engine)
         run: |
           python fetch_funds.py
 
@@ -79,8 +85,8 @@ jobs:
 
           本 Release 共包含 **32 個檔案**：
 
-          1. 📄 **manulife_mpf_funds_summary.csv**：全計劃 29 檔基金當日總匯總表（包含基金代號、名稱、幣別、資產類別、NAV、截至日期、每日變動價格/百分比、每月利率、風險級別、各期回報率等）
-          2. 📄 **manulife_mpf_funds_details.csv**：29 檔基金投資檔案總表（包含發行日期、發行價、投資目標、管理費等）
+          1. 📄 **manulife_mpf_funds_summary.csv**：全計劃 29 檔基金當日總匯總表（包含基金代號、名稱、幣別、資產類別、NAV、截至日期、每日變動價格/百分比、每月公佈利率、風險級別、各期回報率等）
+          2. 📄 **manulife_mpf_funds_details.csv**：29 檔基金投資檔案總表（包含發行日期、發行價、投資目標說明、管理費等）
           3. 📦 **manulife_mpf_all_files.zip**：一鍵下載全部 31 個 CSV 的壓縮檔
           4. 📈 **29 檔個別基金歷史價格走勢 CSV**：
              - 保證類：\`DHK121.csv\`, \`SHK122.csv\`
