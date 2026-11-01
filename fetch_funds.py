@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Manulife HK MPF Funds Data Fetcher
-自動抓取香港宏利強積金（Manulife MPF）基金列表、詳細資訊及歷史淨值數據，並匯出為 CSV。
+自動抓取香港宏利「宏利環球精選(強積金)計劃」全 29 檔成份基金的最新價格、資產類別、投資檔案及歷史淨值數據，並匯出為 CSV。
 """
 
 import os
@@ -15,7 +15,7 @@ import requests
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
-# 設定日誌
+# 設定日誌格式
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
@@ -48,7 +48,8 @@ def load_config(config_path="config.json"):
         "fetch_history": True,
         "fetch_details": True,
         "fetch_all_funds_history": True,
-        "target_funds": ["SHK136"],
+        "target_funds": [],
+        "known_funds": [],
         "request_delay": 1.0,
         "output_dir": "data"
     }
@@ -66,7 +67,7 @@ def load_config(config_path="config.json"):
 
 
 def create_session():
-    """建立帶重試機制的 requests Session"""
+    """建立帶自動重試機制的 requests Session"""
     session = requests.Session()
     session.headers.update(DEFAULT_HEADERS)
     retries = Retry(
@@ -86,7 +87,6 @@ def format_timestamp(ts):
     if ts is None:
         return ""
     if isinstance(ts, (int, float)):
-        # 判斷是否為毫秒
         if ts > 1e11:
             ts = ts / 1000.0
         return datetime.fromtimestamp(ts, timezone.utc).strftime("%Y-%m-%d")
@@ -95,7 +95,7 @@ def format_timestamp(ts):
 
 def fetch_funds_list(session, config):
     """
-    抓取全計劃所有基金清單摘要
+    抓取全計劃基金清單摘要
     API: /bin/funds/fundslist
     """
     url = f"{BASE_URL}/bin/funds/fundslist"
@@ -103,27 +103,25 @@ def fetch_funds_list(session, config):
         "productLine": config.get("productLine", "mpf"),
         "overrideLocale": config.get("overrideLocale", "zh_Hant_HK")
     }
-    logger.info(f"正在請求全基金清單: {url} (params: {params})")
+    logger.info(f"正在請求全基金清單 API: {url} (params: {params})")
     try:
         resp = session.get(url, params=params, timeout=20)
-        if resp.status_code != 200:
-            logger.error(f"請求 fundslist 失敗，狀態碼: {resp.status_code}")
-            return None
-        data = resp.json()
-        return data
+        if resp.status_code == 200:
+            return resp.json()
+        logger.warning(f"請求 fundslist 返回狀態碼: {resp.status_code}")
+        return None
     except Exception as e:
-        logger.error(f"請求 fundslist 發生異常: {e}")
+        logger.warning(f"請求 fundslist 發生異常: {e}")
         return None
 
 
-def parse_and_save_summary(funds_data, output_dir):
+def parse_and_save_summary(funds_data, known_meta, output_dir):
     """
     解析全基金清單並輸出為 CSV
     """
     os.makedirs(output_dir, exist_ok=True)
     summary_csv_path = os.path.join(output_dir, "manulife_mpf_funds_summary.csv")
 
-    # 提取基金陣列
     funds = []
     if isinstance(funds_data, list):
         funds = funds_data
@@ -131,38 +129,47 @@ def parse_and_save_summary(funds_data, output_dir):
         funds = funds_data.get("funds") or funds_data.get("data") or funds_data.get("fundList") or []
 
     if not funds:
-        logger.warning("基金清單數據中未發現任何基金條目。")
         return []
 
-    logger.info(f"解析到 {len(funds)} 檔基金。")
-
     headers = [
-        "FundCode", "FundName", "Currency", "NAV", "AsOfDate",
-        "DailyChangePrice", "DailyChangePercent", "RiskRating",
-        "RiskRatingAsOfDate", "Return1Y", "Return3Y", "Return5Y",
+        "FundCode", "FundName", "Currency", "AssetClass", "NAV", "AsOfDate",
+        "DailyChangePrice", "DailyChangePercent", "MonthlyInterestRate",
+        "RiskRating", "RiskRatingAsOfDate", "Return1Y", "Return3Y", "Return5Y",
         "ReturnSinceLaunch", "FundSuspendInd"
     ]
 
     fund_codes = []
     rows = []
     for item in funds:
-        fund_id = item.get("fundId") or item.get("id") or ""
-        if fund_id:
-            fund_codes.append(fund_id)
+        fund_id = str(item.get("fundId") or item.get("id") or "").strip()
+        if not fund_id:
+            continue
+        fund_codes.append(fund_id)
 
-        display_name = item.get("displayName") or item.get("fundName") or ""
-        currency = item.get("currency") or ""
+        meta = known_meta.get(fund_id, {})
+        display_name = item.get("displayName") or item.get("fundName") or meta.get("name", "")
+        currency = item.get("currency") or meta.get("currency", "HKD")
+        asset_class = item.get("assetClassName") or item.get("assetClass") or meta.get("assetClass", "")
+
         nav_obj = item.get("nav") or {}
-        nav_price = nav_obj.get("price") if isinstance(nav_obj, dict) else item.get("price")
-        as_of_date = nav_obj.get("asOfDate") if isinstance(nav_obj, dict) else item.get("asOfDate")
-        change_price = nav_obj.get("changePrice") if isinstance(nav_obj, dict) else item.get("changePrice")
-        change_pct = nav_obj.get("changePercent") if isinstance(nav_obj, dict) else item.get("changePercent")
-        suspend_ind = nav_obj.get("fundSuspendInd") if isinstance(nav_obj, dict) else item.get("fundSuspendInd", "N")
+        if isinstance(nav_obj, dict):
+            nav_price = nav_obj.get("price")
+            as_of_date = nav_obj.get("asOfDate")
+            change_price = nav_obj.get("changePrice")
+            change_pct = nav_obj.get("changePercent")
+            monthly_interest = nav_obj.get("fundIntRate")
+            suspend_ind = nav_obj.get("fundSuspendInd", "N")
+        else:
+            nav_price = item.get("price")
+            as_of_date = item.get("asOfDate")
+            change_price = item.get("changePrice")
+            change_pct = item.get("changePercent")
+            monthly_interest = item.get("fundIntRate")
+            suspend_ind = item.get("fundSuspendInd", "N")
 
         risk_rating = item.get("riskRating", "")
         risk_as_of = item.get("riskRatingAsOfDate", "")
 
-        # 累積回報率解析
         ret_1y = ""
         ret_3y = ""
         ret_5y = ""
@@ -186,10 +193,12 @@ def parse_and_save_summary(funds_data, output_dir):
             "FundCode": fund_id,
             "FundName": display_name,
             "Currency": currency,
+            "AssetClass": asset_class,
             "NAV": nav_price if nav_price is not None else "",
             "AsOfDate": as_of_date or "",
             "DailyChangePrice": change_price if change_price is not None else "",
             "DailyChangePercent": change_pct if change_pct is not None else "",
+            "MonthlyInterestRate": monthly_interest if monthly_interest is not None else "",
             "RiskRating": risk_rating if risk_rating is not None else "",
             "RiskRatingAsOfDate": risk_as_of or "",
             "Return1Y": ret_1y,
@@ -204,7 +213,7 @@ def parse_and_save_summary(funds_data, output_dir):
         writer.writeheader()
         writer.writerows(rows)
 
-    logger.info(f"基金總表 CSV 儲存完成: {summary_csv_path}")
+    logger.info(f"全基金總表 CSV 儲存完成 ({len(rows)} 檔): {summary_csv_path}")
     return fund_codes
 
 
@@ -232,16 +241,13 @@ def fetch_fund_history(session, fund_id, config):
 
 def save_fund_history_csv(fund_id, history_data, output_dir):
     """
-    將基金歷史數據轉為 CSV
+    將單一基金的歷史走勢數據轉存為 CSV
     """
     history_dir = os.path.join(output_dir, "history")
     os.makedirs(history_dir, exist_ok=True)
     csv_path = os.path.join(history_dir, f"{fund_id}.csv")
 
     records = []
-    # 支援幾種常見的 JSON 結構
-    # 結構 1: {"data": [[timestamp, price, status], ...]}
-    # 結構 2: {"priceHistory": {"SHK136": [{"asOfDate": ..., "price": ...}]}}
     if isinstance(history_data, dict):
         if "data" in history_data and isinstance(history_data["data"], list):
             for row in history_data["data"]:
@@ -267,7 +273,6 @@ def save_fund_history_csv(fund_id, history_data, output_dir):
                     })
 
     if records:
-        # 按日期排序
         records.sort(key=lambda x: str(x.get("Date", "")), reverse=True)
         headers = ["Date", "FundCode", "NAV", "Status"]
         with open(csv_path, "w", newline="", encoding="utf-8-sig") as f:
@@ -277,7 +282,7 @@ def save_fund_history_csv(fund_id, history_data, output_dir):
         logger.info(f"基金 {fund_id} 歷史價格 CSV 已儲存 ({len(records)} 筆): {csv_path}")
         return True
     else:
-        logger.warning(f"未能從基金 {fund_id} 歷史數據中解析出有效走勢數據。")
+        logger.warning(f"基金 {fund_id} 未能解析出歷史數據。")
         return False
 
 
@@ -303,7 +308,7 @@ def fetch_fund_detail(session, fund_id, config):
         return None
 
 
-def save_fund_details_summary(details_map, output_dir):
+def save_fund_details_summary(details_map, known_meta, output_dir):
     """
     將所有基金的詳細檔案匯總為單一 CSV
     """
@@ -311,15 +316,18 @@ def save_fund_details_summary(details_map, output_dir):
         return
     details_csv_path = os.path.join(output_dir, "manulife_mpf_funds_details.csv")
     headers = [
-        "FundCode", "FundName", "LaunchDate", "LaunchPrice",
+        "FundCode", "FundName", "Currency", "AssetClass", "LaunchDate", "LaunchPrice",
         "RiskRating", "InvestmentObjective", "ManagementFee"
     ]
     rows = []
     for fund_id, data in details_map.items():
         details = data.get("details", {}) if isinstance(data, dict) else {}
+        meta = known_meta.get(fund_id, {})
         rows.append({
             "FundCode": fund_id,
-            "FundName": details.get("fundName", ""),
+            "FundName": details.get("fundName") or meta.get("name", ""),
+            "Currency": meta.get("currency", "HKD"),
+            "AssetClass": meta.get("assetClass", ""),
             "LaunchDate": details.get("launchDate") or details.get("fundLaunchDate") or "",
             "LaunchPrice": details.get("launchPrice") or details.get("fundLaunchPrice") or "",
             "RiskRating": details.get("riskRating", ""),
@@ -331,57 +339,98 @@ def save_fund_details_summary(details_map, output_dir):
         writer = csv.DictWriter(f, fieldnames=headers)
         writer.writeheader()
         writer.writerows(rows)
-    logger.info(f"基金詳細檔案總表已儲存: {details_csv_path}")
+    logger.info(f"全基金詳細檔案總表已儲存 ({len(rows)} 檔): {details_csv_path}")
+
+
+def build_summary_from_details(details_map, known_meta, output_dir):
+    """
+    容錯備份方案：當 fundslist API 受阻時，直接利用各基金 detail 資料拼裝當日總表
+    """
+    summary_csv_path = os.path.join(output_dir, "manulife_mpf_funds_summary.csv")
+    headers = [
+        "FundCode", "FundName", "Currency", "AssetClass", "NAV", "AsOfDate",
+        "DailyChangePrice", "DailyChangePercent", "MonthlyInterestRate",
+        "RiskRating", "RiskRatingAsOfDate", "Return1Y", "Return3Y", "Return5Y",
+        "ReturnSinceLaunch", "FundSuspendInd"
+    ]
+    rows = []
+    for fund_id, data in details_map.items():
+        details = data.get("details", {}) if isinstance(data, dict) else {}
+        meta = known_meta.get(fund_id, {})
+        nav_obj = details.get("nav") or {}
+
+        rows.append({
+            "FundCode": fund_id,
+            "FundName": details.get("fundName") or meta.get("name", ""),
+            "Currency": meta.get("currency", "HKD"),
+            "AssetClass": meta.get("assetClass", ""),
+            "NAV": nav_obj.get("price", ""),
+            "AsOfDate": nav_obj.get("asOfDate", ""),
+            "DailyChangePrice": nav_obj.get("changePrice", ""),
+            "DailyChangePercent": nav_obj.get("changePercent", ""),
+            "MonthlyInterestRate": nav_obj.get("fundIntRate", ""),
+            "RiskRating": details.get("riskRating", ""),
+            "RiskRatingAsOfDate": details.get("riskRatingAsOfDate", ""),
+            "Return1Y": "",
+            "Return3Y": "",
+            "Return5Y": "",
+            "ReturnSinceLaunch": "",
+            "FundSuspendInd": nav_obj.get("fundSuspendInd", "N")
+        })
+
+    with open(summary_csv_path, "w", newline="", encoding="utf-8-sig") as f:
+        writer = csv.DictWriter(f, fieldnames=headers)
+        writer.writeheader()
+        writer.writerows(rows)
+    logger.info(f"已從詳細資料備份生成全基金總表 CSV: {summary_csv_path}")
 
 
 def main():
-    logger.info("=== 開始執行宏利強積金 (Manulife MPF) 數據爬取任務 ===")
+    logger.info("=== 開始執行宏利環球精選(強積金)計劃數據抓取任務 ===")
     config = load_config()
     output_dir = config.get("output_dir", "data")
     delay = config.get("request_delay", 1.0)
     session = create_session()
 
+    # 建立 29 檔已知基金元數據映射表
+    known_funds_list = config.get("known_funds", [])
+    known_meta = {f["code"]: f for f in known_funds_list}
+
     # 1. 抓取全基金清單
     fund_codes = []
+    summary_success = False
     if config.get("fetch_summary", True):
         funds_list_data = fetch_funds_list(session, config)
         if funds_list_data:
-            # 備份原始 JSON
             os.makedirs(output_dir, exist_ok=True)
             with open(os.path.join(output_dir, "funds_list_raw.json"), "w", encoding="utf-8") as f:
                 json.dump(funds_list_data, f, ensure_ascii=False, indent=2)
-            fund_codes = parse_and_save_summary(funds_list_data, output_dir)
-        else:
-            logger.warning("無法從 fundslist 取得數據，將嘗試備用基金列表。")
+            fund_codes = parse_and_save_summary(funds_list_data, known_meta, output_dir)
+            if fund_codes:
+                summary_success = True
 
-    # 確定要抓取歷史/詳情的基金列表
-    target_funds = []
-    if config.get("fetch_all_funds_history", True) and fund_codes:
-        target_funds = fund_codes
-    else:
-        target_funds = config.get("target_funds", ["SHK136"])
+    # 彙整目標基金代碼列表：優先使用 config 內的 target_funds（涵蓋完整 29 檔基金）
+    target_funds = list(config.get("target_funds", []))
+    for fc in fund_codes:
+        if fc not in target_funds:
+            target_funds.append(fc)
 
-    # 確保用戶指定的基金在列表內（例如 SHK136）
-    for tf in config.get("target_funds", []):
-        if tf not in target_funds:
-            target_funds.append(tf)
+    logger.info(f"本次將抓取全數 {len(target_funds)} 檔成份基金的歷史與詳細數據")
 
-    logger.info(f"目標抓取歷史/詳情的基金清單 ({len(target_funds)} 檔): {target_funds}")
-
-    # 2. 抓取各基金的歷史淨值走勢
+    # 2. 抓取各基金的歷史淨值走勢 CSV
     if config.get("fetch_history", True):
-        logger.info("--- 開始抓取各基金歷史 NAV 走勢 ---")
+        logger.info("--- [1/2] 正在抓取 29 檔基金歷史 NAV 走勢 ---")
         for idx, fid in enumerate(target_funds, start=1):
-            logger.info(f"[{idx}/{len(target_funds)}] 正在抓取基金 {fid} 歷史淨值...")
+            logger.info(f"[{idx}/{len(target_funds)}] 正在抓取基金 {fid} 歷史淨值走勢...")
             hist_data = fetch_fund_history(session, fid, config)
             if hist_data:
                 save_fund_history_csv(fid, hist_data, output_dir)
             time.sleep(delay)
 
-    # 3. 抓取各基金詳細資料
+    # 3. 抓取各基金詳細檔案
+    details_map = {}
     if config.get("fetch_details", True):
-        logger.info("--- 開始抓取各基金詳細檔案 ---")
-        details_map = {}
+        logger.info("--- [2/2] 正在抓取 29 檔基金詳細檔案 ---")
         details_json_dir = os.path.join(output_dir, "details_json")
         os.makedirs(details_json_dir, exist_ok=True)
 
@@ -394,9 +443,13 @@ def main():
                     json.dump(det_data, f, ensure_ascii=False, indent=2)
             time.sleep(delay)
 
-        save_fund_details_summary(details_map, output_dir)
+        save_fund_details_summary(details_map, known_meta, output_dir)
 
-    logger.info("=== 宏利強積金所有數據抓取任務已圓滿完成 ===")
+        # 若前面 fundslist 未成功取得，使用收集到的 details 自動生成 summary 總表
+        if not summary_success and details_map:
+            build_summary_from_details(details_map, known_meta, output_dir)
+
+    logger.info(f"=== 宏利強積金全數 {len(target_funds)} 檔基金數據抓取任務圓滿完成！ ===")
 
 
 if __name__ == "__main__":
