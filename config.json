@@ -1,0 +1,13 @@
+{
+  "productLine": "mpf",
+  "overrideLocale": "zh_Hant_HK",
+  "fetch_summary": true,
+  "fetch_history": true,
+  "fetch_details": true,
+  "fetch_all_funds_history": true,
+  "target_funds": [
+    "SHK136"
+  ],
+  "request_delay": 1.0,
+  "output_dir": "data"
+}
