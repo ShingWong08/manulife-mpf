@@ -7,7 +7,7 @@ on:
   # 支援在 GitHub Actions 頁面手動點擊「Run workflow」按鈕測試與立即抓取
   workflow_dispatch:
 
-# 授予 GitHub Action 推送更新回本倉庫的寫入權限
+# 授予 GitHub Action 推送更新與發佈 Release 的寫入權限
 permissions:
   contents: write
 
@@ -36,7 +36,7 @@ jobs:
         run: |
           python fetch_funds.py
 
-      - name: Commit and Push Changes
+      - name: Commit and Push Changes to Repository
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
@@ -48,3 +48,60 @@ jobs:
             git commit -m "chore(data): auto-update Manulife MPF fund prices [$(date +'%Y-%m-%d')]"
             git push
           fi
+
+      - name: Package Release Assets
+        run: |
+          # 將歷史走勢 CSV 目錄打包成一個方便下載的 ZIP 壓縮檔
+          if [ -d "data/history" ]; then
+            zip -j -r manulife_mpf_history_all.zip data/history/
+          fi
+
+      - name: Create or Update GitHub Release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          DATE_STR="$(date +'%Y-%m-%d')"
+          TAG_NAME="v$(date +'%Y.%m.%d')"
+          RELEASE_TITLE="Manulife MPF Funds Data (${DATE_STR})"
+
+          RELEASE_BODY=$(cat <<EOF
+          ### 📊 宏利強積金 (Manulife MPF) 每日數據自動匯出 (${DATE_STR})
+
+          每日自動抓取「宏利環球精選(強積金)計劃」全成份基金數據：
+
+          - 📄 **manulife_mpf_funds_summary.csv**：全基金當日最新 NAV、每日變動與累積回報總表
+          - 📄 **manulife_mpf_funds_details.csv**：全基金投資目標、管理費與檔案總表
+          - 📦 **manulife_mpf_history_all.zip**：所有個別基金歷史淨值 CSV 打包壓縮檔
+          - 📈 各個別基金最新歷史價格走勢 CSV（如 SHK136.csv 等）
+
+          _由 GitHub Actions 自動定時排程生成於 ${DATE_STR}_
+          EOF
+          )
+
+          # 收集準備上傳的所有資產檔案
+          ASSETS=()
+          [ -f "data/manulife_mpf_funds_summary.csv" ] && ASSETS+=("data/manulife_mpf_funds_summary.csv")
+          [ -f "data/manulife_mpf_funds_details.csv" ] && ASSETS+=("data/manulife_mpf_funds_details.csv")
+          [ -f "manulife_mpf_history_all.zip" ] && ASSETS+=("manulife_mpf_history_all.zip")
+
+          # 同時將 history 目錄下的所有單一基金 CSV 也加入 Release 方便個別下載
+          if [ -d "data/history" ]; then
+            for f in data/history/*.csv; do
+              [ -e "$f" ] && ASSETS+=("$f")
+            done
+          fi
+
+          echo "準備上傳 ${#ASSETS[@]} 個資產到 Release: $TAG_NAME"
+
+          # 檢查當天 Release 是否已存在
+          if gh release view "$TAG_NAME" >/dev/null 2>&1; then
+            echo "當天 Release ($TAG_NAME) 已存在，正在更新資產與說明..."
+            gh release upload "$TAG_NAME" "${ASSETS[@]}" --clobber
+            gh release edit "$TAG_NAME" --title "$RELEASE_TITLE" --notes "$RELEASE_BODY"
+          else
+            echo "正在建立新 Release: $TAG_NAME ..."
+            gh release create "$TAG_NAME" "${ASSETS[@]}" \
+              --title "$RELEASE_TITLE" \
+              --notes "$RELEASE_BODY"
+          fi
+          echo "GitHub Release 發佈完成！"

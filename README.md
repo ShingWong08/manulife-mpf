@@ -1,25 +1,25 @@
-# 香港宏利強積金 (Manulife MPF) 自動定時數據抓取與 CSV 匯出
+# 香港宏利強積金 (Manulife MPF) 自動定時數據抓取與 GitHub Release 發佈
 
-本專案使用 **GitHub Actions** 每天自動定時從香港宏利（Manulife HK）官方 API 抓取「**宏利環球精選(強積金)計劃**」下所有成份基金的最新價格、投資檔案及歷史淨值走勢，並自動輸出為結構化的 **CSV 檔案** 提交保存至 GitHub 倉庫中。
+本專案使用 **GitHub Actions** 每天自動定時從香港宏利（Manulife HK）官方 API 抓取「**宏利環球精選(強積金)計劃**」下所有成份基金的最新價格、投資檔案及歷史淨值走勢，輸出結構化 **CSV 檔案**，並**自動發佈至 GitHub Releases 供直接下載**。
 
 ---
 
-## 輸出檔案結構
+## 📦 GitHub Releases 發佈內容
 
-執行後會自動在 `data/` 目錄下生成下列 CSV 與數據檔：
+每次執行後，GitHub Actions 會自動建立或更新當天的 Release（標籤格式如 `v2026.11.01`），並在 Release Assets 中提供直接下載連結：
 
-```text
-data/
-├── manulife_mpf_funds_summary.csv   # 【每日總表】全計劃所有基金當日最新 NAV、每日變動、各期回報率、風險級別
-├── manulife_mpf_funds_details.csv   # 【詳細檔案總表】各基金投資目標、成立日期、發行價、管理費等
-├── history/                         # 【歷史淨值走勢目錄】
-│   ├── SHK136.csv                   # 宏利 MPF 中華威力基金歷史走勢 (Date, FundCode, NAV, Status)
-│   ├── SHK101.csv                   # 其他各基金歷史淨值 CSV
-│   └── ...                          
-└── details_json/                    # 各基金詳細資料的原始 JSON 備份
-```
+1. **`manulife_mpf_funds_summary.csv`**：全計劃所有成份基金當日最新 NAV、每日變動、各期回報率、風險級別總表。
+2. **`manulife_mpf_funds_details.csv`**：全計劃基金詳細檔案總表（投資目標、管理費、發行價等）。
+3. **`manulife_mpf_history_all.zip`**：所有個別基金歷史走勢 CSV 的打包壓縮檔。
+4. **`{基金編號}.csv`**（例如 `SHK136.csv` 等）：個別基金的完整歷史走勢 CSV，可直接點選下載。
 
-### 1. `manulife_mpf_funds_summary.csv` 欄位說明
+同時，資料亦會同步提交儲存在倉庫內的 `data/` 目錄中，方便 Git 歷史追蹤。
+
+---
+
+## 📊 CSV 欄位說明
+
+### 1. `manulife_mpf_funds_summary.csv`（每日全基金總表）
 * `FundCode`：基金編號（如 `SHK136`）
 * `FundName`：成份基金名稱（如 `宏利MPF中華威力基金`）
 * `Currency`：計價貨幣（如 `HKD`）
@@ -32,7 +32,7 @@ data/
 * `Return1Y` / `Return3Y` / `Return5Y`：1年/3年/5年累積回報率
 * `ReturnSinceLaunch`：成立至今累積回報率
 
-### 2. `history/{FundCode}.csv` 歷史價格走勢欄位說明
+### 2. `history/{FundCode}.csv`（單檔基金歷史價格走勢）
 * `Date`：日期（YYYY-MM-DD）
 * `FundCode`：基金編號（如 `SHK136`）
 * `NAV`：單位資產淨值
@@ -40,16 +40,14 @@ data/
 
 ---
 
-## 快速部署至 GitHub
+## 🚀 快速部署至 GitHub（三步驟）
 
 ### 第一步：初始化本地倉庫並提交
-
-在專案目錄下執行以下指令：
 
 ```bash
 git init
 git add .
-git commit -m "feat: initial commit for Manulife MPF auto fetcher"
+git commit -m "feat: setup daily MPF fetch and GitHub Release workflow"
 git branch -M main
 ```
 
@@ -62,19 +60,18 @@ git remote add origin https://github.com/<你的GitHub帳號>/manulife-mpf.git
 git push -u origin main
 ```
 
-### 第三步：開啟 GitHub Actions 寫入權限（重要！）
+### 第三步：開啟 GitHub Actions 寫入權限（最關鍵！）
 
-為了讓 GitHub Action 能夠將產生的 CSV 自動 `git push` 回本倉庫，必須開啟權限：
-1. 進入 GitHub 倉庫頁面，點擊上方 **Settings**。
-2. 在左側選單點擊 **Actions** -> **General**。
-3. 向下捲動至 **Workflow permissions** 區塊。
+GitHub Action 需要寫入權限才能建立 **Release** 並上傳資產：
+1. 進入你的 GitHub 倉庫，點擊上方 **Settings**。
+2. 左側選單點選 **Actions** -> **General**。
+3. 滾動到 **Workflow permissions**。
 4. 選擇 **Read and write permissions**。
-5. 勾選 **Allow GitHub Actions to create and approve pull requests**（選填）。
-6. 點擊 **Save** 儲存。
+5. 點擊 **Save** 儲存。
 
 ---
 
-## 執行機制說明
+## ⏰ 執行機制說明
 
 1. **定時自動執行**：
    工作流程定義在 `.github/workflows/daily-fetch.yml`。
@@ -82,10 +79,11 @@ git push -u origin main
 
 2. **手動隨時觸發**：
    可隨時前往 GitHub 倉庫的 **Actions** 標籤頁 -> 點選 **Daily Fetch Manulife MPF Funds Data** -> 點擊右側 **Run workflow** 進行手動立即執行。
+   執行完成後，即可直接在右側 **Releases** 頁面下載最新生成的 CSV 檔案！
 
 ---
 
-## 設定檔 `config.json` 說明
+## ⚙️ 設定檔 `config.json` 說明
 
 你可以依需求修改 `config.json`：
 
@@ -105,5 +103,5 @@ git push -u origin main
 }
 ```
 
-* `fetch_all_funds_history`: 設為 `true` 會自動抓取計劃下**所有基金**的歷史走勢 CSV；若只希望抓取特定幾檔，可改為 `false`，並在 `target_funds` 陣列中指定基金代號（例如 `["SHK136", "SHK101"]`）。
+* `fetch_all_funds_history`: 設為 `true` 會自動抓取計劃下**所有成份基金**的歷史走勢 CSV；若改為 `false`，則只會抓取 `target_funds` 陣列中指定的基金代碼（如 `SHK136` 等）。
 * `request_delay`: 每次向 API 請求之間的間隔秒數（預設 1 秒），避免對官方伺服器造成負擔。
