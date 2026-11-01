@@ -1,0 +1,178 @@
+{
+  "fundId": "DHK121",
+  "locale": "zh_Hant_HK",
+  "productLine": "mpf",
+  "status": 0,
+  "labels": {
+    "NAV": "NAV",
+    "Filters": "Filter",
+    "Offer price": "Offer price",
+    "As of": "As of",
+    "Fund name": "Fund name",
+    "Watchlist": "Watchlist",
+    "Showing {0} out of {1} funds": "Showing {0} out of {1} funds"
+  },
+  "details": {
+    "calendarYearReturns": {
+      "asOfDate": "",
+      "periods": []
+    },
+    "dividendData": {
+      "exDividendDate": "",
+      "annualizedYield": "",
+      "dividend": "",
+      "fromCapital": "",
+      "fromNDI": "",
+      "periodEnd": "",
+      "recordDate": ""
+    },
+    "classId": "DHK121",
+    "isin": "",
+    "assetManager": "",
+    "fundObjective": "•\t備有本金保證*** 並以每月為成員提供按相等於或高於積金局所公布的訂明儲蓄利率計算的利息為目標\r\n•\t為下列各類成員提供短期的收益增長：\r\n•\t採取審慎態度的投資者\r\n•\t年屆退休年齡人士\r\n•\t欲在不明朗的經濟環境下尋找資金避難所的人士",
+    "distribution": {
+      "asOfDate": "",
+      "total": "",
+      "latest": ""
+    },
+    "nav": {
+      "asOfDate": "2025-09-01",
+      "price": "0.0",
+      "currency": "港元",
+      "aum": "",
+      "aumCurrency": "",
+      "redemptionPrice": "",
+      "prevPrice": "",
+      "changePrice": "0.0",
+      "changePercent": "",
+      "offerPrice": "",
+      "offer3Price": "",
+      "offer5Price": "",
+      "fundIntRate": "0.875",
+      "dividendAnnuYield": "",
+      "asOfDateInt": "2023-08-01",
+      "fundSuspendInd": "",
+      "fundInterestInd": "Y",
+      "dividendRecordDate": "",
+      "dividendPayoutRate": "",
+      "shareClassId": "DHK121",
+      "purchasePrice": "0"
+    },
+    "divFrequencyName": "",
+    "divFrequencyId": 0,
+    "regionName": "",
+    "regionId": 0,
+    "assetClassName": "保證",
+    "assetClassId": 0,
+    "fundName": "宏利MPF利息基金***",
+    "fundId": "DHK121",
+    "ilpProduct": [],
+    "product": "",
+    "locale": "zh_Hant_HK",
+    "subManager": "",
+    "custodian": "",
+    "launchDate": "2000-12-01T00:00:00.000Z",
+    "launchPrice": "0.5",
+    "inceptionDate": "",
+    "managementFee": "",
+    "managementFeeRemarks": "",
+    "paymentTypes": [],
+    "distributionFrequency": "",
+    "paymentDate": "",
+    "relatedProduct": [],
+    "currency": "港元",
+    "riskRating": "1",
+    "riskRatingDescription": "1",
+    "underlyingFundName": "",
+    "underlyingFundLink": "",
+    "classLaunchDate": "2000-12-01",
+    "dividendLink": "",
+    "fundHoldingBreakdowns": {
+      "top10Holdings": {
+        "asOfDate": "2026-06-29T16:00:00.000Z",
+        "data": [
+          {
+            "name": "Hong Kong Government Bond 0.0% 08/07/2026",
+            "weight": "1.5879999999999999"
+          },
+          {
+            "name": "Hong Kong Government Bond 0.0% 15/07/2026",
+            "weight": "1.587"
+          },
+          {
+            "name": "Hong Kong Government Bond 0.0% 02/07/2026",
+            "weight": "1.482"
+          },
+          {
+            "name": "Hong Kong Government Bond 0.0% 29/07/2026",
+            "weight": "1.48"
+          },
+          {
+            "name": "Commonwealth Bank of Australia 5.145% 06/04/2033",
+            "weight": "1.3379999999999999"
+          },
+          {
+            "name": "BMW Finance N.V. 3.59% 04/10/2029",
+            "weight": "1.236"
+          },
+          {
+            "name": "Hlp Finance Ltd. 2.28% 05/02/2027",
+            "weight": "1.228"
+          },
+          {
+            "name": "Hong Kong Government Bond 2.76% 25/04/2028",
+            "weight": "1.134"
+          },
+          {
+            "name": "Hong Kong Government Bond 0.0% 22/07/2026",
+            "weight": "1.11"
+          },
+          {
+            "name": "Industrial & Commercial Bank of China Ltd. 0% 28/07/2026",
+            "weight": "1.057"
+          }
+        ]
+      },
+      "portfolioAllocation": {
+        "asOfDate": "2026-06-29T16:00:00.000Z",
+        "data": [
+          {
+            "name": "港元債券",
+            "weight": "81.11294684699993"
+          },
+          {
+            "name": "美元債券",
+            "weight": "21.68660584900002"
+          },
+          {
+            "name": "其他",
+            "weight": "0.129514682"
+          },
+          {
+            "name": "現金",
+            "weight": "-2.9404034118"
+          }
+        ]
+      }
+    },
+    "riskRatingAsOfDate": "2026-06-30T00:00:00.000Z",
+    "displayName": "宏利MPF利息基金*** <%(DHK121)%>",
+    "displayFrontEnd": false,
+    "productsId": [
+      "8"
+    ],
+    "products": [
+      {
+        "name": "宏利環球精選(強積金)計劃",
+        "weight": ""
+      }
+    ],
+    "fundSize": [],
+    "cumulativeReturns": {
+      "asOfDate": "",
+      "periods": []
+    }
+  },
+  "dividend": "",
+  "optionalFields": {}
+}

@@ -1,0 +1,244 @@
+{
+  "fundId": "SHK140",
+  "locale": "zh_Hant_HK",
+  "productLine": "mpf",
+  "status": 0,
+  "labels": {
+    "NAV": "NAV",
+    "Filters": "Filter",
+    "Offer price": "Offer price",
+    "As of": "As of",
+    "Fund name": "Fund name",
+    "Watchlist": "Watchlist",
+    "Showing {0} out of {1} funds": "Showing {0} out of {1} funds"
+  },
+  "details": {
+    "calendarYearReturns": {
+      "asOfDate": "2026-10-29",
+      "periods": [
+        {
+          "period": "2025",
+          "value": 13.9914916604768
+        },
+        {
+          "period": "2024",
+          "value": 7.17180489216962
+        },
+        {
+          "period": "2023",
+          "value": 5.73921028466482
+        },
+        {
+          "period": "2022",
+          "value": -19.2485942037941
+        },
+        {
+          "period": "2021",
+          "value": 1.84392699811202
+        }
+      ]
+    },
+    "dividendData": {
+      "exDividendDate": "",
+      "annualizedYield": "",
+      "dividend": "",
+      "fromCapital": "",
+      "fromNDI": "",
+      "periodEnd": "",
+      "recordDate": ""
+    },
+    "classId": "SHK140",
+    "isin": "",
+    "assetManager": "",
+    "fundObjective": "•\t提供長期資本收益增長，並於臨近正常退休年齡時，降低虧損之風險\r\n•\t為預期於二零二五年左右達至正常退休年齡的成員而設\r\n•\t在推出時所投資的目標組合，約有75% 至95% 會間接投資於股票及與股票有關的投資，其餘資產則間接投資於債券、定期存款及規例准許的其他投資\r\n•\t投資於美洲、亞太區、日本及歐洲等地區",
+    "distribution": {
+      "asOfDate": "",
+      "total": "",
+      "latest": ""
+    },
+    "nav": {
+      "asOfDate": "2026-10-29",
+      "price": "17.436",
+      "currency": "港元",
+      "aum": "",
+      "aumCurrency": "",
+      "redemptionPrice": "",
+      "prevPrice": "",
+      "changePrice": "-0.0010000000000012221",
+      "changePercent": "-0.0057349314675759705",
+      "offerPrice": "",
+      "offer3Price": "",
+      "offer5Price": "",
+      "fundIntRate": "0",
+      "dividendAnnuYield": "",
+      "asOfDateInt": "2026-10-29",
+      "fundSuspendInd": "N",
+      "fundInterestInd": "N",
+      "dividendRecordDate": "",
+      "dividendPayoutRate": "",
+      "shareClassId": "SHK140",
+      "purchasePrice": "0"
+    },
+    "divFrequencyName": "",
+    "divFrequencyId": 0,
+    "regionName": "",
+    "regionId": 0,
+    "assetClassName": "混合資產",
+    "assetClassId": 0,
+    "fundName": "宏利MPF 2025退休基金",
+    "fundId": "SHK140",
+    "ilpProduct": [],
+    "product": "",
+    "locale": "zh_Hant_HK",
+    "subManager": "",
+    "custodian": "",
+    "launchDate": "2011-02-21T00:00:00.000Z",
+    "launchPrice": "10",
+    "inceptionDate": "",
+    "managementFee": "",
+    "managementFeeRemarks": "",
+    "paymentTypes": [],
+    "distributionFrequency": "",
+    "paymentDate": "",
+    "relatedProduct": [],
+    "currency": "港元",
+    "riskRating": "4",
+    "riskRatingDescription": "4",
+    "underlyingFundName": "",
+    "underlyingFundLink": "",
+    "classLaunchDate": "2011-02-21",
+    "dividendLink": "",
+    "fundHoldingBreakdowns": {
+      "top10Holdings": {
+        "asOfDate": "2026-06-29T16:00:00.000Z",
+        "data": [
+          {
+            "name": "iShares Treasury Bond ETF",
+            "weight": "2.7199999999999998"
+          },
+          {
+            "name": "HSBC Term Deposit 3.12% 02/07/2026",
+            "weight": "2.36"
+          },
+          {
+            "name": "iShares U.S. Technology ETF",
+            "weight": "2.11"
+          },
+          {
+            "name": "iShares MSCI India ETF",
+            "weight": "1.72"
+          },
+          {
+            "name": "Lyxor Core MSCI World (DR) UCITS ETF",
+            "weight": "1.48"
+          },
+          {
+            "name": "HSBC Term Deposit 3.34% 02/07/2026",
+            "weight": "1.1199999999999999"
+          },
+          {
+            "name": "台灣積體電路製造股份",
+            "weight": "1.0999999999999999"
+          },
+          {
+            "name": "SK Hynix Inc.",
+            "weight": "1.05"
+          },
+          {
+            "name": "Samsung Electronics Co. Ltd.",
+            "weight": "1.05"
+          },
+          {
+            "name": "Hong Kong Government Bond 2.02% 07/03/2034",
+            "weight": "1.04"
+          }
+        ]
+      },
+      "portfolioAllocation": {
+        "asOfDate": "2026-06-29T16:00:00.000Z",
+        "data": [
+          {
+            "name": "國際債券",
+            "weight": "27.500000000000004"
+          },
+          {
+            "name": "港元債券",
+            "weight": "24.8"
+          },
+          {
+            "name": "其他亞太股票",
+            "weight": "15.5"
+          },
+          {
+            "name": "北美洲股票",
+            "weight": "11.7"
+          },
+          {
+            "name": "香港股票",
+            "weight": "8.2"
+          },
+          {
+            "name": "現金",
+            "weight": "7.200000000000001"
+          },
+          {
+            "name": "歐洲股票",
+            "weight": "4.9"
+          },
+          {
+            "name": "日本股票",
+            "weight": "0.1"
+          }
+        ]
+      }
+    },
+    "riskRatingAsOfDate": "2026-06-30T00:00:00.000Z",
+    "displayName": "宏利MPF 2025退休基金 <%(SHK140)%>",
+    "displayFrontEnd": false,
+    "productsId": [
+      "8"
+    ],
+    "products": [
+      {
+        "name": "宏利環球精選(強積金)計劃",
+        "weight": ""
+      }
+    ],
+    "fundSize": [],
+    "cumulativeReturns": {
+      "asOfDate": "2026-10-29",
+      "periods": [
+        {
+          "period": "m6",
+          "value": -1.3298624865599
+        },
+        {
+          "period": "y1",
+          "value": 3.44704835360428
+        },
+        {
+          "period": "y3",
+          "value": 36.5280714117923
+        },
+        {
+          "period": "y5",
+          "value": 6.40141575639226
+        },
+        {
+          "period": "ytd",
+          "value": 3.28771992180559
+        },
+        {
+          "period": "si",
+          "value": 74.36
+        },
+        {
+          "period": "y10",
+          "value": 55.0693703308431
+        }
+      ]
+    }
+  },
+  "dividend": "",
+  "optionalFields": {}
+}

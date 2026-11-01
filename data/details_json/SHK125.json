@@ -1,0 +1,220 @@
+{
+  "fundId": "SHK125",
+  "locale": "zh_Hant_HK",
+  "productLine": "mpf",
+  "status": 0,
+  "labels": {
+    "NAV": "NAV",
+    "Filters": "Filter",
+    "Offer price": "Offer price",
+    "As of": "As of",
+    "Fund name": "Fund name",
+    "Watchlist": "Watchlist",
+    "Showing {0} out of {1} funds": "Showing {0} out of {1} funds"
+  },
+  "details": {
+    "calendarYearReturns": {
+      "asOfDate": "2026-10-29",
+      "periods": [
+        {
+          "period": "2025",
+          "value": 2.49226258348265
+        },
+        {
+          "period": "2024",
+          "value": 3.76066931462857
+        },
+        {
+          "period": "2023",
+          "value": 3.78003858972111
+        },
+        {
+          "period": "2022",
+          "value": 0.511283497884341
+        },
+        {
+          "period": "2021",
+          "value": 0.00881600987392428
+        }
+      ]
+    },
+    "dividendData": {
+      "exDividendDate": "",
+      "annualizedYield": "",
+      "dividend": "",
+      "fromCapital": "",
+      "fromNDI": "",
+      "periodEnd": "",
+      "recordDate": ""
+    },
+    "classId": "SHK125",
+    "isin": "",
+    "assetManager": "",
+    "fundObjective": "•\t提供與積金局公布的訂明儲蓄利率相配合的回報率，但本金及利息不獲保證\r\n•\t依據《強制性公積金計劃條例》強制設立的\r\n•\t投資於港元固定收益金融工具上\r\n•\t投資於保守基金並不等於將資金存放於銀行或接受存款公司，而且受託人並無責任按認購價贖回投資",
+    "distribution": {
+      "asOfDate": "",
+      "total": "",
+      "latest": ""
+    },
+    "nav": {
+      "asOfDate": "2026-10-29",
+      "price": "12.797",
+      "currency": "港元",
+      "aum": "",
+      "aumCurrency": "",
+      "redemptionPrice": "",
+      "prevPrice": "",
+      "changePrice": "0.002000000000000668",
+      "changePercent": "0.015631105900747698",
+      "offerPrice": "",
+      "offer3Price": "",
+      "offer5Price": "",
+      "fundIntRate": "0",
+      "dividendAnnuYield": "",
+      "asOfDateInt": "2026-10-29",
+      "fundSuspendInd": "N",
+      "fundInterestInd": "N",
+      "dividendRecordDate": "",
+      "dividendPayoutRate": "",
+      "shareClassId": "SHK125",
+      "purchasePrice": "0"
+    },
+    "divFrequencyName": "",
+    "divFrequencyId": 0,
+    "regionName": "",
+    "regionId": 0,
+    "assetClassName": "貨幣市場",
+    "assetClassId": 0,
+    "fundName": "宏利MPF保守基金 ^",
+    "fundId": "SHK125",
+    "ilpProduct": [],
+    "product": "",
+    "locale": "zh_Hant_HK",
+    "subManager": "",
+    "custodian": "",
+    "launchDate": "2000-12-01T00:00:00.000Z",
+    "launchPrice": "10",
+    "inceptionDate": "",
+    "managementFee": "",
+    "managementFeeRemarks": "",
+    "paymentTypes": [],
+    "distributionFrequency": "",
+    "paymentDate": "",
+    "relatedProduct": [],
+    "currency": "港元",
+    "riskRating": "1",
+    "riskRatingDescription": "1",
+    "underlyingFundName": "",
+    "underlyingFundLink": "",
+    "classLaunchDate": "2000-12-01",
+    "dividendLink": "",
+    "fundHoldingBreakdowns": {
+      "top10Holdings": {
+        "asOfDate": "2026-06-29T16:00:00.000Z",
+        "data": [
+          {
+            "name": "Hong Kong Government Bond 0.0% 08/07/2026",
+            "weight": "3.88"
+          },
+          {
+            "name": "Hong Kong Government Bond 0.0% 15/07/2026",
+            "weight": "3.879"
+          },
+          {
+            "name": "Hong Kong Government Bond 0.0% 02/07/2026",
+            "weight": "3.6220000000000003"
+          },
+          {
+            "name": "Hong Kong Government Bond 0.0% 29/07/2026",
+            "weight": "3.617"
+          },
+          {
+            "name": "Hong Kong Government Bond 0.0% 22/07/2026",
+            "weight": "2.714"
+          },
+          {
+            "name": "Industrial & Commercial Bank of China Ltd. 0% 28/07/2026",
+            "weight": "2.582"
+          },
+          {
+            "name": "Toronto-dominion Bank 0% 08/03/2027",
+            "weight": "2.5250000000000004"
+          },
+          {
+            "name": "Bank of China (Hong Kong) 0% 07/08/2026",
+            "weight": "2.504"
+          },
+          {
+            "name": "BNP Paribas 0% 20/08/2026",
+            "weight": "2.061"
+          },
+          {
+            "name": "United Overseas Bank (HK) 0% 22/08/2026",
+            "weight": "2.06"
+          }
+        ]
+      },
+      "portfolioAllocation": {
+        "asOfDate": "2026-06-29T16:00:00.000Z",
+        "data": [
+          {
+            "name": "港元債券",
+            "weight": "93.1"
+          },
+          {
+            "name": "現金及存款",
+            "weight": "6.9"
+          }
+        ]
+      }
+    },
+    "riskRatingAsOfDate": "2026-06-30T00:00:00.000Z",
+    "displayName": "宏利MPF保守基金 ^ <%(SHK125)%>",
+    "displayFrontEnd": false,
+    "productsId": [
+      "8"
+    ],
+    "products": [
+      {
+        "name": "宏利環球精選(強積金)計劃",
+        "weight": ""
+      }
+    ],
+    "fundSize": [],
+    "cumulativeReturns": {
+      "asOfDate": "2026-10-29",
+      "periods": [
+        {
+          "period": "m6",
+          "value": 1.07416475791802
+        },
+        {
+          "period": "y1",
+          "value": 2.21246006389777
+        },
+        {
+          "period": "y3",
+          "value": 8.92917943479743
+        },
+        {
+          "period": "y5",
+          "value": 12.8184783566958
+        },
+        {
+          "period": "ytd",
+          "value": 1.69262555626193
+        },
+        {
+          "period": "si",
+          "value": 27.97
+        },
+        {
+          "period": "y10",
+          "value": 16.7609489051095
+        }
+      ]
+    }
+  },
+  "dividend": "",
+  "optionalFields": {}
+}

@@ -1,0 +1,256 @@
+{
+  "fundId": "SHK128",
+  "locale": "zh_Hant_HK",
+  "productLine": "mpf",
+  "status": 0,
+  "labels": {
+    "NAV": "NAV",
+    "Filters": "Filter",
+    "Offer price": "Offer price",
+    "As of": "As of",
+    "Fund name": "Fund name",
+    "Watchlist": "Watchlist",
+    "Showing {0} out of {1} funds": "Showing {0} out of {1} funds"
+  },
+  "details": {
+    "calendarYearReturns": {
+      "asOfDate": "2026-10-29",
+      "periods": [
+        {
+          "period": "2025",
+          "value": 23.9640665527931
+        },
+        {
+          "period": "2024",
+          "value": 11.8011104431163
+        },
+        {
+          "period": "2023",
+          "value": 5.55057857409482
+        },
+        {
+          "period": "2022",
+          "value": -17.1690937760876
+        },
+        {
+          "period": "2021",
+          "value": 1.05608498672081
+        }
+      ]
+    },
+    "dividendData": {
+      "exDividendDate": "",
+      "annualizedYield": "",
+      "dividend": "",
+      "fromCapital": "",
+      "fromNDI": "",
+      "periodEnd": "",
+      "recordDate": ""
+    },
+    "classId": "SHK128",
+    "isin": "",
+    "assetManager": "",
+    "fundObjective": "•\t提供中至長期資本收益增長\r\n•\t投資於任何證券交易所上市的亞太市場（不包括日本）各類行業公司股份",
+    "distribution": {
+      "asOfDate": "",
+      "total": "",
+      "latest": ""
+    },
+    "nav": {
+      "asOfDate": "2026-10-29",
+      "price": "45.866",
+      "currency": "港元",
+      "aum": "",
+      "aumCurrency": "",
+      "redemptionPrice": "",
+      "prevPrice": "",
+      "changePrice": "-0.35900000000000176",
+      "changePercent": "-0.7766360194699876",
+      "offerPrice": "",
+      "offer3Price": "",
+      "offer5Price": "",
+      "fundIntRate": "0",
+      "dividendAnnuYield": "",
+      "asOfDateInt": "2026-10-29",
+      "fundSuspendInd": "N",
+      "fundInterestInd": "N",
+      "dividendRecordDate": "",
+      "dividendPayoutRate": "",
+      "shareClassId": "SHK128",
+      "purchasePrice": "0"
+    },
+    "divFrequencyName": "",
+    "divFrequencyId": 0,
+    "regionName": "",
+    "regionId": 0,
+    "assetClassName": "股票",
+    "assetClassId": 0,
+    "fundName": "宏利MPF亞太股票基金",
+    "fundId": "SHK128",
+    "ilpProduct": [],
+    "product": "",
+    "locale": "zh_Hant_HK",
+    "subManager": "",
+    "custodian": "",
+    "launchDate": "2000-12-01T00:00:00.000Z",
+    "launchPrice": "10",
+    "inceptionDate": "",
+    "managementFee": "",
+    "managementFeeRemarks": "",
+    "paymentTypes": [],
+    "distributionFrequency": "",
+    "paymentDate": "",
+    "relatedProduct": [],
+    "currency": "港元",
+    "riskRating": "6",
+    "riskRatingDescription": "6",
+    "underlyingFundName": "",
+    "underlyingFundLink": "",
+    "classLaunchDate": "2000-12-01",
+    "dividendLink": "",
+    "fundHoldingBreakdowns": {
+      "top10Holdings": {
+        "asOfDate": "2026-06-29T16:00:00.000Z",
+        "data": [
+          {
+            "name": "台灣積體電路製造股份",
+            "weight": "7.568"
+          },
+          {
+            "name": "Samsung Electronics Co. Ltd.",
+            "weight": "7.202"
+          },
+          {
+            "name": "SK Hynix Inc.",
+            "weight": "7.173"
+          },
+          {
+            "name": "聯發科技",
+            "weight": "2.669"
+          },
+          {
+            "name": "滙豐控股",
+            "weight": "2.0709999999999997"
+          },
+          {
+            "name": "日月光投資控股股份有限公司",
+            "weight": "1.756"
+          },
+          {
+            "name": "騰訊控股",
+            "weight": "1.7149999999999999"
+          },
+          {
+            "name": "BHP Group Ltd",
+            "weight": "1.69"
+          },
+          {
+            "name": "Advantech Co., Ltd.",
+            "weight": "1.533"
+          },
+          {
+            "name": "鴻海科技集團",
+            "weight": "1.512"
+          }
+        ]
+      },
+      "portfolioAllocation": {
+        "asOfDate": "2026-06-29T16:00:00.000Z",
+        "data": [
+          {
+            "name": "中國",
+            "weight": "24.2"
+          },
+          {
+            "name": "韓國",
+            "weight": "21.2"
+          },
+          {
+            "name": "台灣",
+            "weight": "16.6"
+          },
+          {
+            "name": "印度",
+            "weight": "12.5"
+          },
+          {
+            "name": "澳洲",
+            "weight": "10.7"
+          },
+          {
+            "name": "香港",
+            "weight": "5.5"
+          },
+          {
+            "name": "現金",
+            "weight": "4.2"
+          },
+          {
+            "name": "其他",
+            "weight": "2.599999999999991"
+          },
+          {
+            "name": "新加坡",
+            "weight": "0.9000000000000001"
+          },
+          {
+            "name": "印尼",
+            "weight": "0.8"
+          },
+          {
+            "name": "馬來西亞",
+            "weight": "0.8"
+          }
+        ]
+      }
+    },
+    "riskRatingAsOfDate": "2026-06-30T00:00:00.000Z",
+    "displayName": "宏利MPF亞太股票基金 <%(SHK128)%>",
+    "displayFrontEnd": false,
+    "productsId": [
+      "8"
+    ],
+    "products": [
+      {
+        "name": "宏利環球精選(強積金)計劃",
+        "weight": ""
+      }
+    ],
+    "fundSize": [],
+    "cumulativeReturns": {
+      "asOfDate": "2026-10-29",
+      "periods": [
+        {
+          "period": "m6",
+          "value": -2.04595933709207
+        },
+        {
+          "period": "y1",
+          "value": 17.7288944788111
+        },
+        {
+          "period": "y3",
+          "value": 77.7132008214189
+        },
+        {
+          "period": "y5",
+          "value": 39.8652151373769
+        },
+        {
+          "period": "ytd",
+          "value": 17.0349578974228
+        },
+        {
+          "period": "si",
+          "value": 358.66
+        },
+        {
+          "period": "y10",
+          "value": 130.76071644194
+        }
+      ]
+    }
+  },
+  "dividend": "",
+  "optionalFields": {}
+}

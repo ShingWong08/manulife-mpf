@@ -1,0 +1,240 @@
+{
+  "fundId": "SHK127",
+  "locale": "zh_Hant_HK",
+  "productLine": "mpf",
+  "status": 0,
+  "labels": {
+    "NAV": "NAV",
+    "Filters": "Filter",
+    "Offer price": "Offer price",
+    "As of": "As of",
+    "Fund name": "Fund name",
+    "Watchlist": "Watchlist",
+    "Showing {0} out of {1} funds": "Showing {0} out of {1} funds"
+  },
+  "details": {
+    "calendarYearReturns": {
+      "asOfDate": "2026-10-29",
+      "periods": [
+        {
+          "period": "2025",
+          "value": 15.1512742018845
+        },
+        {
+          "period": "2024",
+          "value": 15.064043915828
+        },
+        {
+          "period": "2023",
+          "value": 26.5119509230858
+        },
+        {
+          "period": "2022",
+          "value": -28.2939785035482
+        },
+        {
+          "period": "2021",
+          "value": 16.9814068644109
+        }
+      ]
+    },
+    "dividendData": {
+      "exDividendDate": "",
+      "annualizedYield": "",
+      "dividend": "",
+      "fromCapital": "",
+      "fromNDI": "",
+      "periodEnd": "",
+      "recordDate": ""
+    },
+    "classId": "SHK127",
+    "isin": "",
+    "assetManager": "",
+    "fundObjective": "•\t提供中至長期資本收益增長\r\n•\t投資於全球股票及與股票有關的投資\r\n•\t投資於任何地區，例如北美、日本、歐洲、亞太區其他市場及香港",
+    "distribution": {
+      "asOfDate": "",
+      "total": "",
+      "latest": ""
+    },
+    "nav": {
+      "asOfDate": "2026-10-29",
+      "price": "31.427",
+      "currency": "港元",
+      "aum": "",
+      "aumCurrency": "",
+      "redemptionPrice": "",
+      "prevPrice": "",
+      "changePrice": "-0.0030000000000001137",
+      "changePercent": "-0.009545020680878504",
+      "offerPrice": "",
+      "offer3Price": "",
+      "offer5Price": "",
+      "fundIntRate": "0",
+      "dividendAnnuYield": "",
+      "asOfDateInt": "2026-10-29",
+      "fundSuspendInd": "N",
+      "fundInterestInd": "N",
+      "dividendRecordDate": "",
+      "dividendPayoutRate": "",
+      "shareClassId": "SHK127",
+      "purchasePrice": "0"
+    },
+    "divFrequencyName": "",
+    "divFrequencyId": 0,
+    "regionName": "",
+    "regionId": 0,
+    "assetClassName": "股票",
+    "assetClassId": 0,
+    "fundName": "宏利MPF國際股票基金",
+    "fundId": "SHK127",
+    "ilpProduct": [],
+    "product": "",
+    "locale": "zh_Hant_HK",
+    "subManager": "",
+    "custodian": "",
+    "launchDate": "2000-12-01T00:00:00.000Z",
+    "launchPrice": "10",
+    "inceptionDate": "",
+    "managementFee": "",
+    "managementFeeRemarks": "",
+    "paymentTypes": [],
+    "distributionFrequency": "",
+    "paymentDate": "",
+    "relatedProduct": [],
+    "currency": "港元",
+    "riskRating": "5",
+    "riskRatingDescription": "5",
+    "underlyingFundName": "",
+    "underlyingFundLink": "",
+    "classLaunchDate": "2000-12-01",
+    "dividendLink": "",
+    "fundHoldingBreakdowns": {
+      "top10Holdings": {
+        "asOfDate": "2026-06-29T16:00:00.000Z",
+        "data": [
+          {
+            "name": "Lyxor Core MSCI World (DR) UCITS ETF",
+            "weight": "3.88"
+          },
+          {
+            "name": "Amazon.com, Inc.",
+            "weight": "2.85"
+          },
+          {
+            "name": "Microsoft Corp.",
+            "weight": "2.34"
+          },
+          {
+            "name": "Broadcom Inc.",
+            "weight": "2.09"
+          },
+          {
+            "name": "Alphabet Inc. A",
+            "weight": "1.82"
+          },
+          {
+            "name": "iShares U.S. Financials ETF",
+            "weight": "1.78"
+          },
+          {
+            "name": "Apple Inc.",
+            "weight": "1.51"
+          },
+          {
+            "name": "Nvidia Corporation",
+            "weight": "1.3599999999999999"
+          },
+          {
+            "name": "Meta Platforms Inc.",
+            "weight": "1.35"
+          },
+          {
+            "name": "iShares MSCI India ETF",
+            "weight": "1.2"
+          }
+        ]
+      },
+      "portfolioAllocation": {
+        "asOfDate": "2026-06-29T16:00:00.000Z",
+        "data": [
+          {
+            "name": "北美洲股票",
+            "weight": "58.5"
+          },
+          {
+            "name": "歐洲股票",
+            "weight": "17.2"
+          },
+          {
+            "name": "其他亞太股票",
+            "weight": "15.7"
+          },
+          {
+            "name": "日本股票",
+            "weight": "5.0"
+          },
+          {
+            "name": "現金",
+            "weight": "3.0"
+          },
+          {
+            "name": "香港股票",
+            "weight": "0.4"
+          },
+          {
+            "name": "其他",
+            "weight": "0.3"
+          }
+        ]
+      }
+    },
+    "riskRatingAsOfDate": "2026-06-30T00:00:00.000Z",
+    "displayName": "宏利MPF國際股票基金 <%(SHK127)%>",
+    "displayFrontEnd": false,
+    "productsId": [
+      "8"
+    ],
+    "products": [
+      {
+        "name": "宏利環球精選(強積金)計劃",
+        "weight": ""
+      }
+    ],
+    "fundSize": [],
+    "cumulativeReturns": {
+      "asOfDate": "2026-10-29",
+      "periods": [
+        {
+          "period": "m6",
+          "value": 4.68338829486026
+        },
+        {
+          "period": "y1",
+          "value": 9.45597659515185
+        },
+        {
+          "period": "y3",
+          "value": 67.8075608714224
+        },
+        {
+          "period": "y5",
+          "value": 30.5162174508908
+        },
+        {
+          "period": "ytd",
+          "value": 8.5036597155089
+        },
+        {
+          "period": "si",
+          "value": 214.27
+        },
+        {
+          "period": "y10",
+          "value": 150.974285257946
+        }
+      ]
+    }
+  },
+  "dividend": "",
+  "optionalFields": {}
+}

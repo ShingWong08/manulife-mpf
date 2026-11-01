@@ -1,0 +1,228 @@
+{
+  "fundId": "SHK132",
+  "locale": "zh_Hant_HK",
+  "productLine": "mpf",
+  "status": 0,
+  "labels": {
+    "NAV": "NAV",
+    "Filters": "Filter",
+    "Offer price": "Offer price",
+    "As of": "As of",
+    "Fund name": "Fund name",
+    "Watchlist": "Watchlist",
+    "Showing {0} out of {1} funds": "Showing {0} out of {1} funds"
+  },
+  "details": {
+    "calendarYearReturns": {
+      "asOfDate": "2026-10-29",
+      "periods": [
+        {
+          "period": "2025",
+          "value": 6.66357554481023
+        },
+        {
+          "period": "2024",
+          "value": 2.59599048589874
+        },
+        {
+          "period": "2023",
+          "value": 5.65048822515795
+        },
+        {
+          "period": "2022",
+          "value": -9.46437857514299
+        },
+        {
+          "period": "2021",
+          "value": -1.53609831029186
+        }
+      ]
+    },
+    "dividendData": {
+      "exDividendDate": "",
+      "annualizedYield": "",
+      "dividend": "",
+      "fromCapital": "",
+      "fromNDI": "",
+      "periodEnd": "",
+      "recordDate": ""
+    },
+    "classId": "SHK132",
+    "isin": "",
+    "assetManager": "",
+    "fundObjective": "•\t為放眼於保守投資的成員提供較有優勢的整體回報比率\r\n•\t主要投資於由香港政府或其他政府、中央銀行或多邊國際機構發行以港元為單位的准許存款及債務證券( 一系列到期時間的投資組合)",
+    "distribution": {
+      "asOfDate": "",
+      "total": "",
+      "latest": ""
+    },
+    "nav": {
+      "asOfDate": "2026-10-29",
+      "price": "15.824",
+      "currency": "港元",
+      "aum": "",
+      "aumCurrency": "",
+      "redemptionPrice": "",
+      "prevPrice": "",
+      "changePrice": "0.016000000000000014",
+      "changePercent": "0.10121457489878552",
+      "offerPrice": "",
+      "offer3Price": "",
+      "offer5Price": "",
+      "fundIntRate": "0",
+      "dividendAnnuYield": "",
+      "asOfDateInt": "2026-10-29",
+      "fundSuspendInd": "N",
+      "fundInterestInd": "N",
+      "dividendRecordDate": "",
+      "dividendPayoutRate": "",
+      "shareClassId": "SHK132",
+      "purchasePrice": "0"
+    },
+    "divFrequencyName": "",
+    "divFrequencyId": 0,
+    "regionName": "",
+    "regionId": 0,
+    "assetClassName": "債券",
+    "assetClassId": 0,
+    "fundName": "宏利MPF香港債券基金",
+    "fundId": "SHK132",
+    "ilpProduct": [],
+    "product": "",
+    "locale": "zh_Hant_HK",
+    "subManager": "",
+    "custodian": "",
+    "launchDate": "2000-12-01T00:00:00.000Z",
+    "launchPrice": "10",
+    "inceptionDate": "",
+    "managementFee": "",
+    "managementFeeRemarks": "",
+    "paymentTypes": [],
+    "distributionFrequency": "",
+    "paymentDate": "",
+    "relatedProduct": [],
+    "currency": "港元",
+    "riskRating": "3",
+    "riskRatingDescription": "3",
+    "underlyingFundName": "",
+    "underlyingFundLink": "",
+    "classLaunchDate": "2000-12-01",
+    "dividendLink": "",
+    "fundHoldingBreakdowns": {
+      "top10Holdings": {
+        "asOfDate": "2026-06-29T16:00:00.000Z",
+        "data": [
+          {
+            "name": "Hong Kong Government Bond 2.02% 07/03/2034",
+            "weight": "3.7990000000000004"
+          },
+          {
+            "name": "GPT RE Ltd 2.2% 18/11/2030",
+            "weight": "2.089"
+          },
+          {
+            "name": "NBN Co. Ltd. 4.8% 07/12/2033",
+            "weight": "2.086"
+          },
+          {
+            "name": "AGI Finance Pty Ltd 4.66% 28/01/2032",
+            "weight": "2.061"
+          },
+          {
+            "name": "Ausgrid Finance Pty Ltd. 4.51% 03/03/2030",
+            "weight": "2.022"
+          },
+          {
+            "name": "Hong Kong Mortgage Corporation Ltd. 3.45% 17/10/2029",
+            "weight": "2.012"
+          },
+          {
+            "name": "AIA Group Ltd. 3.78% 10/09/2029",
+            "weight": "1.8290000000000002"
+          },
+          {
+            "name": "HKCG (Finance) Ltd.  1.98% 08/10/2030",
+            "weight": "1.828"
+          },
+          {
+            "name": "Standard Chartered Plc 3.996% 28/05/2030",
+            "weight": "1.765"
+          },
+          {
+            "name": "Commonwealth Bank of Australia 4.22% 04/03/2035",
+            "weight": "1.762"
+          }
+        ]
+      },
+      "portfolioAllocation": {
+        "asOfDate": "2026-06-29T16:00:00.000Z",
+        "data": [
+          {
+            "name": "港元債券",
+            "weight": "86.1"
+          },
+          {
+            "name": "美元債券",
+            "weight": "12.1"
+          },
+          {
+            "name": "現金",
+            "weight": "1.5"
+          },
+          {
+            "name": "其他",
+            "weight": "0.30000000000000027"
+          }
+        ]
+      }
+    },
+    "riskRatingAsOfDate": "2026-06-30T00:00:00.000Z",
+    "displayName": "宏利MPF香港債券基金 <%(SHK132)%>",
+    "displayFrontEnd": false,
+    "productsId": [
+      "8"
+    ],
+    "products": [
+      {
+        "name": "宏利環球精選(強積金)計劃",
+        "weight": ""
+      }
+    ],
+    "fundSize": [],
+    "cumulativeReturns": {
+      "asOfDate": "2026-10-29",
+      "periods": [
+        {
+          "period": "m6",
+          "value": -2.42939943272906
+        },
+        {
+          "period": "y1",
+          "value": -1.15559997501405
+        },
+        {
+          "period": "y3",
+          "value": 13.0689531975706
+        },
+        {
+          "period": "y5",
+          "value": 3.16860086060764
+        },
+        {
+          "period": "ytd",
+          "value": -1.73259641060672
+        },
+        {
+          "period": "si",
+          "value": 58.24
+        },
+        {
+          "period": "y10",
+          "value": 13.6944963356804
+        }
+      ]
+    }
+  },
+  "dividend": "",
+  "optionalFields": {}
+}

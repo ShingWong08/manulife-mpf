@@ -1,0 +1,244 @@
+{
+  "fundId": "SHK146",
+  "locale": "zh_Hant_HK",
+  "productLine": "mpf",
+  "status": 0,
+  "labels": {
+    "NAV": "NAV",
+    "Filters": "Filter",
+    "Offer price": "Offer price",
+    "As of": "As of",
+    "Fund name": "Fund name",
+    "Watchlist": "Watchlist",
+    "Showing {0} out of {1} funds": "Showing {0} out of {1} funds"
+  },
+  "details": {
+    "calendarYearReturns": {
+      "asOfDate": "2026-10-29",
+      "periods": [
+        {
+          "period": "2025",
+          "value": 6.60202732481268
+        },
+        {
+          "period": "2024",
+          "value": 1.90424863019851
+        },
+        {
+          "period": "2023",
+          "value": 3.19799777530589
+        },
+        {
+          "period": "2022",
+          "value": -10.9092410603683
+        },
+        {
+          "period": "2021",
+          "value": -2.69987946966652
+        }
+      ]
+    },
+    "dividendData": {
+      "exDividendDate": "",
+      "annualizedYield": "",
+      "dividend": "",
+      "fromCapital": "",
+      "fromNDI": "",
+      "periodEnd": "",
+      "recordDate": ""
+    },
+    "classId": "SHK146",
+    "isin": "",
+    "assetManager": "",
+    "fundObjective": "•\t為放眼於較長線的投資，並欲透過收益及資本增值取得投資回報的成員提供較有優勢的整體回報比率\r\n•\t最少85%的資產淨值投資於具有較強的可持續性特質且在亞太區註冊、交易和╱或擁有重大商業利益的公司及╱或（若符合資格）位於亞太區的政府及政府相關發行人的以美元計價的固定收益證券及與固定收益有關的證券",
+    "distribution": {
+      "asOfDate": "",
+      "total": "",
+      "latest": ""
+    },
+    "nav": {
+      "asOfDate": "2026-10-29",
+      "price": "11.951",
+      "currency": "港元",
+      "aum": "",
+      "aumCurrency": "",
+      "redemptionPrice": "",
+      "prevPrice": "",
+      "changePrice": "0.031000000000000583",
+      "changePercent": "0.26006711409396466",
+      "offerPrice": "",
+      "offer3Price": "",
+      "offer5Price": "",
+      "fundIntRate": "0",
+      "dividendAnnuYield": "",
+      "asOfDateInt": "2026-10-29",
+      "fundSuspendInd": "N",
+      "fundInterestInd": "N",
+      "dividendRecordDate": "",
+      "dividendPayoutRate": "",
+      "shareClassId": "SHK146",
+      "purchasePrice": "0"
+    },
+    "divFrequencyName": "",
+    "divFrequencyId": 0,
+    "regionName": "",
+    "regionId": 0,
+    "assetClassName": "債券",
+    "assetClassId": 0,
+    "fundName": "宏利MPF可持續亞太債券基金",
+    "fundId": "SHK146",
+    "ilpProduct": [],
+    "product": "",
+    "locale": "zh_Hant_HK",
+    "subManager": "",
+    "custodian": "",
+    "launchDate": "2012-04-23T00:00:00.000Z",
+    "launchPrice": "10",
+    "inceptionDate": "",
+    "managementFee": "",
+    "managementFeeRemarks": "",
+    "paymentTypes": [],
+    "distributionFrequency": "",
+    "paymentDate": "",
+    "relatedProduct": [],
+    "currency": "港元",
+    "riskRating": "3",
+    "riskRatingDescription": "3",
+    "underlyingFundName": "",
+    "underlyingFundLink": "",
+    "classLaunchDate": "2012-04-23",
+    "dividendLink": "",
+    "fundHoldingBreakdowns": {
+      "top10Holdings": {
+        "asOfDate": "2026-06-29T16:00:00.000Z",
+        "data": [
+          {
+            "name": "Government of The Philippines 4.375% 05/03/2030",
+            "weight": "1.83"
+          },
+          {
+            "name": "Government of Malaysia 3.336% 15/05/2030",
+            "weight": "1.806"
+          },
+          {
+            "name": "Macquarie Group Ltd. 6.255% 07/12/2034",
+            "weight": "1.6049999999999998"
+          },
+          {
+            "name": "Hong Kong Mortgage Corporation Ltd. 4.875% 13/09/2028",
+            "weight": "1.49"
+          },
+          {
+            "name": "Standard Chartered Plc 6.228% 21/01/2036",
+            "weight": "1.442"
+          },
+          {
+            "name": "Khazanah Capital Ltd 4.876% 01/06/2033",
+            "weight": "1.376"
+          },
+          {
+            "name": "The Bank Of East Asia, Limited 5.375% 13/05/2032",
+            "weight": "1.375"
+          },
+          {
+            "name": "Government of Philippines 5.6% 14/05/2049",
+            "weight": "1.3639999999999999"
+          },
+          {
+            "name": "Nippon Life Insurance Company 6.5% 30/04/2055",
+            "weight": "1.346"
+          },
+          {
+            "name": "Guangzhou Metro Investment Finance (BVI) Ltd. 2.31% 17/09/2030",
+            "weight": "1.333"
+          }
+        ]
+      },
+      "portfolioAllocation": {
+        "asOfDate": "2026-06-29T16:00:00.000Z",
+        "data": [
+          {
+            "name": "美元債券",
+            "weight": "87.0"
+          },
+          {
+            "name": "現金",
+            "weight": "3.6000000000000005"
+          },
+          {
+            "name": "人民幣債券",
+            "weight": "2.4"
+          },
+          {
+            "name": "印度債券",
+            "weight": "2.4"
+          },
+          {
+            "name": "澳元債券",
+            "weight": "2.1"
+          },
+          {
+            "name": "馬幣債券",
+            "weight": "1.8000000000000003"
+          },
+          {
+            "name": "菲律賓債券",
+            "weight": "0.7"
+          },
+          {
+            "name": "印尼盾債券",
+            "weight": "0.0"
+          }
+        ]
+      }
+    },
+    "riskRatingAsOfDate": "2026-06-30T00:00:00.000Z",
+    "displayName": "宏利MPF可持續亞太債券基金 <%(SHK146)%>",
+    "displayFrontEnd": false,
+    "productsId": [
+      "8"
+    ],
+    "products": [
+      {
+        "name": "宏利環球精選(強積金)計劃",
+        "weight": ""
+      }
+    ],
+    "fundSize": [],
+    "cumulativeReturns": {
+      "asOfDate": "2026-10-29",
+      "periods": [
+        {
+          "period": "m6",
+          "value": -1.41065830721002
+        },
+        {
+          "period": "y1",
+          "value": -1.54061624649858
+        },
+        {
+          "period": "y3",
+          "value": 14.2980107115532
+        },
+        {
+          "period": "y5",
+          "value": -1.19874338624337
+        },
+        {
+          "period": "ytd",
+          "value": -1.18240449809821
+        },
+        {
+          "period": "si",
+          "value": 19.51
+        },
+        {
+          "period": "y10",
+          "value": 12.6602564102564
+        }
+      ]
+    }
+  },
+  "dividend": "",
+  "optionalFields": {}
+}

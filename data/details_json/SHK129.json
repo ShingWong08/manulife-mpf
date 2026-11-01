@@ -1,0 +1,256 @@
+{
+  "fundId": "SHK129",
+  "locale": "zh_Hant_HK",
+  "productLine": "mpf",
+  "status": 0,
+  "labels": {
+    "NAV": "NAV",
+    "Filters": "Filter",
+    "Offer price": "Offer price",
+    "As of": "As of",
+    "Fund name": "Fund name",
+    "Watchlist": "Watchlist",
+    "Showing {0} out of {1} funds": "Showing {0} out of {1} funds"
+  },
+  "details": {
+    "calendarYearReturns": {
+      "asOfDate": "2026-10-29",
+      "periods": [
+        {
+          "period": "2025",
+          "value": 14.8322617607741
+        },
+        {
+          "period": "2024",
+          "value": -2.80888448926562
+        },
+        {
+          "period": "2023",
+          "value": 23.6648814078041
+        },
+        {
+          "period": "2022",
+          "value": -31.1162643617582
+        },
+        {
+          "period": "2021",
+          "value": 27.291023748826
+        }
+      ]
+    },
+    "dividendData": {
+      "exDividendDate": "",
+      "annualizedYield": "",
+      "dividend": "",
+      "fromCapital": "",
+      "fromNDI": "",
+      "periodEnd": "",
+      "recordDate": ""
+    },
+    "classId": "SHK129",
+    "isin": "",
+    "assetManager": "",
+    "fundObjective": "•\t提供中至長期資本收益增長\r\n•\t投資於任何證券交易所上市的歐洲經濟各類行業公司股份",
+    "distribution": {
+      "asOfDate": "",
+      "total": "",
+      "latest": ""
+    },
+    "nav": {
+      "asOfDate": "2026-10-29",
+      "price": "18.881",
+      "currency": "港元",
+      "aum": "",
+      "aumCurrency": "",
+      "redemptionPrice": "",
+      "prevPrice": "",
+      "changePrice": "0.18299999999999983",
+      "changePercent": "0.9787143009947579",
+      "offerPrice": "",
+      "offer3Price": "",
+      "offer5Price": "",
+      "fundIntRate": "0",
+      "dividendAnnuYield": "",
+      "asOfDateInt": "2026-10-29",
+      "fundSuspendInd": "N",
+      "fundInterestInd": "N",
+      "dividendRecordDate": "",
+      "dividendPayoutRate": "",
+      "shareClassId": "SHK129",
+      "purchasePrice": "0"
+    },
+    "divFrequencyName": "",
+    "divFrequencyId": 0,
+    "regionName": "",
+    "regionId": 0,
+    "assetClassName": "股票",
+    "assetClassId": 0,
+    "fundName": "宏利MPF歐洲股票基金",
+    "fundId": "SHK129",
+    "ilpProduct": [],
+    "product": "",
+    "locale": "zh_Hant_HK",
+    "subManager": "",
+    "custodian": "",
+    "launchDate": "2000-12-01T00:00:00.000Z",
+    "launchPrice": "10",
+    "inceptionDate": "",
+    "managementFee": "",
+    "managementFeeRemarks": "",
+    "paymentTypes": [],
+    "distributionFrequency": "",
+    "paymentDate": "",
+    "relatedProduct": [],
+    "currency": "港元",
+    "riskRating": "6",
+    "riskRatingDescription": "6",
+    "underlyingFundName": "",
+    "underlyingFundLink": "",
+    "classLaunchDate": "2000-12-01",
+    "dividendLink": "",
+    "fundHoldingBreakdowns": {
+      "top10Holdings": {
+        "asOfDate": "2026-06-29T16:00:00.000Z",
+        "data": [
+          {
+            "name": "Amundi MSCI EMU UCITS ETF",
+            "weight": "10.01"
+          },
+          {
+            "name": "Amundi Core DAX UCITS ETF Dist",
+            "weight": "4.707999999999999"
+          },
+          {
+            "name": "ASML Holding",
+            "weight": "3.576"
+          },
+          {
+            "name": "AstraZeneca PLC",
+            "weight": "2.857"
+          },
+          {
+            "name": "iShares Core FTSE 100 UCITS ETF",
+            "weight": "2.8289999999999997"
+          },
+          {
+            "name": "滙豐控股",
+            "weight": "2.178"
+          },
+          {
+            "name": "Adidas AG",
+            "weight": "2.094"
+          },
+          {
+            "name": "Schneider Electric SE",
+            "weight": "1.77"
+          },
+          {
+            "name": "L'Oreal S.A.",
+            "weight": "1.413"
+          },
+          {
+            "name": "Siemens AG",
+            "weight": "1.35"
+          }
+        ]
+      },
+      "portfolioAllocation": {
+        "asOfDate": "2026-06-29T16:00:00.000Z",
+        "data": [
+          {
+            "name": "德國",
+            "weight": "25.2"
+          },
+          {
+            "name": "英國",
+            "weight": "23.2"
+          },
+          {
+            "name": "法國",
+            "weight": "18.5"
+          },
+          {
+            "name": "其他",
+            "weight": "8.199999999999996"
+          },
+          {
+            "name": "荷蘭",
+            "weight": "6.5"
+          },
+          {
+            "name": "瑞士",
+            "weight": "5.3"
+          },
+          {
+            "name": "瑞典",
+            "weight": "3.5000000000000004"
+          },
+          {
+            "name": "丹麥",
+            "weight": "3.1"
+          },
+          {
+            "name": "意大利",
+            "weight": "3.0"
+          },
+          {
+            "name": "現金",
+            "weight": "2.6"
+          },
+          {
+            "name": "愛爾蘭",
+            "weight": "0.9000000000000001"
+          }
+        ]
+      }
+    },
+    "riskRatingAsOfDate": "2026-06-30T00:00:00.000Z",
+    "displayName": "宏利MPF歐洲股票基金 <%(SHK129)%>",
+    "displayFrontEnd": false,
+    "productsId": [
+      "8"
+    ],
+    "products": [
+      {
+        "name": "宏利環球精選(強積金)計劃",
+        "weight": ""
+      }
+    ],
+    "fundSize": [],
+    "cumulativeReturns": {
+      "asOfDate": "2026-10-29",
+      "periods": [
+        {
+          "period": "m6",
+          "value": 4.00462707943152
+        },
+        {
+          "period": "y1",
+          "value": 7.18705648594948
+        },
+        {
+          "period": "y3",
+          "value": 43.3092979127135
+        },
+        {
+          "period": "y5",
+          "value": 1.22232348683857
+        },
+        {
+          "period": "ytd",
+          "value": 4.66766450468428
+        },
+        {
+          "period": "si",
+          "value": 88.81
+        },
+        {
+          "period": "y10",
+          "value": 101.676992095706
+        }
+      ]
+    }
+  },
+  "dividend": "",
+  "optionalFields": {}
+}

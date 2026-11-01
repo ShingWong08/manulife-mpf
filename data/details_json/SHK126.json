@@ -1,0 +1,260 @@
+{
+  "fundId": "SHK126",
+  "locale": "zh_Hant_HK",
+  "productLine": "mpf",
+  "status": 0,
+  "labels": {
+    "NAV": "NAV",
+    "Filters": "Filter",
+    "Offer price": "Offer price",
+    "As of": "As of",
+    "Fund name": "Fund name",
+    "Watchlist": "Watchlist",
+    "Showing {0} out of {1} funds": "Showing {0} out of {1} funds"
+  },
+  "details": {
+    "calendarYearReturns": {
+      "asOfDate": "2026-10-29",
+      "periods": [
+        {
+          "period": "2025",
+          "value": 32.0174025136964
+        },
+        {
+          "period": "2024",
+          "value": 14.1158443150475
+        },
+        {
+          "period": "2023",
+          "value": -14.9728997289973
+        },
+        {
+          "period": "2022",
+          "value": -22.3880597014925
+        },
+        {
+          "period": "2021",
+          "value": -15.7935967302452
+        }
+      ]
+    },
+    "dividendData": {
+      "exDividendDate": "",
+      "annualizedYield": "",
+      "dividend": "",
+      "fromCapital": "",
+      "fromNDI": "",
+      "periodEnd": "",
+      "recordDate": ""
+    },
+    "classId": "SHK126",
+    "isin": "",
+    "assetManager": "",
+    "fundObjective": "•\t提供中至長期資本收益增長\r\n•\t投資於主要為香港聯合交易所上市公司或任何證券交易所上市的香港經濟各類行業公司股份",
+    "distribution": {
+      "asOfDate": "",
+      "total": "",
+      "latest": ""
+    },
+    "nav": {
+      "asOfDate": "2026-10-29",
+      "price": "21.768",
+      "currency": "港元",
+      "aum": "",
+      "aumCurrency": "",
+      "redemptionPrice": "",
+      "prevPrice": "",
+      "changePrice": "-0.30900000000000105",
+      "changePercent": "-1.3996466911265164",
+      "offerPrice": "",
+      "offer3Price": "",
+      "offer5Price": "",
+      "fundIntRate": "0",
+      "dividendAnnuYield": "",
+      "asOfDateInt": "2026-10-29",
+      "fundSuspendInd": "N",
+      "fundInterestInd": "N",
+      "dividendRecordDate": "",
+      "dividendPayoutRate": "",
+      "shareClassId": "SHK126",
+      "purchasePrice": "0"
+    },
+    "divFrequencyName": "",
+    "divFrequencyId": 0,
+    "regionName": "",
+    "regionId": 0,
+    "assetClassName": "股票",
+    "assetClassId": 0,
+    "fundName": "宏利MPF香港股票基金",
+    "fundId": "SHK126",
+    "ilpProduct": [],
+    "product": "",
+    "locale": "zh_Hant_HK",
+    "subManager": "",
+    "custodian": "",
+    "launchDate": "2000-12-01T00:00:00.000Z",
+    "launchPrice": "10",
+    "inceptionDate": "",
+    "managementFee": "",
+    "managementFeeRemarks": "",
+    "paymentTypes": [],
+    "distributionFrequency": "",
+    "paymentDate": "",
+    "relatedProduct": [],
+    "currency": "港元",
+    "riskRating": "6",
+    "riskRatingDescription": "6",
+    "underlyingFundName": "",
+    "underlyingFundLink": "",
+    "classLaunchDate": "2000-12-01",
+    "dividendLink": "",
+    "fundHoldingBreakdowns": {
+      "top10Holdings": {
+        "asOfDate": "2026-06-29T16:00:00.000Z",
+        "data": [
+          {
+            "name": "滙豐控股",
+            "weight": "9.66"
+          },
+          {
+            "name": "騰訊控股",
+            "weight": "8.200000000000001"
+          },
+          {
+            "name": "阿里巴巴集團",
+            "weight": "7.07"
+          },
+          {
+            "name": "中國建設銀行",
+            "weight": "4.82"
+          },
+          {
+            "name": "友邦保險",
+            "weight": "4.15"
+          },
+          {
+            "name": "工商銀行",
+            "weight": "3.0700000000000003"
+          },
+          {
+            "name": "香港交易所",
+            "weight": "2.54"
+          },
+          {
+            "name": "中國平安保險",
+            "weight": "2.34"
+          },
+          {
+            "name": "建滔積層板控股有限公司",
+            "weight": "1.81"
+          },
+          {
+            "name": "比亞迪股份有限公司",
+            "weight": "1.5"
+          }
+        ]
+      },
+      "portfolioAllocation": {
+        "asOfDate": "2026-06-29T16:00:00.000Z",
+        "data": [
+          {
+            "name": "金融",
+            "weight": "32.0"
+          },
+          {
+            "name": "科技",
+            "weight": "21.9"
+          },
+          {
+            "name": "生活消費品",
+            "weight": "17.3"
+          },
+          {
+            "name": "工業",
+            "weight": "6.4"
+          },
+          {
+            "name": "醫療保健",
+            "weight": "4.6"
+          },
+          {
+            "name": "原材料",
+            "weight": "4.1"
+          },
+          {
+            "name": "地產",
+            "weight": "3.2"
+          },
+          {
+            "name": "能源",
+            "weight": "2.8"
+          },
+          {
+            "name": "電訊",
+            "weight": "2.3"
+          },
+          {
+            "name": "公用事業",
+            "weight": "2.1"
+          },
+          {
+            "name": "現金",
+            "weight": "2.1"
+          },
+          {
+            "name": "生活必需品",
+            "weight": "1.3"
+          }
+        ]
+      }
+    },
+    "riskRatingAsOfDate": "2026-06-30T00:00:00.000Z",
+    "displayName": "宏利MPF香港股票基金 <%(SHK126)%>",
+    "displayFrontEnd": false,
+    "productsId": [
+      "8"
+    ],
+    "products": [
+      {
+        "name": "宏利環球精選(強積金)計劃",
+        "weight": ""
+      }
+    ],
+    "fundSize": [],
+    "cumulativeReturns": {
+      "asOfDate": "2026-10-29",
+      "periods": [
+        {
+          "period": "m6",
+          "value": -15.7454714352067
+        },
+        {
+          "period": "y1",
+          "value": -13.7491084872018
+        },
+        {
+          "period": "y3",
+          "value": 30.2303320370924
+        },
+        {
+          "period": "y5",
+          "value": -19.4225430316491
+        },
+        {
+          "period": "ytd",
+          "value": -11.4365922128646
+        },
+        {
+          "period": "si",
+          "value": 117.68
+        },
+        {
+          "period": "y10",
+          "value": 16.0403006556853
+        }
+      ]
+    }
+  },
+  "dividend": "",
+  "optionalFields": {}
+}

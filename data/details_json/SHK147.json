@@ -1,0 +1,228 @@
+{
+  "fundId": "SHK147",
+  "locale": "zh_Hant_HK",
+  "productLine": "mpf",
+  "status": 0,
+  "labels": {
+    "NAV": "NAV",
+    "Filters": "Filter",
+    "Offer price": "Offer price",
+    "As of": "As of",
+    "Fund name": "Fund name",
+    "Watchlist": "Watchlist",
+    "Showing {0} out of {1} funds": "Showing {0} out of {1} funds"
+  },
+  "details": {
+    "calendarYearReturns": {
+      "asOfDate": "2026-10-29",
+      "periods": [
+        {
+          "period": "2025",
+          "value": 7.26607422895975
+        },
+        {
+          "period": "2024",
+          "value": 1.3688951691248
+        },
+        {
+          "period": "2023",
+          "value": 2.59128386336867
+        },
+        {
+          "period": "2022",
+          "value": -6.01209231031252
+        },
+        {
+          "period": "2021",
+          "value": 2.81036596042723
+        }
+      ]
+    },
+    "dividendData": {
+      "exDividendDate": "",
+      "annualizedYield": "",
+      "dividend": "",
+      "fromCapital": "",
+      "fromNDI": "",
+      "periodEnd": "",
+      "recordDate": ""
+    },
+    "classId": "SHK147",
+    "isin": "",
+    "assetManager": "",
+    "fundObjective": "•\t為放眼於較長線的投資，並欲透過資本增值及賺取收入取得投資回報的成員提供較有優勢的整體回報比率\r\n•\t旗下投資項目將分散投資（在發債人及發債人之地域分配方面），最少70%之資產淨值將投資於在中國內地境外由任何政府、中央銀行、超國家機構、多邊國際機構，或企業發行、買賣或分配的人民幣計價債務證券\r\n•\t宏利MPF 人民幣債券基金亦可透過旗下附屬核准基金投資於規例准許的其他人民幣或非人民幣計價投資，包括貨幣市場工具、存款證明書、現金及存款，及非人民幣計價債務證券，最高可達資產淨值的30%",
+    "distribution": {
+      "asOfDate": "",
+      "total": "",
+      "latest": ""
+    },
+    "nav": {
+      "asOfDate": "2026-10-29",
+      "price": "13.045",
+      "currency": "港元",
+      "aum": "",
+      "aumCurrency": "",
+      "redemptionPrice": "",
+      "prevPrice": "",
+      "changePrice": "0.009999999999999787",
+      "changePercent": "0.07671653241273331",
+      "offerPrice": "",
+      "offer3Price": "",
+      "offer5Price": "",
+      "fundIntRate": "0",
+      "dividendAnnuYield": "",
+      "asOfDateInt": "2026-10-29",
+      "fundSuspendInd": "N",
+      "fundInterestInd": "N",
+      "dividendRecordDate": "",
+      "dividendPayoutRate": "",
+      "shareClassId": "SHK147",
+      "purchasePrice": "0"
+    },
+    "divFrequencyName": "",
+    "divFrequencyId": 0,
+    "regionName": "",
+    "regionId": 0,
+    "assetClassName": "債券",
+    "assetClassId": 0,
+    "fundName": "宏利MPF人民幣債券基金",
+    "fundId": "SHK147",
+    "ilpProduct": [],
+    "product": "",
+    "locale": "zh_Hant_HK",
+    "subManager": "",
+    "custodian": "",
+    "launchDate": "2013-12-16T00:00:00.000Z",
+    "launchPrice": "10",
+    "inceptionDate": "",
+    "managementFee": "",
+    "managementFeeRemarks": "",
+    "paymentTypes": [],
+    "distributionFrequency": "",
+    "paymentDate": "",
+    "relatedProduct": [],
+    "currency": "港元",
+    "riskRating": "3",
+    "riskRatingDescription": "3",
+    "underlyingFundName": "",
+    "underlyingFundLink": "",
+    "classLaunchDate": "2013-12-16",
+    "dividendLink": "",
+    "fundHoldingBreakdowns": {
+      "top10Holdings": {
+        "asOfDate": "2026-06-29T16:00:00.000Z",
+        "data": [
+          {
+            "name": "JPMorgan Chase & Co. 3.5% 27/07/2028",
+            "weight": "3.4610000000000003"
+          },
+          {
+            "name": "China Cinda (2020) I Management Ltd. 2.58% 25/06/2028",
+            "weight": "3.243"
+          },
+          {
+            "name": "The Bank Of East Asia, Limited 2.95% 09/09/2029",
+            "weight": "2.612"
+          },
+          {
+            "name": "Nestle Finance International Ltd. 2.8% 29/05/2035",
+            "weight": "2.4459999999999997"
+          },
+          {
+            "name": "Swire Properties MTN Financing Ltd. 2.85% 22/07/2030",
+            "weight": "2.36"
+          },
+          {
+            "name": "Far East Horizon Limited 4.25% 14/02/2028",
+            "weight": "2.1260000000000003"
+          },
+          {
+            "name": "ICBC Ltd. 2.0% 21/05/2028",
+            "weight": "2.073"
+          },
+          {
+            "name": "AIA Group Ltd. 2.88% 30/04/2036",
+            "weight": "1.897"
+          },
+          {
+            "name": "Baidu, Inc. 2.7% 12/03/2030",
+            "weight": "1.757"
+          },
+          {
+            "name": "China Resources Land Limited 2.4% 20/11/2030",
+            "weight": "1.7469999999999999"
+          }
+        ]
+      },
+      "portfolioAllocation": {
+        "asOfDate": "2026-06-29T16:00:00.000Z",
+        "data": [
+          {
+            "name": "人民幣債券",
+            "weight": "85.4"
+          },
+          {
+            "name": "港元債券",
+            "weight": "12.0"
+          },
+          {
+            "name": "美元債券",
+            "weight": "1.7000000000000002"
+          },
+          {
+            "name": "現金",
+            "weight": "0.8"
+          }
+        ]
+      }
+    },
+    "riskRatingAsOfDate": "2026-06-30T00:00:00.000Z",
+    "displayName": "宏利MPF人民幣債券基金 <%(SHK147)%>",
+    "displayFrontEnd": false,
+    "productsId": [
+      "8"
+    ],
+    "products": [
+      {
+        "name": "宏利環球精選(強積金)計劃",
+        "weight": ""
+      }
+    ],
+    "fundSize": [],
+    "cumulativeReturns": {
+      "asOfDate": "2026-10-29",
+      "periods": [
+        {
+          "period": "m6",
+          "value": 3.32673267326733
+        },
+        {
+          "period": "y1",
+          "value": 7.2603190264759
+        },
+        {
+          "period": "y3",
+          "value": 19.4050343249428
+        },
+        {
+          "period": "y5",
+          "value": 12.0415700420853
+        },
+        {
+          "period": "ytd",
+          "value": 5.9535412605588
+        },
+        {
+          "period": "si",
+          "value": 30.45
+        },
+        {
+          "period": "y10",
+          "value": 31.6612838110618
+        }
+      ]
+    }
+  },
+  "dividend": "",
+  "optionalFields": {}
+}

@@ -1,0 +1,240 @@
+{
+  "fundId": "SHK144",
+  "locale": "zh_Hant_HK",
+  "productLine": "mpf",
+  "status": 0,
+  "labels": {
+    "NAV": "NAV",
+    "Filters": "Filter",
+    "Offer price": "Offer price",
+    "As of": "As of",
+    "Fund name": "Fund name",
+    "Watchlist": "Watchlist",
+    "Showing {0} out of {1} funds": "Showing {0} out of {1} funds"
+  },
+  "details": {
+    "calendarYearReturns": {
+      "asOfDate": "2026-10-29",
+      "periods": [
+        {
+          "period": "2025",
+          "value": 24.0770282588879
+        },
+        {
+          "period": "2024",
+          "value": 13.0417981580473
+        },
+        {
+          "period": "2023",
+          "value": 7.75903948920811
+        },
+        {
+          "period": "2022",
+          "value": -22.7358035283393
+        },
+        {
+          "period": "2021",
+          "value": 5.26048428063444
+        }
+      ]
+    },
+    "dividendData": {
+      "exDividendDate": "",
+      "annualizedYield": "",
+      "dividend": "",
+      "fromCapital": "",
+      "fromNDI": "",
+      "periodEnd": "",
+      "recordDate": ""
+    },
+    "classId": "SHK144",
+    "isin": "",
+    "assetManager": "",
+    "fundObjective": "•\t提供長期資本收益增長，並於臨近正常退休年齡時，降低虧損之風險\r\n•\t為預期於二零四五年左右達至正常退休年齡的成員而設\r\n•\t在推出時所投資的目標組合，約有80% 至100% 會間接投資於股票及與股票有關的投資，其餘資產則間接投資於債券、定期存款及規例准許的其他投資\r\n•\t投資於美洲、亞太區、日本及歐洲等地區",
+    "distribution": {
+      "asOfDate": "",
+      "total": "",
+      "latest": ""
+    },
+    "nav": {
+      "asOfDate": "2026-10-29",
+      "price": "23.18",
+      "currency": "港元",
+      "aum": "",
+      "aumCurrency": "",
+      "redemptionPrice": "",
+      "prevPrice": "",
+      "changePrice": "-0.07900000000000063",
+      "changePercent": "-0.3396534674749586",
+      "offerPrice": "",
+      "offer3Price": "",
+      "offer5Price": "",
+      "fundIntRate": "0",
+      "dividendAnnuYield": "",
+      "asOfDateInt": "2026-10-29",
+      "fundSuspendInd": "N",
+      "fundInterestInd": "N",
+      "dividendRecordDate": "",
+      "dividendPayoutRate": "",
+      "shareClassId": "SHK144",
+      "purchasePrice": "0"
+    },
+    "divFrequencyName": "",
+    "divFrequencyId": 0,
+    "regionName": "",
+    "regionId": 0,
+    "assetClassName": "混合資產",
+    "assetClassId": 0,
+    "fundName": "宏利MPF 2045退休基金",
+    "fundId": "SHK144",
+    "ilpProduct": [],
+    "product": "",
+    "locale": "zh_Hant_HK",
+    "subManager": "",
+    "custodian": "",
+    "launchDate": "2011-02-21T00:00:00.000Z",
+    "launchPrice": "10",
+    "inceptionDate": "",
+    "managementFee": "",
+    "managementFeeRemarks": "",
+    "paymentTypes": [],
+    "distributionFrequency": "",
+    "paymentDate": "",
+    "relatedProduct": [],
+    "currency": "港元",
+    "riskRating": "5",
+    "riskRatingDescription": "5",
+    "underlyingFundName": "",
+    "underlyingFundLink": "",
+    "classLaunchDate": "2011-02-21",
+    "dividendLink": "",
+    "fundHoldingBreakdowns": {
+      "top10Holdings": {
+        "asOfDate": "2026-06-29T16:00:00.000Z",
+        "data": [
+          {
+            "name": "滙豐控股",
+            "weight": "3.11"
+          },
+          {
+            "name": "Lyxor Core MSCI World (DR) UCITS ETF",
+            "weight": "2.97"
+          },
+          {
+            "name": "騰訊控股",
+            "weight": "2.65"
+          },
+          {
+            "name": "阿里巴巴集團",
+            "weight": "2.2800000000000002"
+          },
+          {
+            "name": "iShares U.S. Technology ETF",
+            "weight": "2.07"
+          },
+          {
+            "name": "台灣積體電路製造股份",
+            "weight": "1.82"
+          },
+          {
+            "name": "SK Hynix Inc.",
+            "weight": "1.73"
+          },
+          {
+            "name": "Samsung Electronics Co. Ltd.",
+            "weight": "1.73"
+          },
+          {
+            "name": "iShares MSCI India ETF",
+            "weight": "1.73"
+          },
+          {
+            "name": "中國建設銀行",
+            "weight": "1.54"
+          }
+        ]
+      },
+      "portfolioAllocation": {
+        "asOfDate": "2026-06-29T16:00:00.000Z",
+        "data": [
+          {
+            "name": "香港股票",
+            "weight": "27.1"
+          },
+          {
+            "name": "其他亞太股票",
+            "weight": "25.8"
+          },
+          {
+            "name": "北美洲股票",
+            "weight": "22.7"
+          },
+          {
+            "name": "歐洲股票",
+            "weight": "11.6"
+          },
+          {
+            "name": "日本股票",
+            "weight": "7.9"
+          },
+          {
+            "name": "現金",
+            "weight": "4.8"
+          },
+          {
+            "name": "國際債券",
+            "weight": "0.0"
+          }
+        ]
+      }
+    },
+    "riskRatingAsOfDate": "2026-06-30T00:00:00.000Z",
+    "displayName": "宏利MPF 2045退休基金 <%(SHK144)%>",
+    "displayFrontEnd": false,
+    "productsId": [
+      "8"
+    ],
+    "products": [
+      {
+        "name": "宏利環球精選(強積金)計劃",
+        "weight": ""
+      }
+    ],
+    "fundSize": [],
+    "cumulativeReturns": {
+      "asOfDate": "2026-10-29",
+      "periods": [
+        {
+          "period": "m6",
+          "value": -1.18930900720406
+        },
+        {
+          "period": "y1",
+          "value": 6.58451351848446
+        },
+        {
+          "period": "y3",
+          "value": 63.0557118739449
+        },
+        {
+          "period": "y5",
+          "value": 21.858900220797
+        },
+        {
+          "period": "ytd",
+          "value": 6.43768941133256
+        },
+        {
+          "period": "si",
+          "value": 131.8
+        },
+        {
+          "period": "y10",
+          "value": 103.208556149733
+        }
+      ]
+    }
+  },
+  "dividend": "",
+  "optionalFields": {}
+}

@@ -1,0 +1,260 @@
+{
+  "fundId": "SHK130",
+  "locale": "zh_Hant_HK",
+  "productLine": "mpf",
+  "status": 0,
+  "labels": {
+    "NAV": "NAV",
+    "Filters": "Filter",
+    "Offer price": "Offer price",
+    "As of": "As of",
+    "Fund name": "Fund name",
+    "Watchlist": "Watchlist",
+    "Showing {0} out of {1} funds": "Showing {0} out of {1} funds"
+  },
+  "details": {
+    "calendarYearReturns": {
+      "asOfDate": "2026-10-29",
+      "periods": [
+        {
+          "period": "2025",
+          "value": 12.1524360236221
+        },
+        {
+          "period": "2024",
+          "value": 21.232008352599
+        },
+        {
+          "period": "2023",
+          "value": 38.6874903035631
+        },
+        {
+          "period": "2022",
+          "value": -31.9383337439724
+        },
+        {
+          "period": "2021",
+          "value": 23.0392793729159
+        }
+      ]
+    },
+    "dividendData": {
+      "exDividendDate": "",
+      "annualizedYield": "",
+      "dividend": "",
+      "fromCapital": "",
+      "fromNDI": "",
+      "periodEnd": "",
+      "recordDate": ""
+    },
+    "classId": "SHK130",
+    "isin": "",
+    "assetManager": "",
+    "fundObjective": "•\t提供中至長期資本收益增長\r\n•\t投資於任何證券交易所上市的北美經濟各類行業公司股份",
+    "distribution": {
+      "asOfDate": "",
+      "total": "",
+      "latest": ""
+    },
+    "nav": {
+      "asOfDate": "2026-10-29",
+      "price": "38.169",
+      "currency": "港元",
+      "aum": "",
+      "aumCurrency": "",
+      "redemptionPrice": "",
+      "prevPrice": "",
+      "changePrice": "-0.1280000000000001",
+      "changePercent": "-0.3342298352351363",
+      "offerPrice": "",
+      "offer3Price": "",
+      "offer5Price": "",
+      "fundIntRate": "0",
+      "dividendAnnuYield": "",
+      "asOfDateInt": "2026-10-29",
+      "fundSuspendInd": "N",
+      "fundInterestInd": "N",
+      "dividendRecordDate": "",
+      "dividendPayoutRate": "",
+      "shareClassId": "SHK130",
+      "purchasePrice": "0"
+    },
+    "divFrequencyName": "",
+    "divFrequencyId": 0,
+    "regionName": "",
+    "regionId": 0,
+    "assetClassName": "股票",
+    "assetClassId": 0,
+    "fundName": "宏利MPF北美股票基金",
+    "fundId": "SHK130",
+    "ilpProduct": [],
+    "product": "",
+    "locale": "zh_Hant_HK",
+    "subManager": "",
+    "custodian": "",
+    "launchDate": "2000-12-01T00:00:00.000Z",
+    "launchPrice": "10",
+    "inceptionDate": "",
+    "managementFee": "",
+    "managementFeeRemarks": "",
+    "paymentTypes": [],
+    "distributionFrequency": "",
+    "paymentDate": "",
+    "relatedProduct": [],
+    "currency": "港元",
+    "riskRating": "5",
+    "riskRatingDescription": "5",
+    "underlyingFundName": "",
+    "underlyingFundLink": "",
+    "classLaunchDate": "2000-12-01",
+    "dividendLink": "",
+    "fundHoldingBreakdowns": {
+      "top10Holdings": {
+        "asOfDate": "2026-06-29T16:00:00.000Z",
+        "data": [
+          {
+            "name": "Amazon.com, Inc.",
+            "weight": "6.29"
+          },
+          {
+            "name": "Broadcom Inc.",
+            "weight": "5.67"
+          },
+          {
+            "name": "Microsoft Corp.",
+            "weight": "5.21"
+          },
+          {
+            "name": "Alphabet Inc. A",
+            "weight": "4.2"
+          },
+          {
+            "name": "Nvidia Corporation",
+            "weight": "4.14"
+          },
+          {
+            "name": "Apple Inc.",
+            "weight": "3.52"
+          },
+          {
+            "name": "Meta Platforms Inc.",
+            "weight": "3.49"
+          },
+          {
+            "name": "Alphabet Inc. C",
+            "weight": "3.06"
+          },
+          {
+            "name": "Advanced Micro Devices",
+            "weight": "2.86"
+          },
+          {
+            "name": "台灣積體電路製造股份",
+            "weight": "2.34"
+          }
+        ]
+      },
+      "portfolioAllocation": {
+        "asOfDate": "2026-06-29T16:00:00.000Z",
+        "data": [
+          {
+            "name": "科技",
+            "weight": "47.0"
+          },
+          {
+            "name": "生活消費品",
+            "weight": "15.2"
+          },
+          {
+            "name": "工業",
+            "weight": "11.2"
+          },
+          {
+            "name": "醫療保健",
+            "weight": "8.4"
+          },
+          {
+            "name": "金融",
+            "weight": "8.2"
+          },
+          {
+            "name": "能源",
+            "weight": "2.5"
+          },
+          {
+            "name": "生活必需品",
+            "weight": "2.1"
+          },
+          {
+            "name": "現金",
+            "weight": "1.9"
+          },
+          {
+            "name": "公用事業",
+            "weight": "1.1"
+          },
+          {
+            "name": "地產",
+            "weight": "1.0"
+          },
+          {
+            "name": "原材料",
+            "weight": "0.7"
+          },
+          {
+            "name": "電訊",
+            "weight": "0.7"
+          }
+        ]
+      }
+    },
+    "riskRatingAsOfDate": "2026-06-30T00:00:00.000Z",
+    "displayName": "宏利MPF北美股票基金 <%(SHK130)%>",
+    "displayFrontEnd": false,
+    "productsId": [
+      "8"
+    ],
+    "products": [
+      {
+        "name": "宏利環球精選(強積金)計劃",
+        "weight": ""
+      }
+    ],
+    "fundSize": [],
+    "cumulativeReturns": {
+      "asOfDate": "2026-10-29",
+      "periods": [
+        {
+          "period": "m6",
+          "value": 3.41380151182638
+        },
+        {
+          "period": "y1",
+          "value": 4.22423679755337
+        },
+        {
+          "period": "y3",
+          "value": 68.0713342140026
+        },
+        {
+          "period": "y5",
+          "value": 34.3931551705926
+        },
+        {
+          "period": "ytd",
+          "value": 4.67871541014178
+        },
+        {
+          "period": "si",
+          "value": 281.69
+        },
+        {
+          "period": "y10",
+          "value": 191.700420328621
+        }
+      ]
+    }
+  },
+  "dividend": "",
+  "optionalFields": {}
+}

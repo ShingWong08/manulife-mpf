@@ -1,0 +1,244 @@
+{
+  "fundId": "SHK137",
+  "locale": "zh_Hant_HK",
+  "productLine": "mpf",
+  "status": 0,
+  "labels": {
+    "NAV": "NAV",
+    "Filters": "Filter",
+    "Offer price": "Offer price",
+    "As of": "As of",
+    "Fund name": "Fund name",
+    "Watchlist": "Watchlist",
+    "Showing {0} out of {1} funds": "Showing {0} out of {1} funds"
+  },
+  "details": {
+    "calendarYearReturns": {
+      "asOfDate": "2026-10-29",
+      "periods": [
+        {
+          "period": "2025",
+          "value": 18.2838030867854
+        },
+        {
+          "period": "2024",
+          "value": -1.55033441948209
+        },
+        {
+          "period": "2023",
+          "value": 3.95421807031306
+        },
+        {
+          "period": "2022",
+          "value": -6.05928655166639
+        },
+        {
+          "period": "2021",
+          "value": 18.8637178006927
+        }
+      ]
+    },
+    "dividendData": {
+      "exDividendDate": "",
+      "annualizedYield": "",
+      "dividend": "",
+      "fromCapital": "",
+      "fromNDI": "",
+      "periodEnd": "",
+      "recordDate": ""
+    },
+    "classId": "SHK137",
+    "isin": "",
+    "assetManager": "",
+    "fundObjective": "•\t提供長期資本收益增長\r\n•\t分散投資於康健護理或相關行業的公司的股票相關投資及股份，包括主要在藥劑、康健護理設備及服務、食物及藥物零售、護理管理業務和生物科技",
+    "distribution": {
+      "asOfDate": "",
+      "total": "",
+      "latest": ""
+    },
+    "nav": {
+      "asOfDate": "2026-10-29",
+      "price": "38.743",
+      "currency": "港元",
+      "aum": "",
+      "aumCurrency": "",
+      "redemptionPrice": "",
+      "prevPrice": "",
+      "changePrice": "0.8019999999999996",
+      "changePercent": "2.1138082812788266",
+      "offerPrice": "",
+      "offer3Price": "",
+      "offer5Price": "",
+      "fundIntRate": "0",
+      "dividendAnnuYield": "",
+      "asOfDateInt": "2026-10-29",
+      "fundSuspendInd": "N",
+      "fundInterestInd": "N",
+      "dividendRecordDate": "",
+      "dividendPayoutRate": "",
+      "shareClassId": "SHK137",
+      "purchasePrice": "0"
+    },
+    "divFrequencyName": "",
+    "divFrequencyId": 0,
+    "regionName": "",
+    "regionId": 0,
+    "assetClassName": "股票",
+    "assetClassId": 0,
+    "fundName": "宏利MPF康健護理基金",
+    "fundId": "SHK137",
+    "ilpProduct": [],
+    "product": "",
+    "locale": "zh_Hant_HK",
+    "subManager": "",
+    "custodian": "",
+    "launchDate": "2008-04-02T00:00:00.000Z",
+    "launchPrice": "10",
+    "inceptionDate": "",
+    "managementFee": "",
+    "managementFeeRemarks": "",
+    "paymentTypes": [],
+    "distributionFrequency": "",
+    "paymentDate": "",
+    "relatedProduct": [],
+    "currency": "港元",
+    "riskRating": "5",
+    "riskRatingDescription": "5",
+    "underlyingFundName": "",
+    "underlyingFundLink": "",
+    "classLaunchDate": "2008-04-02",
+    "dividendLink": "",
+    "fundHoldingBreakdowns": {
+      "top10Holdings": {
+        "asOfDate": "2026-06-29T16:00:00.000Z",
+        "data": [
+          {
+            "name": "Eli Lilly and Co.",
+            "weight": "9.78"
+          },
+          {
+            "name": "Johnson & Johnson",
+            "weight": "7.290000000000001"
+          },
+          {
+            "name": "AbbVie Inc.",
+            "weight": "5.18"
+          },
+          {
+            "name": "AstraZeneca PLC",
+            "weight": "5.08"
+          },
+          {
+            "name": "Amgen Inc.",
+            "weight": "4.16"
+          },
+          {
+            "name": "UnitedHealth Group Inc.",
+            "weight": "3.19"
+          },
+          {
+            "name": "Roche Holding Ltd",
+            "weight": "3.17"
+          },
+          {
+            "name": "Vertex Pharmaceuticals Inc.",
+            "weight": "2.85"
+          },
+          {
+            "name": "Medtronic Plc",
+            "weight": "2.82"
+          },
+          {
+            "name": "Stryker Corp.",
+            "weight": "2.73"
+          }
+        ]
+      },
+      "portfolioAllocation": {
+        "asOfDate": "2026-06-29T16:00:00.000Z",
+        "data": [
+          {
+            "name": "藥物製造",
+            "weight": "53.400000000000006"
+          },
+          {
+            "name": "醫療設備",
+            "weight": "16.3"
+          },
+          {
+            "name": "生物科技",
+            "weight": "11.7"
+          },
+          {
+            "name": "康健護理管理服務",
+            "weight": "6.4"
+          },
+          {
+            "name": "其他",
+            "weight": "4.399999999999982"
+          },
+          {
+            "name": "藥物零售商",
+            "weight": "3.7000000000000006"
+          },
+          {
+            "name": "醫療供應",
+            "weight": "2.4"
+          },
+          {
+            "name": "現金",
+            "weight": "1.7000000000000002"
+          }
+        ]
+      }
+    },
+    "riskRatingAsOfDate": "2026-06-30T00:00:00.000Z",
+    "displayName": "宏利MPF康健護理基金 <%(SHK137)%>",
+    "displayFrontEnd": false,
+    "productsId": [
+      "8"
+    ],
+    "products": [
+      {
+        "name": "宏利環球精選(強積金)計劃",
+        "weight": ""
+      }
+    ],
+    "fundSize": [],
+    "cumulativeReturns": {
+      "asOfDate": "2026-10-29",
+      "periods": [
+        {
+          "period": "m6",
+          "value": 21.4894951395422
+        },
+        {
+          "period": "y1",
+          "value": 23.2636568992396
+        },
+        {
+          "period": "y3",
+          "value": 46.4708328607614
+        },
+        {
+          "period": "y5",
+          "value": 36.2031991562665
+        },
+        {
+          "period": "ytd",
+          "value": 14.1144590733705
+        },
+        {
+          "period": "si",
+          "value": 287.43
+        },
+        {
+          "period": "y10",
+          "value": 119.482211647405
+        }
+      ]
+    }
+  },
+  "dividend": "",
+  "optionalFields": {}
+}

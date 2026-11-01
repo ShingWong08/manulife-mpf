@@ -1,0 +1,248 @@
+{
+  "fundId": "SHK134",
+  "locale": "zh_Hant_HK",
+  "productLine": "mpf",
+  "status": 0,
+  "labels": {
+    "NAV": "NAV",
+    "Filters": "Filter",
+    "Offer price": "Offer price",
+    "As of": "As of",
+    "Fund name": "Fund name",
+    "Watchlist": "Watchlist",
+    "Showing {0} out of {1} funds": "Showing {0} out of {1} funds"
+  },
+  "details": {
+    "calendarYearReturns": {
+      "asOfDate": "2026-10-29",
+      "periods": [
+        {
+          "period": "2025",
+          "value": 20.0068838198942
+        },
+        {
+          "period": "2024",
+          "value": 9.70033982082177
+        },
+        {
+          "period": "2023",
+          "value": 4.16175050949263
+        },
+        {
+          "period": "2022",
+          "value": -20.9043861881734
+        },
+        {
+          "period": "2021",
+          "value": 1.03720212583576
+        }
+      ]
+    },
+    "dividendData": {
+      "exDividendDate": "",
+      "annualizedYield": "",
+      "dividend": "",
+      "fromCapital": "",
+      "fromNDI": "",
+      "periodEnd": "",
+      "recordDate": ""
+    },
+    "classId": "SHK134",
+    "isin": "",
+    "assetManager": "",
+    "fundObjective": "•\t提供長期的資本收益增長\r\n•\t以聯接基金形式投資於核准基金（“核准匯集投資基金”），該核准基金約90% 資產將投資於全球股票，並側重投資於香港\r\n•\t投資於香港、美洲、歐洲、日本及亞太區等市場",
+    "distribution": {
+      "asOfDate": "",
+      "total": "",
+      "latest": ""
+    },
+    "nav": {
+      "asOfDate": "2026-10-29",
+      "price": "40.124",
+      "currency": "港元",
+      "aum": "",
+      "aumCurrency": "",
+      "redemptionPrice": "",
+      "prevPrice": "",
+      "changePrice": "-0.09100000000000108",
+      "changePercent": "-0.22628372497824462",
+      "offerPrice": "",
+      "offer3Price": "",
+      "offer5Price": "",
+      "fundIntRate": "0",
+      "dividendAnnuYield": "",
+      "asOfDateInt": "2026-10-29",
+      "fundSuspendInd": "N",
+      "fundInterestInd": "N",
+      "dividendRecordDate": "",
+      "dividendPayoutRate": "",
+      "shareClassId": "SHK134",
+      "purchasePrice": "0"
+    },
+    "divFrequencyName": "",
+    "divFrequencyId": 0,
+    "regionName": "",
+    "regionId": 0,
+    "assetClassName": "混合資產",
+    "assetClassId": 0,
+    "fundName": "宏利MPF富達增長基金",
+    "fundId": "SHK134",
+    "ilpProduct": [],
+    "product": "",
+    "locale": "zh_Hant_HK",
+    "subManager": "",
+    "custodian": "",
+    "launchDate": "2003-09-01T00:00:00.000Z",
+    "launchPrice": "10",
+    "inceptionDate": "",
+    "managementFee": "",
+    "managementFeeRemarks": "",
+    "paymentTypes": [],
+    "distributionFrequency": "",
+    "paymentDate": "",
+    "relatedProduct": [],
+    "currency": "港元",
+    "riskRating": "5",
+    "riskRatingDescription": "5",
+    "underlyingFundName": "",
+    "underlyingFundLink": "",
+    "classLaunchDate": "2003-09-01",
+    "dividendLink": "",
+    "fundHoldingBreakdowns": {
+      "top10Holdings": {
+        "asOfDate": "2026-06-29T16:00:00.000Z",
+        "data": [
+          {
+            "name": "南方東英富時香港股票ETF",
+            "weight": "12.18"
+          },
+          {
+            "name": "HSBC Japan Index Fund Institutional Accumulation HKD",
+            "weight": "5.83"
+          },
+          {
+            "name": "Invesco QQQ Trust",
+            "weight": "4.72"
+          },
+          {
+            "name": "安碩核心滬深300 ETF",
+            "weight": "4.21"
+          },
+          {
+            "name": "HSBC European Index Fund Institutional Accumulation HKD",
+            "weight": "4.01"
+          },
+          {
+            "name": "HSBC American Index Fund Institutional Accumulation HKD",
+            "weight": "3.3000000000000003"
+          },
+          {
+            "name": "iShares U.S. Technology ETF",
+            "weight": "2.92"
+          },
+          {
+            "name": "盈富基金",
+            "weight": "2.54"
+          },
+          {
+            "name": "SK Hynix Inc.",
+            "weight": "1.43"
+          },
+          {
+            "name": "台灣積體電路製造股份",
+            "weight": "1.39"
+          }
+        ]
+      },
+      "portfolioAllocation": {
+        "asOfDate": "2026-06-29T16:00:00.000Z",
+        "data": [
+          {
+            "name": "美洲股票",
+            "weight": "20.8"
+          },
+          {
+            "name": "香港股票",
+            "weight": "17.1"
+          },
+          {
+            "name": "其他亞太股票",
+            "weight": "16.4"
+          },
+          {
+            "name": "歐洲股票",
+            "weight": "15.6"
+          },
+          {
+            "name": "日本股票",
+            "weight": "12.2"
+          },
+          {
+            "name": "中國在岸股票",
+            "weight": "10.9"
+          },
+          {
+            "name": "債券",
+            "weight": "3.8"
+          },
+          {
+            "name": "現金及其他",
+            "weight": "2.6999999999999913"
+          },
+          {
+            "name": "其他股票",
+            "weight": "0.5"
+          }
+        ]
+      }
+    },
+    "riskRatingAsOfDate": "2026-06-30T00:00:00.000Z",
+    "displayName": "宏利MPF富達增長基金 <%(SHK134)%>",
+    "displayFrontEnd": false,
+    "productsId": [
+      "8"
+    ],
+    "products": [
+      {
+        "name": "宏利環球精選(強積金)計劃",
+        "weight": ""
+      }
+    ],
+    "fundSize": [],
+    "cumulativeReturns": {
+      "asOfDate": "2026-10-29",
+      "periods": [
+        {
+          "period": "m6",
+          "value": -0.781404549950537
+        },
+        {
+          "period": "y1",
+          "value": 3.93472348141435
+        },
+        {
+          "period": "y3",
+          "value": 50.9669651591542
+        },
+        {
+          "period": "y5",
+          "value": 10.6350125458406
+        },
+        {
+          "period": "ytd",
+          "value": 4.61763095455374
+        },
+        {
+          "period": "si",
+          "value": 301.24
+        },
+        {
+          "period": "y10",
+          "value": 73.0228546787408
+        }
+      ]
+    }
+  },
+  "dividend": "",
+  "optionalFields": {}
+}

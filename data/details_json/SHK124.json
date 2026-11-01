@@ -1,0 +1,244 @@
+{
+  "fundId": "SHK124",
+  "locale": "zh_Hant_HK",
+  "productLine": "mpf",
+  "status": 0,
+  "labels": {
+    "NAV": "NAV",
+    "Filters": "Filter",
+    "Offer price": "Offer price",
+    "As of": "As of",
+    "Fund name": "Fund name",
+    "Watchlist": "Watchlist",
+    "Showing {0} out of {1} funds": "Showing {0} out of {1} funds"
+  },
+  "details": {
+    "calendarYearReturns": {
+      "asOfDate": "2026-10-29",
+      "periods": [
+        {
+          "period": "2025",
+          "value": 22.0113438045375
+        },
+        {
+          "period": "2024",
+          "value": 9.60738367366456
+        },
+        {
+          "period": "2023",
+          "value": 8.00020659022831
+        },
+        {
+          "period": "2022",
+          "value": -23.4733804987945
+        },
+        {
+          "period": "2021",
+          "value": 4.30821240105541
+        }
+      ]
+    },
+    "dividendData": {
+      "exDividendDate": "",
+      "annualizedYield": "",
+      "dividend": "",
+      "fromCapital": "",
+      "fromNDI": "",
+      "periodEnd": "",
+      "recordDate": ""
+    },
+    "classId": "SHK124",
+    "isin": "",
+    "assetManager": "",
+    "fundObjective": "•\t提供長期的資本增長\r\n•\t主要投資於股票及與股票有關的投資\r\n•\t投資於任何地區，例如美洲、亞太地區、日本、歐洲等，並於此等地區略為側重香港及亞太地區市場",
+    "distribution": {
+      "asOfDate": "",
+      "total": "",
+      "latest": ""
+    },
+    "nav": {
+      "asOfDate": "2026-10-29",
+      "price": "29.549",
+      "currency": "港元",
+      "aum": "",
+      "aumCurrency": "",
+      "redemptionPrice": "",
+      "prevPrice": "",
+      "changePrice": "-0.05700000000000216",
+      "changePercent": "-0.192528541511863",
+      "offerPrice": "",
+      "offer3Price": "",
+      "offer5Price": "",
+      "fundIntRate": "0",
+      "dividendAnnuYield": "",
+      "asOfDateInt": "2026-10-29",
+      "fundSuspendInd": "N",
+      "fundInterestInd": "N",
+      "dividendRecordDate": "",
+      "dividendPayoutRate": "",
+      "shareClassId": "SHK124",
+      "purchasePrice": "0"
+    },
+    "divFrequencyName": "",
+    "divFrequencyId": 0,
+    "regionName": "",
+    "regionId": 0,
+    "assetClassName": "混合資產",
+    "assetClassId": 0,
+    "fundName": "宏利MPF進取基金",
+    "fundId": "SHK124",
+    "ilpProduct": [],
+    "product": "",
+    "locale": "zh_Hant_HK",
+    "subManager": "",
+    "custodian": "",
+    "launchDate": "2000-12-01T00:00:00.000Z",
+    "launchPrice": "10",
+    "inceptionDate": "",
+    "managementFee": "",
+    "managementFeeRemarks": "",
+    "paymentTypes": [],
+    "distributionFrequency": "",
+    "paymentDate": "",
+    "relatedProduct": [],
+    "currency": "港元",
+    "riskRating": "5",
+    "riskRatingDescription": "5",
+    "underlyingFundName": "",
+    "underlyingFundLink": "",
+    "classLaunchDate": "2000-12-01",
+    "dividendLink": "",
+    "fundHoldingBreakdowns": {
+      "top10Holdings": {
+        "asOfDate": "2026-06-29T16:00:00.000Z",
+        "data": [
+          {
+            "name": "Lyxor Core MSCI World (DR) UCITS ETF",
+            "weight": "4.14"
+          },
+          {
+            "name": "iShares Treasury Bond ETF",
+            "weight": "2.31"
+          },
+          {
+            "name": "iShares U.S. Technology ETF",
+            "weight": "2.22"
+          },
+          {
+            "name": "滙豐控股",
+            "weight": "1.95"
+          },
+          {
+            "name": "iShares MSCI India ETF",
+            "weight": "1.92"
+          },
+          {
+            "name": "騰訊控股",
+            "weight": "1.67"
+          },
+          {
+            "name": "阿里巴巴集團",
+            "weight": "1.43"
+          },
+          {
+            "name": "iShares U.S. Financials ETF",
+            "weight": "1.2"
+          },
+          {
+            "name": "台灣積體電路製造股份",
+            "weight": "1.0999999999999999"
+          },
+          {
+            "name": "HSBC Term Deposit 3.34% 02/07/2026",
+            "weight": "1.09"
+          }
+        ]
+      },
+      "portfolioAllocation": {
+        "asOfDate": "2026-06-29T16:00:00.000Z",
+        "data": [
+          {
+            "name": "其他亞太股票",
+            "weight": "23.3"
+          },
+          {
+            "name": "北美洲股票",
+            "weight": "19.6"
+          },
+          {
+            "name": "歐洲股票",
+            "weight": "18.3"
+          },
+          {
+            "name": "香港股票",
+            "weight": "17.3"
+          },
+          {
+            "name": "日本股票",
+            "weight": "11.7"
+          },
+          {
+            "name": "現金",
+            "weight": "6.4"
+          },
+          {
+            "name": "國際債券",
+            "weight": "2.8"
+          },
+          {
+            "name": "港元債券",
+            "weight": "0.5"
+          }
+        ]
+      }
+    },
+    "riskRatingAsOfDate": "2026-06-30T00:00:00.000Z",
+    "displayName": "宏利MPF進取基金 <%(SHK124)%>",
+    "displayFrontEnd": false,
+    "productsId": [
+      "8"
+    ],
+    "products": [
+      {
+        "name": "宏利環球精選(強積金)計劃",
+        "weight": ""
+      }
+    ],
+    "fundSize": [],
+    "cumulativeReturns": {
+      "asOfDate": "2026-10-29",
+      "periods": [
+        {
+          "period": "m6",
+          "value": -0.548599892299395
+        },
+        {
+          "period": "y1",
+          "value": 6.36023324454684
+        },
+        {
+          "period": "y3",
+          "value": 55.5619899973677
+        },
+        {
+          "period": "y5",
+          "value": 14.3669930719511
+        },
+        {
+          "period": "ytd",
+          "value": 5.66422313606294
+        },
+        {
+          "period": "si",
+          "value": 195.49
+        },
+        {
+          "period": "y10",
+          "value": 85.5626726953027
+        }
+      ]
+    }
+  },
+  "dividend": "",
+  "optionalFields": {}
+}

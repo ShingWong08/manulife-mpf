@@ -1,0 +1,248 @@
+{
+  "fundId": "SHK135",
+  "locale": "zh_Hant_HK",
+  "productLine": "mpf",
+  "status": 0,
+  "labels": {
+    "NAV": "NAV",
+    "Filters": "Filter",
+    "Offer price": "Offer price",
+    "As of": "As of",
+    "Fund name": "Fund name",
+    "Watchlist": "Watchlist",
+    "Showing {0} out of {1} funds": "Showing {0} out of {1} funds"
+  },
+  "details": {
+    "calendarYearReturns": {
+      "asOfDate": "2026-10-29",
+      "periods": [
+        {
+          "period": "2025",
+          "value": 12.9004249874332
+        },
+        {
+          "period": "2024",
+          "value": 3.99182626051418
+        },
+        {
+          "period": "2023",
+          "value": 3.96225482930683
+        },
+        {
+          "period": "2022",
+          "value": -19.2556247008138
+        },
+        {
+          "period": "2021",
+          "value": -1.57059839798963
+        }
+      ]
+    },
+    "dividendData": {
+      "exDividendDate": "",
+      "annualizedYield": "",
+      "dividend": "",
+      "fromCapital": "",
+      "fromNDI": "",
+      "periodEnd": "",
+      "recordDate": ""
+    },
+    "classId": "SHK135",
+    "isin": "",
+    "assetManager": "",
+    "fundObjective": "•\t提供中至長期資本收益增長\r\n•\t以聯接基金形式投資於核准基金，該核准基金約50% 資產將投資於全球股票，約45% 資產將投資於環球債券，其餘之資產則投資於規例准許的現金存款\r\n•\t投資於香港、美洲、歐洲、日本及亞太區等市場，並側重投資於香港",
+    "distribution": {
+      "asOfDate": "",
+      "total": "",
+      "latest": ""
+    },
+    "nav": {
+      "asOfDate": "2026-10-29",
+      "price": "25.123",
+      "currency": "港元",
+      "aum": "",
+      "aumCurrency": "",
+      "redemptionPrice": "",
+      "prevPrice": "",
+      "changePrice": "-0.013999999999999346",
+      "changePercent": "-0.055694792536895195",
+      "offerPrice": "",
+      "offer3Price": "",
+      "offer5Price": "",
+      "fundIntRate": "0",
+      "dividendAnnuYield": "",
+      "asOfDateInt": "2026-10-29",
+      "fundSuspendInd": "N",
+      "fundInterestInd": "N",
+      "dividendRecordDate": "",
+      "dividendPayoutRate": "",
+      "shareClassId": "SHK135",
+      "purchasePrice": "0"
+    },
+    "divFrequencyName": "",
+    "divFrequencyId": 0,
+    "regionName": "",
+    "regionId": 0,
+    "assetClassName": "混合資產",
+    "assetClassId": 0,
+    "fundName": "宏利MPF富達平穩增長基金",
+    "fundId": "SHK135",
+    "ilpProduct": [],
+    "product": "",
+    "locale": "zh_Hant_HK",
+    "subManager": "",
+    "custodian": "",
+    "launchDate": "2003-09-01T00:00:00.000Z",
+    "launchPrice": "10",
+    "inceptionDate": "",
+    "managementFee": "",
+    "managementFeeRemarks": "",
+    "paymentTypes": [],
+    "distributionFrequency": "",
+    "paymentDate": "",
+    "relatedProduct": [],
+    "currency": "港元",
+    "riskRating": "4",
+    "riskRatingDescription": "4",
+    "underlyingFundName": "",
+    "underlyingFundLink": "",
+    "classLaunchDate": "2003-09-01",
+    "dividendLink": "",
+    "fundHoldingBreakdowns": {
+      "top10Holdings": {
+        "asOfDate": "2026-06-29T16:00:00.000Z",
+        "data": [
+          {
+            "name": "HSBC Global Funds ICAV - Global Government Bond UCITS ETF",
+            "weight": "7.31"
+          },
+          {
+            "name": "CSOP FTSE Hong Kong Equity ETF",
+            "weight": "6.29"
+          },
+          {
+            "name": "Invesco QQQ Trust",
+            "weight": "4.75"
+          },
+          {
+            "name": "USTN 4.375% 15/05/2036",
+            "weight": "3.01"
+          },
+          {
+            "name": "HSBC Japan Index Fund Institutional Accumulation HKD",
+            "weight": "2.93"
+          },
+          {
+            "name": "iShares U.S. Technology ETF",
+            "weight": "2.75"
+          },
+          {
+            "name": "安碩核心滬深300 ETF",
+            "weight": "2.7"
+          },
+          {
+            "name": "HSBC European Index Fund Institutional Accumulation HKD",
+            "weight": "2.18"
+          },
+          {
+            "name": "Bundesrepub Deutschland 2.6% 15/08/2035",
+            "weight": "1.43"
+          },
+          {
+            "name": "USTN 4.375% 31/01/2032",
+            "weight": "1.4200000000000002"
+          }
+        ]
+      },
+      "portfolioAllocation": {
+        "asOfDate": "2026-06-29T16:00:00.000Z",
+        "data": [
+          {
+            "name": "債券",
+            "weight": "41.9"
+          },
+          {
+            "name": "美洲股票",
+            "weight": "12.9"
+          },
+          {
+            "name": "其他亞太股票",
+            "weight": "9.2"
+          },
+          {
+            "name": "歐洲股票",
+            "weight": "8.6"
+          },
+          {
+            "name": "香港股票",
+            "weight": "8.0"
+          },
+          {
+            "name": "中國在岸股票",
+            "weight": "7.7"
+          },
+          {
+            "name": "日本股票",
+            "weight": "7.1"
+          },
+          {
+            "name": "現金及其他",
+            "weight": "4.100000000000003"
+          },
+          {
+            "name": "其他股票",
+            "weight": "0.5"
+          }
+        ]
+      }
+    },
+    "riskRatingAsOfDate": "2026-06-30T00:00:00.000Z",
+    "displayName": "宏利MPF富達平穩增長基金 <%(SHK135)%>",
+    "displayFrontEnd": false,
+    "productsId": [
+      "8"
+    ],
+    "products": [
+      {
+        "name": "宏利環球精選(強積金)計劃",
+        "weight": ""
+      }
+    ],
+    "fundSize": [],
+    "cumulativeReturns": {
+      "asOfDate": "2026-10-29",
+      "periods": [
+        {
+          "period": "m6",
+          "value": -1.14892779854416
+        },
+        {
+          "period": "y1",
+          "value": 0.964513925169808
+        },
+        {
+          "period": "y3",
+          "value": 29.8480463096961
+        },
+        {
+          "period": "y5",
+          "value": -1.4204433980773
+        },
+        {
+          "period": "ytd",
+          "value": 1.68784910548045
+        },
+        {
+          "period": "si",
+          "value": 151.23
+        },
+        {
+          "period": "y10",
+          "value": 32.6381922812946
+        }
+      ]
+    }
+  },
+  "dividend": "",
+  "optionalFields": {}
+}

@@ -1,0 +1,256 @@
+{
+  "fundId": "SHK131",
+  "locale": "zh_Hant_HK",
+  "productLine": "mpf",
+  "status": 0,
+  "labels": {
+    "NAV": "NAV",
+    "Filters": "Filter",
+    "Offer price": "Offer price",
+    "As of": "As of",
+    "Fund name": "Fund name",
+    "Watchlist": "Watchlist",
+    "Showing {0} out of {1} funds": "Showing {0} out of {1} funds"
+  },
+  "details": {
+    "calendarYearReturns": {
+      "asOfDate": "2026-10-29",
+      "periods": [
+        {
+          "period": "2025",
+          "value": 20.7672463214218
+        },
+        {
+          "period": "2024",
+          "value": 21.288677714683
+        },
+        {
+          "period": "2023",
+          "value": 24.822797627658
+        },
+        {
+          "period": "2022",
+          "value": -11.303566846292
+        },
+        {
+          "period": "2021",
+          "value": 9.63567309044873
+        }
+      ]
+    },
+    "dividendData": {
+      "exDividendDate": "",
+      "annualizedYield": "",
+      "dividend": "",
+      "fromCapital": "",
+      "fromNDI": "",
+      "periodEnd": "",
+      "recordDate": ""
+    },
+    "classId": "SHK131",
+    "isin": "",
+    "assetManager": "",
+    "fundObjective": "•\t提供中至長期資本收益增長\r\n•\t投資於任何證券交易所上市的日本經濟各類行業公司股份",
+    "distribution": {
+      "asOfDate": "",
+      "total": "",
+      "latest": ""
+    },
+    "nav": {
+      "asOfDate": "2026-10-29",
+      "price": "30.448",
+      "currency": "港元",
+      "aum": "",
+      "aumCurrency": "",
+      "redemptionPrice": "",
+      "prevPrice": "",
+      "changePrice": "-0.06299999999999883",
+      "changePercent": "-0.2064829078037391",
+      "offerPrice": "",
+      "offer3Price": "",
+      "offer5Price": "",
+      "fundIntRate": "0",
+      "dividendAnnuYield": "",
+      "asOfDateInt": "2026-10-29",
+      "fundSuspendInd": "N",
+      "fundInterestInd": "N",
+      "dividendRecordDate": "",
+      "dividendPayoutRate": "",
+      "shareClassId": "SHK131",
+      "purchasePrice": "0"
+    },
+    "divFrequencyName": "",
+    "divFrequencyId": 0,
+    "regionName": "",
+    "regionId": 0,
+    "assetClassName": "股票",
+    "assetClassId": 0,
+    "fundName": "宏利MPF日本股票基金",
+    "fundId": "SHK131",
+    "ilpProduct": [],
+    "product": "",
+    "locale": "zh_Hant_HK",
+    "subManager": "",
+    "custodian": "",
+    "launchDate": "2000-12-01T00:00:00.000Z",
+    "launchPrice": "10",
+    "inceptionDate": "",
+    "managementFee": "",
+    "managementFeeRemarks": "",
+    "paymentTypes": [],
+    "distributionFrequency": "",
+    "paymentDate": "",
+    "relatedProduct": [],
+    "currency": "港元",
+    "riskRating": "5",
+    "riskRatingDescription": "5",
+    "underlyingFundName": "",
+    "underlyingFundLink": "",
+    "classLaunchDate": "2000-12-01",
+    "dividendLink": "",
+    "fundHoldingBreakdowns": {
+      "top10Holdings": {
+        "asOfDate": "2026-06-29T16:00:00.000Z",
+        "data": [
+          {
+            "name": "Renesas Electronics Corp",
+            "weight": "4.781"
+          },
+          {
+            "name": "Sumitomo Mitsui Financial Group, Inc.",
+            "weight": "4.744000000000001"
+          },
+          {
+            "name": "TDK Corp",
+            "weight": "4.22"
+          },
+          {
+            "name": "Japan Post Bank Co., Ltd.",
+            "weight": "4.195"
+          },
+          {
+            "name": "Sony Group Corporation",
+            "weight": "4.035"
+          },
+          {
+            "name": "Toto Ltd.",
+            "weight": "3.9890000000000003"
+          },
+          {
+            "name": "Hitachi, Ltd.",
+            "weight": "3.666"
+          },
+          {
+            "name": "Tokyo Ohka Kogyo Co., Ltd.",
+            "weight": "3.601"
+          },
+          {
+            "name": "Toyota Motor Corp.",
+            "weight": "3.345"
+          },
+          {
+            "name": "Recruit Holdings Co., Ltd.",
+            "weight": "2.999"
+          }
+        ]
+      },
+      "portfolioAllocation": {
+        "asOfDate": "2026-06-29T16:00:00.000Z",
+        "data": [
+          {
+            "name": "工業",
+            "weight": "25.4"
+          },
+          {
+            "name": "生活消費品",
+            "weight": "19.4"
+          },
+          {
+            "name": "金融",
+            "weight": "17.2"
+          },
+          {
+            "name": "科技",
+            "weight": "16.6"
+          },
+          {
+            "name": "醫療保健",
+            "weight": "5.2"
+          },
+          {
+            "name": "現金",
+            "weight": "4.0"
+          },
+          {
+            "name": "生活必需品",
+            "weight": "3.9"
+          },
+          {
+            "name": "原材料",
+            "weight": "3.6000000000000005"
+          },
+          {
+            "name": "電訊",
+            "weight": "2.4"
+          },
+          {
+            "name": "地產",
+            "weight": "1.9"
+          },
+          {
+            "name": "公用事業",
+            "weight": "0.5"
+          }
+        ]
+      }
+    },
+    "riskRatingAsOfDate": "2026-06-30T00:00:00.000Z",
+    "displayName": "宏利MPF日本股票基金 <%(SHK131)%>",
+    "displayFrontEnd": false,
+    "productsId": [
+      "8"
+    ],
+    "products": [
+      {
+        "name": "宏利環球精選(強積金)計劃",
+        "weight": ""
+      }
+    ],
+    "fundSize": [],
+    "cumulativeReturns": {
+      "asOfDate": "2026-10-29",
+      "periods": [
+        {
+          "period": "m6",
+          "value": 14.7119767923747
+        },
+        {
+          "period": "y1",
+          "value": 24.4248293898901
+        },
+        {
+          "period": "y3",
+          "value": 95.7567185289958
+        },
+        {
+          "period": "y5",
+          "value": 91.6535532196135
+        },
+        {
+          "period": "ytd",
+          "value": 20.447802523834
+        },
+        {
+          "period": "si",
+          "value": 204.48
+        },
+        {
+          "period": "y10",
+          "value": 184.826941066417
+        }
+      ]
+    }
+  },
+  "dividend": "",
+  "optionalFields": {}
+}

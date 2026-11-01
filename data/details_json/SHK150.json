@@ -1,0 +1,244 @@
+{
+  "fundId": "SHK150",
+  "locale": "zh_Hant_HK",
+  "productLine": "mpf",
+  "status": 0,
+  "labels": {
+    "NAV": "NAV",
+    "Filters": "Filter",
+    "Offer price": "Offer price",
+    "As of": "As of",
+    "Fund name": "Fund name",
+    "Watchlist": "Watchlist",
+    "Showing {0} out of {1} funds": "Showing {0} out of {1} funds"
+  },
+  "details": {
+    "calendarYearReturns": {
+      "asOfDate": "2026-10-29",
+      "periods": [
+        {
+          "period": "2025",
+          "value": 7.58424056943303
+        },
+        {
+          "period": "2024",
+          "value": 0.186133085155893
+        },
+        {
+          "period": "2023",
+          "value": 1.01057579318449
+        },
+        {
+          "period": "2022",
+          "value": -19.6790939122227
+        },
+        {
+          "period": "2021",
+          "value": -2.22406792174236
+        }
+      ]
+    },
+    "dividendData": {
+      "exDividendDate": "",
+      "annualizedYield": "",
+      "dividend": "",
+      "fromCapital": "",
+      "fromNDI": "",
+      "periodEnd": "",
+      "recordDate": ""
+    },
+    "classId": "SHK150",
+    "isin": "",
+    "assetManager": "",
+    "fundObjective": "•\t旨在為放眼於較長線的投資，又願意承擔投資價值出現波動的風險以達至長期回報的成員，透過分發派息的方式提供定期及穩定收益，其次要目標則是提供長期資本收益增長。",
+    "distribution": {
+      "asOfDate": "",
+      "total": "",
+      "latest": ""
+    },
+    "nav": {
+      "asOfDate": "2026-10-29",
+      "price": "9.177",
+      "currency": "港元",
+      "aum": "",
+      "aumCurrency": "",
+      "redemptionPrice": "",
+      "prevPrice": "",
+      "changePrice": "0.009000000000000341",
+      "changePercent": "0.09816753926701943",
+      "offerPrice": "",
+      "offer3Price": "",
+      "offer5Price": "",
+      "fundIntRate": "0",
+      "dividendAnnuYield": "",
+      "asOfDateInt": "2026-10-29",
+      "fundSuspendInd": "N",
+      "fundInterestInd": "N",
+      "dividendRecordDate": "",
+      "dividendPayoutRate": "",
+      "shareClassId": "SHK150",
+      "purchasePrice": "0"
+    },
+    "divFrequencyName": "",
+    "divFrequencyId": 0,
+    "regionName": "",
+    "regionId": 0,
+    "assetClassName": "混合資產",
+    "assetClassId": 0,
+    "fundName": "宏利MPF退休收益基金",
+    "fundId": "SHK150",
+    "ilpProduct": [],
+    "product": "",
+    "locale": "zh_Hant_HK",
+    "subManager": "",
+    "custodian": "",
+    "launchDate": "2020-09-21T00:00:00.000Z",
+    "launchPrice": "10",
+    "inceptionDate": "",
+    "managementFee": "",
+    "managementFeeRemarks": "",
+    "paymentTypes": [],
+    "distributionFrequency": "",
+    "paymentDate": "",
+    "relatedProduct": [],
+    "currency": "港元",
+    "riskRating": "4",
+    "riskRatingDescription": "4",
+    "underlyingFundName": "",
+    "underlyingFundLink": "",
+    "classLaunchDate": "2020-09-21",
+    "dividendLink": "",
+    "fundHoldingBreakdowns": {
+      "top10Holdings": {
+        "asOfDate": "2026-06-29T16:00:00.000Z",
+        "data": [
+          {
+            "name": "State Street SPDR Portfolio S&P 500 Value ETF",
+            "weight": "3.044"
+          },
+          {
+            "name": "iShares 7-10 Year Treasury Bond ETF",
+            "weight": "2.788"
+          },
+          {
+            "name": "iShares 1-3 Year Treasury Bond ETF",
+            "weight": "2.2849999999999997"
+          },
+          {
+            "name": "Amundi MSCI EMU UCITS ETF",
+            "weight": "1.8030000000000002"
+          },
+          {
+            "name": "iShares MSCI India ETF",
+            "weight": "1.72"
+          },
+          {
+            "name": "iShares 20+ Year Treasury Bond ETF",
+            "weight": "1.539"
+          },
+          {
+            "name": "Hong Kong Government Bond 2.02% 07/03/2034",
+            "weight": "1.162"
+          },
+          {
+            "name": "iShares MSCI Japan ETF",
+            "weight": "1.161"
+          },
+          {
+            "name": "iShares U.S. Technology ETF",
+            "weight": "1.145"
+          },
+          {
+            "name": "iShares MSCI Taiwan ETF",
+            "weight": "1.064"
+          }
+        ]
+      },
+      "portfolioAllocation": {
+        "asOfDate": "2026-06-29T16:00:00.000Z",
+        "data": [
+          {
+            "name": "國際債券",
+            "weight": "33.1"
+          },
+          {
+            "name": "港元債券",
+            "weight": "28.499999999999996"
+          },
+          {
+            "name": "其他亞太股票",
+            "weight": "9.8"
+          },
+          {
+            "name": "北美洲股票",
+            "weight": "8.9"
+          },
+          {
+            "name": "現金",
+            "weight": "7.5"
+          },
+          {
+            "name": "歐洲股票",
+            "weight": "5.0"
+          },
+          {
+            "name": "香港股票",
+            "weight": "4.2"
+          },
+          {
+            "name": "日本股票",
+            "weight": "3.0"
+          }
+        ]
+      }
+    },
+    "riskRatingAsOfDate": "2026-06-30T00:00:00.000Z",
+    "displayName": "宏利MPF退休收益基金 <%(SHK150)%>",
+    "displayFrontEnd": false,
+    "productsId": [
+      "8"
+    ],
+    "products": [
+      {
+        "name": "宏利環球精選(強積金)計劃",
+        "weight": ""
+      }
+    ],
+    "fundSize": [],
+    "cumulativeReturns": {
+      "asOfDate": "2026-10-29",
+      "periods": [
+        {
+          "period": "m6",
+          "value": -2.48645202422697
+        },
+        {
+          "period": "y1",
+          "value": -0.971188086759467
+        },
+        {
+          "period": "y3",
+          "value": 14.2554780876494
+        },
+        {
+          "period": "y5",
+          "value": -14.2817111899869
+        },
+        {
+          "period": "ytd",
+          "value": -0.628045479155392
+        },
+        {
+          "period": "si",
+          "value": -8.23
+        },
+        {
+          "period": "y10",
+          "value": 0.0
+        }
+      ]
+    }
+  },
+  "dividend": "[{\"classId\":\"SHK150\",\"country\":\"HK\",\"currency\":\"港元\",\"divFrequencyName\":\"每月\",\"productLine\":\"MPF\",\"locale\":\"zh_Hant_HK\",\"globalFundCode\":\"HK_LIFECO_FAKE_168\",\"asOfDate\":\"2026-10-30\",\"data\":[{\"dividend\":0.03,\"periodEnd\":\"2026-10-20\",\"exDividendDate\":\"2026-10-21\",\"recordDate\":\"2026-10-20\",\"distributionDate\":\"2026-10-28\",\"fromNDI\":0,\"fromCapital\":100,\"annualizedYield\":4},{\"dividend\":0.03,\"periodEnd\":\"2026-09-18\",\"exDividendDate\":\"2026-09-21\",\"recordDate\":\"2026-09-18\",\"distributionDate\":\"2026-09-28\",\"fromNDI\":0,\"fromCapital\":100,\"annualizedYield\":3.91},{\"dividend\":0.03,\"periodEnd\":\"2026-08-18\",\"exDividendDate\":\"2026-08-19\",\"recordDate\":\"2026-08-18\",\"distributionDate\":\"2026-08-26\",\"fromNDI\":0,\"fromCapital\":100,\"annualizedYield\":3.91},{\"dividend\":0.03,\"periodEnd\":\"2026-07-20\",\"exDividendDate\":\"2026-07-21\",\"recordDate\":\"2026-07-20\",\"distributionDate\":\"2026-07-28\",\"fromNDI\":0,\"fromCapital\":100,\"annualizedYield\":3.93},{\"dividend\":0.03,\"periodEnd\":\"2026-06-18\",\"exDividendDate\":\"2026-06-22\",\"recordDate\":\"2026-06-18\",\"distributionDate\":\"2026-06-29\",\"fromNDI\":0,\"fromCapital\":100,\"annualizedYield\":3.87},{\"dividend\":0.03,\"periodEnd\":\"2026-05-18\",\"exDividendDate\":\"2026-05-19\",\"recordDate\":\"2026-05-18\",\"distributionDate\":\"2026-05-27\",\"fromNDI\":0,\"fromCapital\":100,\"annualizedYield\":3.9},{\"dividend\":0.03,\"periodEnd\":\"2026-04-20\",\"exDividendDate\":\"2026-04-21\",\"recordDate\":\"2026-04-20\",\"distributionDate\":\"2026-04-28\",\"fromNDI\":0,\"fromCapital\":100,\"annualizedYield\":3.89},{\"dividend\":0.03,\"periodEnd\":\"2026-03-18\",\"exDividendDate\":\"2026-03-19\",\"recordDate\":\"2026-03-18\",\"distributionDate\":\"2026-03-26\",\"fromNDI\":0,\"fromCapital\":100,\"annualizedYield\":3.97},{\"dividend\":0.03,\"periodEnd\":\"2026-02-13\",\"exDividendDate\":\"2026-02-16\",\"recordDate\":\"2026-02-13\",\"distributionDate\":\"2026-02-26\",\"fromNDI\":0,\"fromCapital\":100,\"annualizedYield\":3.87},{\"dividend\":0.03,\"periodEnd\":\"2026-01-19\",\"exDividendDate\":\"2026-01-20\",\"recordDate\":\"2026-01-19\",\"distributionDate\":\"2026-01-27\",\"fromNDI\":0,\"fromCapital\":100,\"annualizedYield\":3.94},{\"dividend\":0.03,\"periodEnd\":\"2025-12-18\",\"exDividendDate\":\"2025-12-19\",\"recordDate\":\"2025-12-18\",\"distributionDate\":\"2025-12-30\",\"fromNDI\":0,\"fromCapital\":100,\"annualizedYield\":3.99},{\"dividend\":0.03,\"periodEnd\":\"2025-11-18\",\"exDividendDate\":\"2025-11-19\",\"recordDate\":\"2025-11-18\",\"distributionDate\":\"2025-11-26\",\"fromNDI\":0,\"fromCapital\":100,\"annualizedYield\":4.02},{\"dividend\":0.03,\"periodEnd\":\"2025-10-13\",\"exDividendDate\":\"2025-10-14\",\"recordDate\":\"2025-10-13\",\"distributionDate\":\"2025-10-21\",\"fromNDI\":0,\"fromCapital\":100,\"annualizedYield\":4.01},{\"dividend\":0.03,\"periodEnd\":\"2025-09-18\",\"exDividendDate\":\"2025-09-19\",\"recordDate\":\"2025-09-18\",\"distributionDate\":\"2025-09-26\",\"fromNDI\":0,\"fromCapital\":100,\"annualizedYield\":4},{\"dividend\":0.03,\"periodEnd\":\"2025-08-18\",\"exDividendDate\":\"2025-08-19\",\"recordDate\":\"2025-08-18\",\"distributionDate\":\"2025-08-26\",\"fromNDI\":0,\"fromCapital\":100,\"annualizedYield\":4.04},{\"dividend\":0.03,\"periodEnd\":\"2025-07-18\",\"exDividendDate\":\"2025-07-21\",\"recordDate\":\"2025-07-18\",\"distributionDate\":\"2025-07-28\",\"fromNDI\":0,\"fromCapital\":100,\"annualizedYield\":4.04},{\"dividend\":0.03,\"periodEnd\":\"2025-06-18\",\"exDividendDate\":\"2025-06-19\",\"recordDate\":\"2025-06-18\",\"distributionDate\":\"2025-06-26\",\"fromNDI\":0,\"fromCapital\":100,\"annualizedYield\":4.11},{\"dividend\":0.03,\"periodEnd\":\"2025-05-19\",\"exDividendDate\":\"2025-05-20\",\"recordDate\":\"2025-05-19\",\"distributionDate\":\"2025-05-27\",\"fromNDI\":0,\"fromCapital\":100,\"annualizedYield\":4.13},{\"dividend\":0.03,\"periodEnd\":\"2025-04-17\",\"exDividendDate\":\"2025-04-22\",\"recordDate\":\"2025-04-17\",\"distributionDate\":\"2025-04-29\",\"fromNDI\":0,\"fromCapital\":100,\"annualizedYield\":4.29},{\"dividend\":0.03,\"periodEnd\":\"2025-03-18\",\"exDividendDate\":\"2025-03-19\",\"recordDate\":\"2025-03-18\",\"distributionDate\":\"2025-03-26\",\"fromNDI\":0,\"fromCapital\":100,\"annualizedYield\":4.16},{\"dividend\":0.03,\"periodEnd\":\"2025-02-18\",\"exDividendDate\":\"2025-02-19\",\"recordDate\":\"2025-02-18\",\"distributionDate\":\"2025-02-26\",\"fromNDI\":0,\"fromCapital\":100,\"annualizedYield\":4.17},{\"dividend\":0.03,\"periodEnd\":\"2025-01-17\",\"exDividendDate\":\"2025-01-20\",\"recordDate\":\"2025-01-17\",\"distributionDate\":\"2025-01-27\",\"fromNDI\":0,\"fromCapital\":100,\"annualizedYield\":4.26},{\"dividend\":0.03,\"periodEnd\":\"2024-12-18\",\"exDividendDate\":\"2024-12-19\",\"recordDate\":\"2024-12-18\",\"distributionDate\":\"2024-12-30\",\"fromNDI\":0,\"fromCapital\":100,\"annualizedYield\":4.26},{\"dividend\":0.03,\"periodEnd\":\"2024-11-18\",\"exDividendDate\":\"2024-11-19\",\"recordDate\":\"2024-11-18\",\"distributionDate\":\"2024-11-26\",\"fromNDI\":0,\"fromCapital\":100,\"annualizedYield\":4.22},{\"dividend\":0.03,\"periodEnd\":\"2024-10-18\",\"exDividendDate\":\"2024-10-21\",\"recordDate\":\"2024-10-18\",\"distributionDate\":\"2024-10-28\",\"fromNDI\":0,\"fromCapital\":100,\"annualizedYield\":4.14},{\"dividend\":0.03,\"periodEnd\":\"2024-09-19\",\"exDividendDate\":\"2024-09-20\",\"recordDate\":\"2024-09-19\",\"distributionDate\":\"2024-09-27\",\"fromNDI\":0,\"fromCapital\":100,\"annualizedYield\":4.12},{\"dividend\":0.03,\"periodEnd\":\"2024-08-19\",\"exDividendDate\":\"2024-08-20\",\"recordDate\":\"2024-08-19\",\"distributionDate\":\"2024-08-27\",\"fromNDI\":0,\"fromCapital\":100,\"annualizedYield\":4.16},{\"dividend\":0.03,\"periodEnd\":\"2024-07-18\",\"exDividendDate\":\"2024-07-19\",\"recordDate\":\"2024-07-18\",\"distributionDate\":\"2024-07-26\",\"fromNDI\":0,\"fromCapital\":100,\"annualizedYield\":4.22},{\"dividend\":0.03,\"periodEnd\":\"2024-06-18\",\"exDividendDate\":\"2024-06-19\",\"recordDate\":\"2024-06-18\",\"distributionDate\":\"2024-06-26\",\"fromNDI\":0,\"fromCapital\":100,\"annualizedYield\":4.22},{\"dividend\":0.03,\"periodEnd\":\"2024-05-20\",\"exDividendDate\":\"2024-05-21\",\"recordDate\":\"2024-05-20\",\"distributionDate\":\"2024-05-28\",\"fromNDI\":0,\"fromCapital\":100,\"annualizedYield\":4.23},{\"dividend\":0.03,\"periodEnd\":\"2024-04-18\",\"exDividendDate\":\"2024-04-19\",\"recordDate\":\"2024-04-18\",\"distributionDate\":\"2024-04-26\",\"fromNDI\":100,\"fromCapital\":0,\"annualizedYield\":4.37},{\"dividend\":0.03,\"periodEnd\":\"2024-03-18\",\"exDividendDate\":\"2024-03-19\",\"recordDate\":\"2024-03-18\",\"distributionDate\":\"2024-03-26\",\"fromNDI\":0,\"fromCapital\":100,\"annualizedYield\":4.3},{\"dividend\":0.03,\"periodEnd\":\"2024-02-19\",\"exDividendDate\":\"2024-02-20\",\"recordDate\":\"2024-02-19\",\"distributionDate\":\"2024-02-27\",\"fromNDI\":0,\"fromCapital\":100,\"annualizedYield\":4.33},{\"dividend\":0.03,\"periodEnd\":\"2024-01-18\",\"exDividendDate\":\"2024-01-19\",\"recordDate\":\"2024-01-18\",\"distributionDate\":\"2024-01-26\",\"fromNDI\":0,\"fromCapital\":100,\"annualizedYield\":4.38},{\"dividend\":0.03,\"periodEnd\":\"2023-12-18\",\"exDividendDate\":\"2023-12-19\",\"recordDate\":\"2023-12-18\",\"distributionDate\":\"2023-12-28\",\"fromNDI\":0,\"fromCapital\":100,\"annualizedYield\":4.32},{\"dividend\":0.03,\"periodEnd\":\"2023-11-20\",\"exDividendDate\":\"2023-11-21\",\"recordDate\":\"2023-11-20\",\"distributionDate\":\"2023-11-28\",\"fromNDI\":0,\"fromCapital\":100,\"annualizedYield\":4.4},{\"dividend\":0.03,\"periodEnd\":\"2023-10-18\",\"exDividendDate\":\"2023-10-19\",\"recordDate\":\"2023-10-18\",\"distributionDate\":\"2023-10-27\",\"fromNDI\":0,\"fromCapital\":100,\"annualizedYield\":4.56},{\"dividend\":0.03,\"periodEnd\":\"2023-09-18\",\"exDividendDate\":\"2023-09-19\",\"recordDate\":\"2023-09-18\",\"distributionDate\":\"2023-09-26\",\"fromNDI\":0,\"fromCapital\":100,\"annualizedYield\":4.4},{\"dividend\":0.03,\"periodEnd\":\"2023-08-18\",\"exDividendDate\":\"2023-08-21\",\"recordDate\":\"2023-08-18\",\"distributionDate\":\"2023-08-28\",\"fromNDI\":20,\"fromCapital\":80,\"annualizedYield\":4.41},{\"dividend\":0.03,\"periodEnd\":\"2023-07-18\",\"exDividendDate\":\"2023-07-19\",\"recordDate\":\"2023-07-18\",\"distributionDate\":\"2023-07-26\",\"fromNDI\":0,\"fromCapital\":100,\"annualizedYield\":4.22},{\"dividend\":0.03,\"periodEnd\":\"2023-06-19\",\"exDividendDate\":\"2023-06-20\",\"recordDate\":\"2023-06-19\",\"distributionDate\":\"2023-06-28\",\"fromNDI\":0,\"fromCapital\":100,\"annualizedYield\":4.24},{\"dividend\":0.03,\"periodEnd\":\"2023-05-18\",\"exDividendDate\":\"2023-05-19\",\"recordDate\":\"2023-05-18\",\"distributionDate\":\"2023-05-29\",\"fromNDI\":0,\"fromCapital\":100,\"annualizedYield\":4.29},{\"dividend\":0.03,\"periodEnd\":\"2023-04-18\",\"exDividendDate\":\"2023-04-19\",\"recordDate\":\"2023-04-18\",\"distributionDate\":\"2023-04-26\",\"fromNDI\":17,\"fromCapital\":83,\"annualizedYield\":4.22},{\"dividend\":0.03,\"periodEnd\":\"2023-03-20\",\"exDividendDate\":\"2023-03-21\",\"recordDate\":\"2023-03-20\",\"distributionDate\":\"2023-03-28\",\"fromNDI\":0,\"fromCapital\":100,\"annualizedYield\":4.28},{\"dividend\":0.03,\"periodEnd\":\"2023-02-17\",\"exDividendDate\":\"2023-02-20\",\"recordDate\":\"2023-02-17\",\"distributionDate\":\"2023-02-27\",\"fromNDI\":0,\"fromCapital\":100,\"annualizedYield\":4.22},{\"dividend\":0.03,\"periodEnd\":\"2023-01-17\",\"exDividendDate\":\"2023-01-18\",\"recordDate\":\"2023-01-17\",\"distributionDate\":\"2023-01-30\",\"fromNDI\":0,\"fromCapital\":100,\"annualizedYield\":4.14},{\"dividend\":0.03,\"periodEnd\":\"2022-12-19\",\"exDividendDate\":\"2022-12-20\",\"recordDate\":\"2022-12-19\",\"distributionDate\":\"2022-12-29\",\"fromNDI\":0,\"fromCapital\":100,\"annualizedYield\":4.33},{\"dividend\":0.03,\"periodEnd\":\"2022-11-18\",\"exDividendDate\":\"2022-11-21\",\"recordDate\":\"2022-11-18\",\"distributionDate\":\"2022-11-28\",\"fromNDI\":0,\"fromCapital\":100,\"annualizedYield\":4.37},{\"dividend\":0.03,\"periodEnd\":\"2022-10-18\",\"exDividendDate\":\"2022-10-19\",\"recordDate\":\"2022-10-18\",\"distributionDate\":\"2022-10-26\",\"fromNDI\":0,\"fromCapital\":100,\"annualizedYield\":4.51},{\"dividend\":0.03,\"periodEnd\":\"2022-09-19\",\"exDividendDate\":\"2022-09-20\",\"recordDate\":\"2022-09-19\",\"distributionDate\":\"2022-09-27\",\"fromNDI\":0,\"fromCapital\":100,\"annualizedYield\":4.25},{\"dividend\":0.03,\"periodEnd\":\"2022-08-18\",\"exDividendDate\":\"2022-08-19\",\"recordDate\":\"2022-08-18\",\"distributionDate\":\"2022-08-26\",\"fromNDI\":0,\"fromCapital\":100,\"annualizedYield\":4.07},{\"dividend\":0.035,\"periodEnd\":\"2022-07-18\",\"exDividendDate\":\"2022-07-19\",\"recordDate\":\"2022-07-18\",\"distributionDate\":\"2022-07-26\",\"fromNDI\":0,\"fromCapital\":100,\"annualizedYield\":4.8},{\"dividend\":0.035,\"periodEnd\":\"2022-06-20\",\"exDividendDate\":\"2022-06-21\",\"recordDate\":\"2022-06-20\",\"distributionDate\":\"2022-06-28\",\"fromNDI\":0,\"fromCapital\":100,\"annualizedYield\":4.78},{\"dividend\":0.035,\"periodEnd\":\"2022-05-18\",\"exDividendDate\":\"2022-05-19\",\"recordDate\":\"2022-05-18\",\"distributionDate\":\"2022-05-26\",\"fromNDI\":0,\"fromCapital\":100,\"annualizedYield\":4.73},{\"dividend\":0.035,\"periodEnd\":\"2022-04-19\",\"exDividendDate\":\"2022-04-20\",\"recordDate\":\"2022-04-19\",\"distributionDate\":\"2022-04-27\",\"fromNDI\":17,\"fromCapital\":83,\"annualizedYield\":4.49},{\"dividend\":0.035,\"periodEnd\":\"2022-03-18\",\"exDividendDate\":\"2022-03-21\",\"recordDate\":\"2022-03-18\",\"distributionDate\":\"2022-03-28\",\"fromNDI\":0,\"fromCapital\":100,\"annualizedYield\":4.37},{\"dividend\":0.035,\"periodEnd\":\"2022-02-17\",\"exDividendDate\":\"2022-02-18\",\"recordDate\":\"2022-02-17\",\"distributionDate\":\"2022-02-25\",\"fromNDI\":0,\"fromCapital\":100,\"annualizedYield\":4.24},{\"dividend\":0.035,\"periodEnd\":\"2022-01-18\",\"exDividendDate\":\"2022-01-19\",\"recordDate\":\"2022-01-18\",\"distributionDate\":\"2022-01-26\",\"fromNDI\":0,\"fromCapital\":100,\"annualizedYield\":4.14},{\"dividend\":0.033,\"periodEnd\":\"2021-12-20\",\"exDividendDate\":\"2021-12-21\",\"recordDate\":\"2021-12-20\",\"distributionDate\":\"2021-12-29\",\"fromNDI\":0,\"fromCapital\":100,\"annualizedYield\":3.83},{\"dividend\":0.033,\"periodEnd\":\"2021-11-18\",\"exDividendDate\":\"2021-11-19\",\"recordDate\":\"2021-11-18\",\"distributionDate\":\"2021-11-26\",\"fromNDI\":0,\"fromCapital\":100,\"annualizedYield\":3.75},{\"dividend\":0.033,\"periodEnd\":\"2021-10-18\",\"exDividendDate\":\"2021-10-19\",\"recordDate\":\"2021-10-18\",\"distributionDate\":\"2021-10-26\",\"fromNDI\":0,\"fromCapital\":100,\"annualizedYield\":3.76},{\"dividend\":0.033,\"periodEnd\":\"2021-09-20\",\"exDividendDate\":\"2021-09-21\",\"recordDate\":\"2021-09-20\",\"distributionDate\":\"2021-09-29\",\"fromNDI\":0,\"fromCapital\":100,\"annualizedYield\":3.75},{\"dividend\":0.033,\"periodEnd\":\"2021-08-18\",\"exDividendDate\":\"2021-08-19\",\"recordDate\":\"2021-08-18\",\"distributionDate\":\"2021-08-26\",\"fromNDI\":0,\"fromCapital\":100,\"annualizedYield\":3.74},{\"dividend\":0.033,\"periodEnd\":\"2021-07-19\",\"exDividendDate\":\"2021-07-20\",\"recordDate\":\"2021-07-19\",\"distributionDate\":\"2021-07-27\",\"fromNDI\":0,\"fromCapital\":100,\"annualizedYield\":3.68},{\"dividend\":0.033,\"periodEnd\":\"2021-06-18\",\"exDividendDate\":\"2021-06-21\",\"recordDate\":\"2021-06-18\",\"distributionDate\":\"2021-06-28\",\"fromNDI\":0,\"fromCapital\":100,\"annualizedYield\":3.68},{\"dividend\":0.033,\"periodEnd\":\"2021-05-18\",\"exDividendDate\":\"2021-05-20\",\"recordDate\":\"2021-05-18\",\"distributionDate\":\"2021-05-27\",\"fromNDI\":0,\"fromCapital\":100,\"annualizedYield\":3.7},{\"dividend\":0.033,\"periodEnd\":\"2021-04-19\",\"exDividendDate\":\"2021-04-20\",\"recordDate\":\"2021-04-19\",\"distributionDate\":\"2021-04-27\",\"fromNDI\":0,\"fromCapital\":100,\"annualizedYield\":3.69},{\"dividend\":0.033,\"periodEnd\":\"2021-03-18\",\"exDividendDate\":\"2021-03-19\",\"recordDate\":\"2021-03-18\",\"distributionDate\":\"2021-03-26\",\"fromNDI\":100,\"fromCapital\":0,\"annualizedYield\":3.74},{\"dividend\":0.033,\"periodEnd\":\"2021-02-17\",\"exDividendDate\":\"2021-02-18\",\"recordDate\":\"2021-02-17\",\"distributionDate\":\"2021-02-25\",\"fromNDI\":100,\"fromCapital\":0,\"annualizedYield\":3.62},{\"dividend\":0.033,\"periodEnd\":\"2021-01-18\",\"exDividendDate\":\"2021-01-19\",\"recordDate\":\"2021-01-18\",\"distributionDate\":\"2021-01-26\",\"fromNDI\":100,\"fromCapital\":0,\"annualizedYield\":3.65}]}]",
+  "optionalFields": {}
+}

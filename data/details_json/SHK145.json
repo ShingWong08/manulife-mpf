@@ -1,0 +1,256 @@
+{
+  "fundId": "SHK145",
+  "locale": "zh_Hant_HK",
+  "productLine": "mpf",
+  "status": 0,
+  "labels": {
+    "NAV": "NAV",
+    "Filters": "Filter",
+    "Offer price": "Offer price",
+    "As of": "As of",
+    "Fund name": "Fund name",
+    "Watchlist": "Watchlist",
+    "Showing {0} out of {1} funds": "Showing {0} out of {1} funds"
+  },
+  "details": {
+    "calendarYearReturns": {
+      "asOfDate": "2026-10-29",
+      "periods": [
+        {
+          "period": "2025",
+          "value": 31.0228233305156
+        },
+        {
+          "period": "2024",
+          "value": 11.1319868482856
+        },
+        {
+          "period": "2023",
+          "value": -13.3355043556134
+        },
+        {
+          "period": "2022",
+          "value": -13.2127464141878
+        },
+        {
+          "period": "2021",
+          "value": -12.6358024691358
+        }
+      ]
+    },
+    "dividendData": {
+      "exDividendDate": "",
+      "annualizedYield": "",
+      "dividend": "",
+      "fromCapital": "",
+      "fromNDI": "",
+      "periodEnd": "",
+      "recordDate": ""
+    },
+    "classId": "SHK145",
+    "isin": "",
+    "assetManager": "",
+    "fundObjective": "•\t提供中期至長期資本收益增長\r\n•\t投資於一項緊貼指數集體投資計劃（現時，是由華夏基金（香港）有限公司管理的華夏恒指ESG ETF），以投資於恒指ESG增強指數（「該指數」）所包含之證券，投資的比重與該等證券所佔該指數的比重相同",
+    "distribution": {
+      "asOfDate": "",
+      "total": "",
+      "latest": ""
+    },
+    "nav": {
+      "asOfDate": "2026-10-29",
+      "price": "13.656",
+      "currency": "港元",
+      "aum": "",
+      "aumCurrency": "",
+      "redemptionPrice": "",
+      "prevPrice": "",
+      "changePrice": "-0.12299999999999933",
+      "changePercent": "-0.8926627476594771",
+      "offerPrice": "",
+      "offer3Price": "",
+      "offer5Price": "",
+      "fundIntRate": "0",
+      "dividendAnnuYield": "",
+      "asOfDateInt": "2026-10-29",
+      "fundSuspendInd": "N",
+      "fundInterestInd": "N",
+      "dividendRecordDate": "",
+      "dividendPayoutRate": "",
+      "shareClassId": "SHK145",
+      "purchasePrice": "0"
+    },
+    "divFrequencyName": "",
+    "divFrequencyId": 0,
+    "regionName": "",
+    "regionId": 0,
+    "assetClassName": "股票",
+    "assetClassId": 0,
+    "fundName": "宏利MPF恒指ESG基金",
+    "fundId": "SHK145",
+    "ilpProduct": [],
+    "product": "",
+    "locale": "zh_Hant_HK",
+    "subManager": "",
+    "custodian": "",
+    "launchDate": "2012-04-23T00:00:00.000Z",
+    "launchPrice": "10",
+    "inceptionDate": "",
+    "managementFee": "",
+    "managementFeeRemarks": "",
+    "paymentTypes": [],
+    "distributionFrequency": "",
+    "paymentDate": "",
+    "relatedProduct": [],
+    "currency": "港元",
+    "riskRating": "6",
+    "riskRatingDescription": "6",
+    "underlyingFundName": "",
+    "underlyingFundLink": "",
+    "classLaunchDate": "2012-04-23",
+    "dividendLink": "",
+    "fundHoldingBreakdowns": {
+      "top10Holdings": {
+        "asOfDate": "2026-06-29T16:00:00.000Z",
+        "data": [
+          {
+            "name": "滙豐控股",
+            "weight": "8.73"
+          },
+          {
+            "name": "騰訊控股",
+            "weight": "7.76"
+          },
+          {
+            "name": "友邦保險",
+            "weight": "7.57"
+          },
+          {
+            "name": "香港交易所",
+            "weight": "6.329999999999999"
+          },
+          {
+            "name": "阿里巴巴集團",
+            "weight": "6.17"
+          },
+          {
+            "name": "中國平安保險",
+            "weight": "4.8"
+          },
+          {
+            "name": "安踏體育",
+            "weight": "3.65"
+          },
+          {
+            "name": "網易股份有限公司",
+            "weight": "3.64"
+          },
+          {
+            "name": "中國移動",
+            "weight": "3.39"
+          },
+          {
+            "name": "美團",
+            "weight": "3.2199999999999998"
+          }
+        ]
+      },
+      "portfolioAllocation": {
+        "asOfDate": "2026-06-29T16:00:00.000Z",
+        "data": [
+          {
+            "name": "金融",
+            "weight": "33.6"
+          },
+          {
+            "name": "非必需消費",
+            "weight": "18.3"
+          },
+          {
+            "name": "電訊",
+            "weight": "17.9"
+          },
+          {
+            "name": "資訊科技",
+            "weight": "5.2"
+          },
+          {
+            "name": "醫療保健",
+            "weight": "5.0"
+          },
+          {
+            "name": "現金及其他",
+            "weight": "4.6"
+          },
+          {
+            "name": "工業",
+            "weight": "4.4"
+          },
+          {
+            "name": "房地產",
+            "weight": "4.2"
+          },
+          {
+            "name": "公用事業",
+            "weight": "2.3"
+          },
+          {
+            "name": "物料",
+            "weight": "2.3"
+          },
+          {
+            "name": "必需消費",
+            "weight": "2.2"
+          }
+        ]
+      }
+    },
+    "riskRatingAsOfDate": "2026-06-30T00:00:00.000Z",
+    "displayName": "宏利MPF恒指ESG基金 <%(SHK145)%>",
+    "displayFrontEnd": false,
+    "productsId": [
+      "8"
+    ],
+    "products": [
+      {
+        "name": "宏利環球精選(強積金)計劃",
+        "weight": ""
+      }
+    ],
+    "fundSize": [],
+    "cumulativeReturns": {
+      "asOfDate": "2026-10-29",
+      "periods": [
+        {
+          "period": "m6",
+          "value": -10.1815311760063
+        },
+        {
+          "period": "y1",
+          "value": -14.5859394545909
+        },
+        {
+          "period": "y3",
+          "value": 23.6172716574636
+        },
+        {
+          "period": "y5",
+          "value": -10.9778357235984
+        },
+        {
+          "period": "ytd",
+          "value": -11.8967741935484
+        },
+        {
+          "period": "si",
+          "value": 36.56
+        },
+        {
+          "period": "y10",
+          "value": 9.67793751505903
+        }
+      ]
+    }
+  },
+  "dividend": "",
+  "optionalFields": {}
+}

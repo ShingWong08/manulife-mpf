@@ -1,0 +1,244 @@
+{
+  "fundId": "SHK133",
+  "locale": "zh_Hant_HK",
+  "productLine": "mpf",
+  "status": 0,
+  "labels": {
+    "NAV": "NAV",
+    "Filters": "Filter",
+    "Offer price": "Offer price",
+    "As of": "As of",
+    "Fund name": "Fund name",
+    "Watchlist": "Watchlist",
+    "Showing {0} out of {1} funds": "Showing {0} out of {1} funds"
+  },
+  "details": {
+    "calendarYearReturns": {
+      "asOfDate": "2026-10-29",
+      "periods": [
+        {
+          "period": "2025",
+          "value": 5.2425612306862
+        },
+        {
+          "period": "2024",
+          "value": -2.82585890375033
+        },
+        {
+          "period": "2023",
+          "value": 5.02685580498554
+        },
+        {
+          "period": "2022",
+          "value": -16.106296938186
+        },
+        {
+          "period": "2021",
+          "value": -5.04662643993419
+        }
+      ]
+    },
+    "dividendData": {
+      "exDividendDate": "",
+      "annualizedYield": "",
+      "dividend": "",
+      "fromCapital": "",
+      "fromNDI": "",
+      "periodEnd": "",
+      "recordDate": ""
+    },
+    "classId": "SHK133",
+    "isin": "",
+    "assetManager": "",
+    "fundObjective": "•\t為欲取得穩定投資回報的成員提供較有優勢的整體回報比率\r\n•\t主要投資於由任何政府、中央銀行或多邊國際機構發行的准許存款及債務證券\r\n•\t投資於任何地區，例如北美、歐洲、英國及亞洲等地區",
+    "distribution": {
+      "asOfDate": "",
+      "total": "",
+      "latest": ""
+    },
+    "nav": {
+      "asOfDate": "2026-10-29",
+      "price": "15.265",
+      "currency": "港元",
+      "aum": "",
+      "aumCurrency": "",
+      "redemptionPrice": "",
+      "prevPrice": "",
+      "changePrice": "0.04600000000000115",
+      "changePercent": "0.3022537617451945",
+      "offerPrice": "",
+      "offer3Price": "",
+      "offer5Price": "",
+      "fundIntRate": "0",
+      "dividendAnnuYield": "",
+      "asOfDateInt": "2026-10-29",
+      "fundSuspendInd": "N",
+      "fundInterestInd": "N",
+      "dividendRecordDate": "",
+      "dividendPayoutRate": "",
+      "shareClassId": "SHK133",
+      "purchasePrice": "0"
+    },
+    "divFrequencyName": "",
+    "divFrequencyId": 0,
+    "regionName": "",
+    "regionId": 0,
+    "assetClassName": "債券",
+    "assetClassId": 0,
+    "fundName": "宏利MPF國際債券基金",
+    "fundId": "SHK133",
+    "ilpProduct": [],
+    "product": "",
+    "locale": "zh_Hant_HK",
+    "subManager": "",
+    "custodian": "",
+    "launchDate": "2000-12-01T00:00:00.000Z",
+    "launchPrice": "10",
+    "inceptionDate": "",
+    "managementFee": "",
+    "managementFeeRemarks": "",
+    "paymentTypes": [],
+    "distributionFrequency": "",
+    "paymentDate": "",
+    "relatedProduct": [],
+    "currency": "港元",
+    "riskRating": "4",
+    "riskRatingDescription": "4",
+    "underlyingFundName": "",
+    "underlyingFundLink": "",
+    "classLaunchDate": "2000-12-01",
+    "dividendLink": "",
+    "fundHoldingBreakdowns": {
+      "top10Holdings": {
+        "asOfDate": "2026-06-29T16:00:00.000Z",
+        "data": [
+          {
+            "name": "Government of the USA 3.0% 15/02/2049",
+            "weight": "3.071"
+          },
+          {
+            "name": "Government of the USA 4.375% 15/05/2034",
+            "weight": "2.856"
+          },
+          {
+            "name": "Government of the USA 1.875% 15/02/2032",
+            "weight": "2.471"
+          },
+          {
+            "name": "Government of the USA 0.5% 30/06/2027",
+            "weight": "2.436"
+          },
+          {
+            "name": "Government of the USA 1.375% 15/11/2031",
+            "weight": "2.165"
+          },
+          {
+            "name": "Government of the USA 0.625% 15/05/2030",
+            "weight": "1.846"
+          },
+          {
+            "name": "Government of the USA 2.5% 15/02/2045",
+            "weight": "1.8110000000000002"
+          },
+          {
+            "name": "Government of the United Kingdom 4.625% 31/01/2034",
+            "weight": "1.229"
+          },
+          {
+            "name": "Government of Germany  0% 15/02/2032",
+            "weight": "1.141"
+          },
+          {
+            "name": "Government of the USA 1.125% 31/08/2028",
+            "weight": "1.0210000000000001"
+          }
+        ]
+      },
+      "portfolioAllocation": {
+        "asOfDate": "2026-06-29T16:00:00.000Z",
+        "data": [
+          {
+            "name": "美元債券",
+            "weight": "35.6"
+          },
+          {
+            "name": "歐元債券",
+            "weight": "26.200000000000003"
+          },
+          {
+            "name": "其他",
+            "weight": "10.499999999999988"
+          },
+          {
+            "name": "日圓債券",
+            "weight": "7.7"
+          },
+          {
+            "name": "英鎊債券",
+            "weight": "6.2"
+          },
+          {
+            "name": "澳元債券",
+            "weight": "6.1"
+          },
+          {
+            "name": "現金",
+            "weight": "5.2"
+          },
+          {
+            "name": "加元債券",
+            "weight": "2.5"
+          }
+        ]
+      }
+    },
+    "riskRatingAsOfDate": "2026-06-30T00:00:00.000Z",
+    "displayName": "宏利MPF國際債券基金 <%(SHK133)%>",
+    "displayFrontEnd": false,
+    "productsId": [
+      "8"
+    ],
+    "products": [
+      {
+        "name": "宏利環球精選(強積金)計劃",
+        "weight": ""
+      }
+    ],
+    "fundSize": [],
+    "cumulativeReturns": {
+      "asOfDate": "2026-10-29",
+      "periods": [
+        {
+          "period": "m6",
+          "value": -1.67471819645733
+        },
+        {
+          "period": "y1",
+          "value": -2.94379450661241
+        },
+        {
+          "period": "y3",
+          "value": 8.35462805224305
+        },
+        {
+          "period": "y5",
+          "value": -12.1843180118507
+        },
+        {
+          "period": "ytd",
+          "value": -2.13488908834467
+        },
+        {
+          "period": "si",
+          "value": 52.65
+        },
+        {
+          "period": "y10",
+          "value": -8.30730418068236
+        }
+      ]
+    }
+  },
+  "dividend": "",
+  "optionalFields": {}
+}

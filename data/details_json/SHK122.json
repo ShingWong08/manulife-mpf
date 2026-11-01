@@ -1,0 +1,244 @@
+{
+  "fundId": "SHK122",
+  "locale": "zh_Hant_HK",
+  "productLine": "mpf",
+  "status": 0,
+  "labels": {
+    "NAV": "NAV",
+    "Filters": "Filter",
+    "Offer price": "Offer price",
+    "As of": "As of",
+    "Fund name": "Fund name",
+    "Watchlist": "Watchlist",
+    "Showing {0} out of {1} funds": "Showing {0} out of {1} funds"
+  },
+  "details": {
+    "calendarYearReturns": {
+      "asOfDate": "2026-10-29",
+      "periods": [
+        {
+          "period": "2025",
+          "value": 10.8853967037179
+        },
+        {
+          "period": "2024",
+          "value": 4.63903743315508
+        },
+        {
+          "period": "2023",
+          "value": 4.21455938697317
+        },
+        {
+          "period": "2022",
+          "value": -15.2347209920283
+        },
+        {
+          "period": "2021",
+          "value": -1.71783413614999
+        }
+      ]
+    },
+    "dividendData": {
+      "exDividendDate": "",
+      "annualizedYield": "",
+      "dividend": "",
+      "fromCapital": "",
+      "fromNDI": "",
+      "periodEnd": "",
+      "recordDate": ""
+    },
+    "classId": "SHK122",
+    "isin": "",
+    "assetManager": "",
+    "fundObjective": "•\t提供較為穩定的中期至長期增長，此外，若發生某些預定事件，可收取保證利息 **\r\n•\t為希望有長遠收益，同時又願意承擔投資價值出現輕微波動風險的成員，提供穩健的投資\r\n•\t最多40% 投資於股票及與股票有關的投資，其餘資產則投資於債券、存款及規例准許的其他投資\r\n•\t投資於任何地區，例如美洲、亞太地區、日本、歐洲等，並於此等地區略為側重香港",
+    "distribution": {
+      "asOfDate": "",
+      "total": "",
+      "latest": ""
+    },
+    "nav": {
+      "asOfDate": "2026-10-29",
+      "price": "17.242",
+      "currency": "港元",
+      "aum": "",
+      "aumCurrency": "",
+      "redemptionPrice": "",
+      "prevPrice": "",
+      "changePrice": "0.0020000000000024443",
+      "changePercent": "0.011600928074260119",
+      "offerPrice": "",
+      "offer3Price": "",
+      "offer5Price": "",
+      "fundIntRate": "0",
+      "dividendAnnuYield": "",
+      "asOfDateInt": "2026-10-29",
+      "fundSuspendInd": "N",
+      "fundInterestInd": "N",
+      "dividendRecordDate": "",
+      "dividendPayoutRate": "",
+      "shareClassId": "SHK122",
+      "purchasePrice": "0"
+    },
+    "divFrequencyName": "",
+    "divFrequencyId": 0,
+    "regionName": "",
+    "regionId": 0,
+    "assetClassName": "保證",
+    "assetClassId": 0,
+    "fundName": "宏利MPF穩健基金**",
+    "fundId": "SHK122",
+    "ilpProduct": [],
+    "product": "",
+    "locale": "zh_Hant_HK",
+    "subManager": "",
+    "custodian": "",
+    "launchDate": "2000-12-01T00:00:00.000Z",
+    "launchPrice": "10",
+    "inceptionDate": "",
+    "managementFee": "",
+    "managementFeeRemarks": "",
+    "paymentTypes": [],
+    "distributionFrequency": "",
+    "paymentDate": "",
+    "relatedProduct": [],
+    "currency": "港元",
+    "riskRating": "4",
+    "riskRatingDescription": "4",
+    "underlyingFundName": "",
+    "underlyingFundLink": "",
+    "classLaunchDate": "2000-12-01",
+    "dividendLink": "",
+    "fundHoldingBreakdowns": {
+      "top10Holdings": {
+        "asOfDate": "2026-06-29T16:00:00.000Z",
+        "data": [
+          {
+            "name": "Hong Kong Government Bond 2.02% 07/03/2034",
+            "weight": "2.4299999999999997"
+          },
+          {
+            "name": "General Property Trust 2.2% 18/11/2030",
+            "weight": "1.34"
+          },
+          {
+            "name": "NBN Co Ltd. 4.8% 07/12/2033",
+            "weight": "1.3299999999999998"
+          },
+          {
+            "name": "AGI Finance Pty Ltd 4.66% 28/01/2032",
+            "weight": "1.32"
+          },
+          {
+            "name": "AIA Group Ltd. 3.78% 10/09/2029",
+            "weight": "1.29"
+          },
+          {
+            "name": "Ausgrid Finance Pty Ltd. 4.51% 03/03/2030",
+            "weight": "1.29"
+          },
+          {
+            "name": "Hong Kong Mortgage Corporation Ltd. 3.45% 17/10/2029",
+            "weight": "1.29"
+          },
+          {
+            "name": "HKCG (Finance) Ltd. 1.98% 08/10/2030",
+            "weight": "1.17"
+          },
+          {
+            "name": "Commonwealth Bank of Australia 4.22% 04/03/2035",
+            "weight": "1.13"
+          },
+          {
+            "name": "Standard Chartered Plc 3.996% 28/05/2030",
+            "weight": "1.13"
+          }
+        ]
+      },
+      "portfolioAllocation": {
+        "asOfDate": "2026-06-29T16:00:00.000Z",
+        "data": [
+          {
+            "name": "港元債券",
+            "weight": "61.199999999999996"
+          },
+          {
+            "name": "國際債券",
+            "weight": "10.7"
+          },
+          {
+            "name": "北美洲股票",
+            "weight": "8.2"
+          },
+          {
+            "name": "歐洲股票",
+            "weight": "5.6"
+          },
+          {
+            "name": "香港股票",
+            "weight": "5.3"
+          },
+          {
+            "name": "日本股票",
+            "weight": "5.2"
+          },
+          {
+            "name": "現金",
+            "weight": "2.7"
+          },
+          {
+            "name": "其他亞太股票",
+            "weight": "1.1"
+          }
+        ]
+      }
+    },
+    "riskRatingAsOfDate": "2026-06-30T00:00:00.000Z",
+    "displayName": "宏利MPF穩健基金** <%(SHK122)%>",
+    "displayFrontEnd": false,
+    "productsId": [
+      "8"
+    ],
+    "products": [
+      {
+        "name": "宏利環球精選(強積金)計劃",
+        "weight": ""
+      }
+    ],
+    "fundSize": [],
+    "cumulativeReturns": {
+      "asOfDate": "2026-10-29",
+      "periods": [
+        {
+          "period": "m6",
+          "value": -1.71578407341959
+        },
+        {
+          "period": "y1",
+          "value": -0.254541247252116
+        },
+        {
+          "period": "y3",
+          "value": 22.0931879337204
+        },
+        {
+          "period": "y5",
+          "value": 0.495424608031714
+        },
+        {
+          "period": "ytd",
+          "value": -0.668279755732226
+        },
+        {
+          "period": "si",
+          "value": 72.42
+        },
+        {
+          "period": "y10",
+          "value": 20.7592099733856
+        }
+      ]
+    }
+  },
+  "dividend": "",
+  "optionalFields": {}
+}

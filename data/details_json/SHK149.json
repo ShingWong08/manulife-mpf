@@ -1,0 +1,224 @@
+{
+  "fundId": "SHK149",
+  "locale": "zh_Hant_HK",
+  "productLine": "mpf",
+  "status": 0,
+  "labels": {
+    "NAV": "NAV",
+    "Filters": "Filter",
+    "Offer price": "Offer price",
+    "As of": "As of",
+    "Fund name": "Fund name",
+    "Watchlist": "Watchlist",
+    "Showing {0} out of {1} funds": "Showing {0} out of {1} funds"
+  },
+  "details": {
+    "calendarYearReturns": {
+      "asOfDate": "2026-10-29",
+      "periods": [
+        {
+          "period": "2025",
+          "value": 5.79307952475934
+        },
+        {
+          "period": "2024",
+          "value": 3.09342869915066
+        },
+        {
+          "period": "2023",
+          "value": 7.15654339911862
+        },
+        {
+          "period": "2022",
+          "value": -14.7431185167034
+        },
+        {
+          "period": "2021",
+          "value": 1.04820072631231
+        }
+      ]
+    },
+    "dividendData": {
+      "exDividendDate": "",
+      "annualizedYield": "",
+      "dividend": "",
+      "fromCapital": "",
+      "fromNDI": "",
+      "periodEnd": "",
+      "recordDate": ""
+    },
+    "classId": "SHK149",
+    "isin": "",
+    "assetManager": "",
+    "fundObjective": "•\t透過環球分散投資方式提供平穩增值\r\n•\t依據《強制性公積金計劃條例》強制設立的\r\n•\t以聯接基金形式投資於核准基金，採取被動式投資策略及核准基金約20%淨資產將投資於較高風險資產，其餘之資產則投資於較低風險資產",
+    "distribution": {
+      "asOfDate": "",
+      "total": "",
+      "latest": ""
+    },
+    "nav": {
+      "asOfDate": "2026-10-29",
+      "price": "12.352",
+      "currency": "港元",
+      "aum": "",
+      "aumCurrency": "",
+      "redemptionPrice": "",
+      "prevPrice": "",
+      "changePrice": "0.018000000000000682",
+      "changePercent": "0.1459380574023081",
+      "offerPrice": "",
+      "offer3Price": "",
+      "offer5Price": "",
+      "fundIntRate": "0",
+      "dividendAnnuYield": "",
+      "asOfDateInt": "2026-10-29",
+      "fundSuspendInd": "N",
+      "fundInterestInd": "N",
+      "dividendRecordDate": "",
+      "dividendPayoutRate": "",
+      "shareClassId": "SHK149",
+      "purchasePrice": "0"
+    },
+    "divFrequencyName": "",
+    "divFrequencyId": 0,
+    "regionName": "",
+    "regionId": 0,
+    "assetClassName": "混合資產",
+    "assetClassId": 0,
+    "fundName": "宏利MPF 65歲後基金 ##",
+    "fundId": "SHK149",
+    "ilpProduct": [],
+    "product": "",
+    "locale": "zh_Hant_HK",
+    "subManager": "",
+    "custodian": "",
+    "launchDate": "2017-04-01T00:00:00.000Z",
+    "launchPrice": "10",
+    "inceptionDate": "",
+    "managementFee": "",
+    "managementFeeRemarks": "",
+    "paymentTypes": [],
+    "distributionFrequency": "",
+    "paymentDate": "",
+    "relatedProduct": [],
+    "currency": "港元",
+    "riskRating": "4",
+    "riskRatingDescription": "4",
+    "underlyingFundName": "",
+    "underlyingFundLink": "",
+    "classLaunchDate": "2017-04-01",
+    "dividendLink": "",
+    "fundHoldingBreakdowns": {
+      "top10Holdings": {
+        "asOfDate": "2026-06-29T16:00:00.000Z",
+        "data": [
+          {
+            "name": "Nvidia Corporation",
+            "weight": "0.922"
+          },
+          {
+            "name": "Apple Inc.",
+            "weight": "0.827"
+          },
+          {
+            "name": "Microsoft Corp.",
+            "weight": "0.549"
+          },
+          {
+            "name": "Amazon.com, Inc.",
+            "weight": "0.455"
+          },
+          {
+            "name": "Alphabet Inc. A",
+            "weight": "0.407"
+          },
+          {
+            "name": "台灣積體電路製造股份",
+            "weight": "0.36"
+          },
+          {
+            "name": "Broadcom Inc.",
+            "weight": "0.34299999999999997"
+          },
+          {
+            "name": "Alphabet Inc. C",
+            "weight": "0.326"
+          },
+          {
+            "name": "Government of the USA 0.625% 15/02/2035",
+            "weight": "0.297"
+          },
+          {
+            "name": "Government of the USA 4.25% 15/05/2035",
+            "weight": "0.291"
+          }
+        ]
+      },
+      "portfolioAllocation": {
+        "asOfDate": "2026-06-29T16:00:00.000Z",
+        "data": [
+          {
+            "name": "環球債券",
+            "weight": "75.4"
+          },
+          {
+            "name": "環球股票",
+            "weight": "20.3"
+          },
+          {
+            "name": "現金及其他",
+            "weight": "4.299999999999993"
+          }
+        ]
+      }
+    },
+    "riskRatingAsOfDate": "2026-06-30T00:00:00.000Z",
+    "displayName": "宏利MPF 65歲後基金 ## <%(SHK149/DIS149)%>",
+    "displayFrontEnd": false,
+    "productsId": [
+      "8"
+    ],
+    "products": [
+      {
+        "name": "宏利環球精選(強積金)計劃",
+        "weight": ""
+      }
+    ],
+    "fundSize": [],
+    "cumulativeReturns": {
+      "asOfDate": "2026-10-29",
+      "periods": [
+        {
+          "period": "m6",
+          "value": 0.692915953370843
+        },
+        {
+          "period": "y1",
+          "value": 0.849118223383427
+        },
+        {
+          "period": "y3",
+          "value": 18.9751492968599
+        },
+        {
+          "period": "y5",
+          "value": 1.42047787174644
+        },
+        {
+          "period": "ytd",
+          "value": 1.25420116402983
+        },
+        {
+          "period": "si",
+          "value": 23.52
+        },
+        {
+          "period": "y10",
+          "value": 0.0
+        }
+      ]
+    }
+  },
+  "dividend": "",
+  "optionalFields": {}
+}

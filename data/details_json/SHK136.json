@@ -1,0 +1,260 @@
+{
+  "fundId": "SHK136",
+  "locale": "zh_Hant_HK",
+  "productLine": "mpf",
+  "status": 0,
+  "labels": {
+    "NAV": "NAV",
+    "Filters": "Filter",
+    "Offer price": "Offer price",
+    "As of": "As of",
+    "Fund name": "Fund name",
+    "Watchlist": "Watchlist",
+    "Showing {0} out of {1} funds": "Showing {0} out of {1} funds"
+  },
+  "details": {
+    "calendarYearReturns": {
+      "asOfDate": "2026-10-29",
+      "periods": [
+        {
+          "period": "2025",
+          "value": 37.7303798563641
+        },
+        {
+          "period": "2024",
+          "value": 13.3372560557027
+        },
+        {
+          "period": "2023",
+          "value": -8.09373591707977
+        },
+        {
+          "period": "2022",
+          "value": -27.7692783438039
+        },
+        {
+          "period": "2021",
+          "value": -10.4448460820896
+        }
+      ]
+    },
+    "dividendData": {
+      "exDividendDate": "",
+      "annualizedYield": "",
+      "dividend": "",
+      "fromCapital": "",
+      "fromNDI": "",
+      "periodEnd": "",
+      "recordDate": ""
+    },
+    "classId": "SHK136",
+    "isin": "",
+    "assetManager": "",
+    "fundObjective": "•\t提供中至長期資本收益增長\r\n•\t分散投資於主要為任何證券交易所上市( 須遵照《強制性公積金計劃( 一般) 規例》(「規例」) 的規限) 及於大中華經濟地區( 包括中華人民共和國、香港及台灣) 有價值或增長取向的各類行業公司股份",
+    "distribution": {
+      "asOfDate": "",
+      "total": "",
+      "latest": ""
+    },
+    "nav": {
+      "asOfDate": "2026-10-29",
+      "price": "35.21",
+      "currency": "港元",
+      "aum": "",
+      "aumCurrency": "",
+      "redemptionPrice": "",
+      "prevPrice": "",
+      "changePrice": "-0.6300000000000026",
+      "changePercent": "-1.7578125000000069",
+      "offerPrice": "",
+      "offer3Price": "",
+      "offer5Price": "",
+      "fundIntRate": "0",
+      "dividendAnnuYield": "",
+      "asOfDateInt": "2026-10-29",
+      "fundSuspendInd": "N",
+      "fundInterestInd": "N",
+      "dividendRecordDate": "",
+      "dividendPayoutRate": "",
+      "shareClassId": "SHK136",
+      "purchasePrice": "0"
+    },
+    "divFrequencyName": "",
+    "divFrequencyId": 0,
+    "regionName": "",
+    "regionId": 0,
+    "assetClassName": "股票",
+    "assetClassId": 0,
+    "fundName": "宏利MPF中華威力基金",
+    "fundId": "SHK136",
+    "ilpProduct": [],
+    "product": "",
+    "locale": "zh_Hant_HK",
+    "subManager": "",
+    "custodian": "",
+    "launchDate": "2006-02-01T00:00:00.000Z",
+    "launchPrice": "10",
+    "inceptionDate": "",
+    "managementFee": "",
+    "managementFeeRemarks": "",
+    "paymentTypes": [],
+    "distributionFrequency": "",
+    "paymentDate": "",
+    "relatedProduct": [],
+    "currency": "港元",
+    "riskRating": "6",
+    "riskRatingDescription": "6",
+    "underlyingFundName": "",
+    "underlyingFundLink": "",
+    "classLaunchDate": "2006-02-01",
+    "dividendLink": "",
+    "fundHoldingBreakdowns": {
+      "top10Holdings": {
+        "asOfDate": "2026-06-29T16:00:00.000Z",
+        "data": [
+          {
+            "name": "台灣積體電路製造股份",
+            "weight": "9.6"
+          },
+          {
+            "name": "騰訊控股",
+            "weight": "6.3100000000000005"
+          },
+          {
+            "name": "滙豐控股",
+            "weight": "5.16"
+          },
+          {
+            "name": "阿里巴巴集團",
+            "weight": "4.04"
+          },
+          {
+            "name": "台達電子",
+            "weight": "3.54"
+          },
+          {
+            "name": "台光電子材料股份有限公司",
+            "weight": "2.22"
+          },
+          {
+            "name": "聯發科技",
+            "weight": "1.8800000000000001"
+          },
+          {
+            "name": "香港交易所",
+            "weight": "1.53"
+          },
+          {
+            "name": "欣興電子股份有限公司",
+            "weight": "1.44"
+          },
+          {
+            "name": "中信金控",
+            "weight": "1.4200000000000002"
+          }
+        ]
+      },
+      "portfolioAllocation": {
+        "asOfDate": "2026-06-29T16:00:00.000Z",
+        "data": [
+          {
+            "name": "科技",
+            "weight": "51.5"
+          },
+          {
+            "name": "金融",
+            "weight": "15.8"
+          },
+          {
+            "name": "生活消費品",
+            "weight": "9.9"
+          },
+          {
+            "name": "工業",
+            "weight": "6.1"
+          },
+          {
+            "name": "原材料",
+            "weight": "4.8"
+          },
+          {
+            "name": "電訊",
+            "weight": "3.5000000000000004"
+          },
+          {
+            "name": "醫療保健",
+            "weight": "2.5"
+          },
+          {
+            "name": "能源",
+            "weight": "2.1"
+          },
+          {
+            "name": "地產",
+            "weight": "1.5"
+          },
+          {
+            "name": "現金",
+            "weight": "1.2"
+          },
+          {
+            "name": "生活必需品",
+            "weight": "1.1"
+          },
+          {
+            "name": "公用事業",
+            "weight": "0.0"
+          }
+        ]
+      }
+    },
+    "riskRatingAsOfDate": "2026-06-30T00:00:00.000Z",
+    "displayName": "宏利MPF中華威力基金 <%(SHK136)%>",
+    "displayFrontEnd": false,
+    "productsId": [
+      "8"
+    ],
+    "products": [
+      {
+        "name": "宏利環球精選(強積金)計劃",
+        "weight": ""
+      }
+    ],
+    "fundSize": [],
+    "cumulativeReturns": {
+      "asOfDate": "2026-10-29",
+      "periods": [
+        {
+          "period": "m6",
+          "value": -8.57632487731415
+        },
+        {
+          "period": "y1",
+          "value": 8.44857855668835
+        },
+        {
+          "period": "y3",
+          "value": 77.6129943502825
+        },
+        {
+          "period": "y5",
+          "value": 8.88455948294522
+        },
+        {
+          "period": "ytd",
+          "value": 10.60153918643
+        },
+        {
+          "period": "si",
+          "value": 252.1
+        },
+        {
+          "period": "y10",
+          "value": 72.7674190382728
+        }
+      ]
+    }
+  },
+  "dividend": "",
+  "optionalFields": {}
+}
