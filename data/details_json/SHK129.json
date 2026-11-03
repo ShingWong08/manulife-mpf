@@ -14,7 +14,7 @@
   },
   "details": {
     "calendarYearReturns": {
-      "asOfDate": "2026-10-29",
+      "asOfDate": "2026-10-30",
       "periods": [
         {
           "period": "2025",
@@ -57,21 +57,21 @@
       "latest": ""
     },
     "nav": {
-      "asOfDate": "2026-10-29",
-      "price": "18.881",
+      "asOfDate": "2026-11-02",
+      "price": "19.011",
       "currency": "港元",
       "aum": "",
       "aumCurrency": "",
       "redemptionPrice": "",
       "prevPrice": "",
-      "changePrice": "0.18299999999999983",
-      "changePercent": "0.9787143009947579",
+      "changePrice": "0.16499999999999915",
+      "changePercent": "0.8755173511620458",
       "offerPrice": "",
       "offer3Price": "",
       "offer5Price": "",
       "fundIntRate": "0",
       "dividendAnnuYield": "",
-      "asOfDateInt": "2026-10-29",
+      "asOfDateInt": "2026-11-02",
       "fundSuspendInd": "N",
       "fundInterestInd": "N",
       "dividendRecordDate": "",
@@ -218,35 +218,35 @@
     ],
     "fundSize": [],
     "cumulativeReturns": {
-      "asOfDate": "2026-10-29",
+      "asOfDate": "2026-10-30",
       "periods": [
         {
           "period": "m6",
-          "value": 4.00462707943152
+          "value": 2.41834682897668
         },
         {
           "period": "y1",
-          "value": 7.18705648594948
+          "value": 8.20462766262844
         },
         {
           "period": "y3",
-          "value": 43.3092979127135
+          "value": 42.5459496255956
         },
         {
           "period": "y5",
-          "value": 1.22232348683857
+          "value": 1.03468610947302
         },
         {
           "period": "ytd",
-          "value": 4.66766450468428
+          "value": 4.47364044570098
         },
         {
           "period": "si",
-          "value": 88.81
+          "value": 88.46
         },
         {
           "period": "y10",
-          "value": 101.676992095706
+          "value": 101.303140354625
         }
       ]
     }
