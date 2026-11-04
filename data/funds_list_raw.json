@@ -274,7 +274,7 @@
       }
     ],
     "calendarYearReturns": {
-      "asOfDate": "2026-10-30",
+      "asOfDate": "2026-11-02",
       "periods": [
         {
           "period": "2025",
@@ -339,35 +339,35 @@
       "8"
     ],
     "cumulativeReturns": {
-      "asOfDate": "2026-10-30",
+      "asOfDate": "2026-11-02",
       "periods": [
         {
           "period": "m6",
-          "value": -1.54556860955856
+          "value": -1.51705258355194
         },
         {
           "period": "y1",
-          "value": 0.302132357213436
+          "value": 0.453752181500877
         },
         {
           "period": "y3",
-          "value": 22.1640365154625
+          "value": 21.4687675858188
         },
         {
           "period": "y5",
-          "value": 0.617823628839553
+          "value": 0.823261516903151
         },
         {
           "period": "ytd",
-          "value": -0.547298075815172
+          "value": -0.518492913930169
         },
         {
           "period": "si",
-          "value": 72.63
+          "value": 72.68
         },
         {
           "period": "y10",
-          "value": 20.906289396274
+          "value": 21.0006306495691
         }
       ]
     },
@@ -411,7 +411,7 @@
       }
     ],
     "calendarYearReturns": {
-      "asOfDate": "2026-10-30",
+      "asOfDate": "2026-11-02",
       "periods": [
         {
           "period": "2025",
@@ -476,35 +476,35 @@
       "8"
     ],
     "cumulativeReturns": {
-      "asOfDate": "2026-10-30",
+      "asOfDate": "2026-11-02",
       "periods": [
         {
           "period": "m6",
-          "value": -1.43346313951928
+          "value": -1.34953672619847
         },
         {
           "period": "y1",
-          "value": 6.19190567470793
+          "value": 6.74949142691079
         },
         {
           "period": "y3",
-          "value": 53.8755830407211
+          "value": 51.6383714329945
         },
         {
           "period": "y5",
-          "value": 13.6393544142122
+          "value": 13.7977771753863
         },
         {
           "period": "ytd",
-          "value": 4.99195422849992
+          "value": 5.08135168961201
         },
         {
           "period": "si",
-          "value": 193.61
+          "value": 193.86
         },
         {
           "period": "y10",
-          "value": 84.3820648078372
+          "value": 86.1051298290057
         }
       ]
     },
@@ -548,7 +548,7 @@
       }
     ],
     "calendarYearReturns": {
-      "asOfDate": "2026-10-30",
+      "asOfDate": "2026-11-02",
       "periods": [
         {
           "period": "2025",
@@ -613,35 +613,35 @@
       "8"
     ],
     "cumulativeReturns": {
-      "asOfDate": "2026-10-30",
+      "asOfDate": "2026-11-02",
       "periods": [
         {
           "period": "m6",
-          "value": -1.50137843677818
+          "value": -1.42686834066015
         },
         {
           "period": "y1",
-          "value": 4.5722422180912
+          "value": 5.04605367635382
         },
         {
           "period": "y3",
-          "value": 42.805444528465
+          "value": 40.9868385996696
         },
         {
           "period": "y5",
-          "value": 7.94512717919407
+          "value": 8.101814021899
         },
         {
           "period": "ytd",
-          "value": 3.55240482531727
+          "value": 3.63073789754036
         },
         {
           "period": "si",
-          "value": 164.39
+          "value": 164.59
         },
         {
           "period": "y10",
-          "value": 59.8102030947776
+          "value": 60.7375007593707
         }
       ]
     },
@@ -685,7 +685,7 @@
       }
     ],
     "calendarYearReturns": {
-      "asOfDate": "2026-10-30",
+      "asOfDate": "2026-11-02",
       "periods": [
         {
           "period": "2025",
@@ -750,35 +750,35 @@
       "8"
     ],
     "cumulativeReturns": {
-      "asOfDate": "2026-10-30",
+      "asOfDate": "2026-11-02",
       "periods": [
         {
           "period": "m6",
-          "value": 1.08996129847563
+          "value": 1.09785956875446
         },
         {
           "period": "y1",
-          "value": 2.22843450479233
+          "value": 2.22825652903123
         },
         {
           "period": "y3",
-          "value": 8.91838992426177
+          "value": 8.88983411314335
         },
         {
           "period": "y5",
-          "value": 12.8361103764436
+          "value": 12.8449263863176
         },
         {
           "period": "ytd",
-          "value": 1.70851875397331
+          "value": 1.71646535282901
         },
         {
           "period": "si",
-          "value": 27.99
+          "value": 28.0
         },
         {
           "period": "y10",
-          "value": 16.779197080292
+          "value": 16.8096367950356
         }
       ]
     },
@@ -822,7 +822,7 @@
       }
     ],
     "calendarYearReturns": {
-      "asOfDate": "2026-10-30",
+      "asOfDate": "2026-11-02",
       "periods": [
         {
           "period": "2025",
@@ -887,35 +887,35 @@
       "8"
     ],
     "cumulativeReturns": {
-      "asOfDate": "2026-10-30",
+      "asOfDate": "2026-11-02",
       "periods": [
         {
           "period": "m6",
-          "value": -14.3656789446902
+          "value": -13.704153129526
         },
         {
           "period": "y1",
-          "value": -13.1933973494167
+          "value": -11.1335053208642
         },
         {
           "period": "y3",
-          "value": 30.4376341521584
+          "value": 33.660725112162
         },
         {
           "period": "y5",
-          "value": -19.0190634832501
+          "value": -16.9704730340464
         },
         {
           "period": "ytd",
-          "value": -10.9931242117255
+          "value": -10.3055453842711
         },
         {
           "period": "si",
-          "value": 118.77
+          "value": 120.46
         },
         {
           "period": "y10",
-          "value": 16.6213550828935
+          "value": 19.0774548989953
         }
       ]
     },
@@ -959,7 +959,7 @@
       }
     ],
     "calendarYearReturns": {
-      "asOfDate": "2026-10-30",
+      "asOfDate": "2026-11-02",
       "periods": [
         {
           "period": "2025",
@@ -1024,35 +1024,35 @@
       "8"
     ],
     "cumulativeReturns": {
-      "asOfDate": "2026-10-30",
+      "asOfDate": "2026-11-02",
       "periods": [
         {
           "period": "m6",
-          "value": 2.37600237600237
+          "value": 2.17800217800217
         },
         {
           "period": "y1",
-          "value": 9.22822336455178
+          "value": 8.84834423117484
         },
         {
           "period": "y3",
-          "value": 64.0300322529477
+          "value": 58.475790766711
         },
         {
           "period": "y5",
-          "value": 28.838406910586
+          "value": 28.1793343268753
         },
         {
           "period": "ytd",
-          "value": 7.10882474796302
+          "value": 6.90167103991164
         },
         {
           "period": "si",
-          "value": 210.23
+          "value": 209.63
         },
         {
           "period": "y10",
-          "value": 147.747963584092
+          "value": 149.943493703584
         }
       ]
     },
@@ -1096,7 +1096,7 @@
       }
     ],
     "calendarYearReturns": {
-      "asOfDate": "2026-10-30",
+      "asOfDate": "2026-11-02",
       "periods": [
         {
           "period": "2025",
@@ -1161,35 +1161,35 @@
       "8"
     ],
     "cumulativeReturns": {
-      "asOfDate": "2026-10-30",
+      "asOfDate": "2026-11-02",
       "periods": [
         {
           "period": "m6",
-          "value": 2.41834682897668
+          "value": 3.31503722623769
         },
         {
           "period": "y1",
-          "value": 8.20462766262844
+          "value": 9.86477115117892
         },
         {
           "period": "y3",
-          "value": 42.5459496255956
+          "value": 37.6013317892299
         },
         {
           "period": "y5",
-          "value": 1.03468610947302
+          "value": 0.720529801324488
         },
         {
           "period": "ytd",
-          "value": 4.47364044570098
+          "value": 5.38832529519373
         },
         {
           "period": "si",
-          "value": 88.46
+          "value": 90.11
         },
         {
           "period": "y10",
-          "value": 101.303140354625
+          "value": 105.791296817493
         }
       ]
     },
@@ -1233,7 +1233,7 @@
       }
     ],
     "calendarYearReturns": {
-      "asOfDate": "2026-10-30",
+      "asOfDate": "2026-11-02",
       "periods": [
         {
           "period": "2025",
@@ -1298,35 +1298,35 @@
       "8"
     ],
     "cumulativeReturns": {
-      "asOfDate": "2026-10-30",
+      "asOfDate": "2026-11-02",
       "periods": [
         {
           "period": "m6",
-          "value": -2.28644082406689
+          "value": -1.88345832255841
         },
         {
           "period": "y1",
-          "value": 15.564787440106
+          "value": 16.9985866632404
         },
         {
           "period": "y3",
-          "value": 75.3199551482813
+          "value": 75.3514346235317
         },
         {
           "period": "y5",
-          "value": 38.2703625773793
+          "value": 39.4615125432658
         },
         {
           "period": "ytd",
-          "value": 15.7004337841286
+          "value": 16.1775963255933
         },
         {
           "period": "si",
-          "value": 353.43
+          "value": 355.3
         },
         {
           "period": "y10",
-          "value": 128.129402294224
+          "value": 131.457475471506
         }
       ]
     },
@@ -1370,7 +1370,7 @@
       }
     ],
     "calendarYearReturns": {
-      "asOfDate": "2026-10-30",
+      "asOfDate": "2026-11-02",
       "periods": [
         {
           "period": "2025",
@@ -1435,35 +1435,35 @@
       "8"
     ],
     "cumulativeReturns": {
-      "asOfDate": "2026-10-30",
+      "asOfDate": "2026-11-02",
       "periods": [
         {
           "period": "m6",
-          "value": 0.658850104878184
+          "value": 0.137148389178732
         },
         {
           "period": "y1",
-          "value": 3.91726818434202
+          "value": 2.85043502278692
         },
         {
           "period": "y3",
-          "value": 62.4962014326025
+          "value": 55.7121351509576
         },
         {
           "period": "y5",
-          "value": 31.7946551177775
+          "value": 30.9363901684307
         },
         {
           "period": "ytd",
-          "value": 2.65474590680963
+          "value": 2.12269972300689
         },
         {
           "period": "si",
-          "value": 274.31
+          "value": 272.37
         },
         {
           "period": "y10",
-          "value": 186.060374474589
+          "value": 188.658914728682
         }
       ]
     },
@@ -1507,7 +1507,7 @@
       }
     ],
     "calendarYearReturns": {
-      "asOfDate": "2026-10-30",
+      "asOfDate": "2026-11-02",
       "periods": [
         {
           "period": "2025",
@@ -1572,35 +1572,35 @@
       "8"
     ],
     "cumulativeReturns": {
-      "asOfDate": "2026-10-30",
+      "asOfDate": "2026-11-02",
       "periods": [
         {
           "period": "m6",
-          "value": 13.2262282832057
+          "value": 11.6869045395106
         },
         {
           "period": "y1",
-          "value": 23.9671111838337
+          "value": 20.7895587522224
         },
         {
           "period": "y3",
-          "value": 95.9206102922162
+          "value": 86.9714786089567
         },
         {
           "period": "y5",
-          "value": 90.7534462138856
+          "value": 85.3139916930135
         },
         {
           "period": "ytd",
-          "value": 19.8821155900154
+          "value": 18.2523042841885
         },
         {
           "period": "si",
-          "value": 203.05
+          "value": 198.93
         },
         {
           "period": "y10",
-          "value": 183.489242282507
+          "value": 181.002068057906
         }
       ]
     },
@@ -1644,7 +1644,7 @@
       }
     ],
     "calendarYearReturns": {
-      "asOfDate": "2026-10-30",
+      "asOfDate": "2026-11-02",
       "periods": [
         {
           "period": "2025",
@@ -1709,35 +1709,35 @@
       "8"
     ],
     "cumulativeReturns": {
-      "asOfDate": "2026-10-30",
+      "asOfDate": "2026-11-02",
       "periods": [
         {
           "period": "m6",
-          "value": -1.73952115026639
+          "value": -1.66249438346493
         },
         {
           "period": "y1",
-          "value": -1.96605827729748
+          "value": -1.81375376530154
         },
         {
           "period": "y3",
-          "value": 8.61359443734924
+          "value": 7.74316055981434
         },
         {
           "period": "y5",
-          "value": -11.9369498935742
+          "value": -12.024807626048
         },
         {
           "period": "ytd",
-          "value": -1.85921271957945
+          "value": -1.78227977945892
         },
         {
           "period": "si",
-          "value": 53.08
+          "value": 53.2
         },
         {
           "period": "y10",
-          "value": -8.04901489668428
+          "value": -8.68450855337665
         }
       ]
     },
@@ -1781,7 +1781,7 @@
       }
     ],
     "calendarYearReturns": {
-      "asOfDate": "2026-10-30",
+      "asOfDate": "2026-11-02",
       "periods": [
         {
           "period": "2025",
@@ -1846,35 +1846,35 @@
       "8"
     ],
     "cumulativeReturns": {
-      "asOfDate": "2026-10-30",
+      "asOfDate": "2026-11-02",
       "periods": [
         {
           "period": "m6",
-          "value": -1.78626614747511
+          "value": -1.70591507509734
         },
         {
           "period": "y1",
-          "value": -0.482244629548445
+          "value": -0.282167042889392
         },
         {
           "period": "y3",
-          "value": 13.6136136136136
+          "value": 13.2530978493092
         },
         {
           "period": "y5",
-          "value": 3.598904681184
+          "value": 3.83937316356513
         },
         {
           "period": "ytd",
-          "value": -1.32273489411912
+          "value": -1.24200459541701
         },
         {
           "period": "si",
-          "value": 58.9
+          "value": 59.03
         },
         {
           "period": "y10",
-          "value": 14.1687023997701
+          "value": 13.9346611262358
         }
       ]
     },
@@ -1918,7 +1918,7 @@
       }
     ],
     "calendarYearReturns": {
-      "asOfDate": "2026-10-30",
+      "asOfDate": "2026-11-02",
       "periods": [
         {
           "period": "2025",
@@ -1983,35 +1983,35 @@
       "8"
     ],
     "cumulativeReturns": {
-      "asOfDate": "2026-10-30",
+      "asOfDate": "2026-11-02",
       "periods": [
         {
           "period": "m6",
-          "value": -1.51118573756727
+          "value": -1.66921823299915
         },
         {
           "period": "y1",
-          "value": 3.61076475477973
+          "value": 4.01734406018179
         },
         {
           "period": "y3",
-          "value": 49.48094292246
+          "value": 46.8687762779376
         },
         {
           "period": "y5",
-          "value": 9.97876857749469
+          "value": 9.77203186592055
         },
         {
           "period": "ytd",
-          "value": 3.99707975908012
+          "value": 3.83020884937293
         },
         {
           "period": "si",
-          "value": 298.86
+          "value": 298.22
         },
         {
           "period": "y10",
-          "value": 71.9965502371712
+          "value": 73.1541873206366
         }
       ]
     },
@@ -2055,7 +2055,7 @@
       }
     ],
     "calendarYearReturns": {
-      "asOfDate": "2026-10-30",
+      "asOfDate": "2026-11-02",
       "periods": [
         {
           "period": "2025",
@@ -2120,35 +2120,35 @@
       "8"
     ],
     "cumulativeReturns": {
-      "asOfDate": "2026-10-30",
+      "asOfDate": "2026-11-02",
       "periods": [
         {
           "period": "m6",
-          "value": -1.60213618157542
+          "value": -1.71208670384041
         },
         {
           "period": "y1",
-          "value": 1.13411631755256
+          "value": 1.39350239001863
         },
         {
           "period": "y3",
-          "value": 29.2582275869184
+          "value": 27.3726527912066
         },
         {
           "period": "y5",
-          "value": -1.67549538944476
+          "value": -1.85468376269459
         },
         {
           "period": "ytd",
-          "value": 1.42475512021372
+          "value": 1.31142232656036
         },
         {
           "period": "si",
-          "value": 150.58
+          "value": 150.3
         },
         {
           "period": "y10",
-          "value": 32.2950213821868
+          "value": 32.3218439416367
         }
       ]
     },
@@ -2192,7 +2192,7 @@
       }
     ],
     "calendarYearReturns": {
-      "asOfDate": "2026-10-30",
+      "asOfDate": "2026-11-02",
       "periods": [
         {
           "period": "2025",
@@ -2257,35 +2257,35 @@
       "8"
     ],
     "cumulativeReturns": {
-      "asOfDate": "2026-10-30",
+      "asOfDate": "2026-11-02",
       "periods": [
         {
           "period": "m6",
-          "value": 19.7364792400797
+          "value": 19.0991267044584
         },
         {
           "period": "y1",
-          "value": 24.7318692543412
+          "value": 24.3457674835242
         },
         {
           "period": "y3",
-          "value": 46.9188254314396
+          "value": 42.6715119480234
         },
         {
           "period": "y5",
-          "value": 37.3738794164177
+          "value": 35.3295498067616
         },
         {
           "period": "ytd",
-          "value": 15.0952843804306
+          "value": 14.4826367411858
         },
         {
           "period": "si",
-          "value": 290.76
+          "value": 288.68
         },
         {
           "period": "y10",
-          "value": 121.368683435305
+          "value": 123.392148974079
         }
       ]
     },
@@ -2329,7 +2329,7 @@
       }
     ],
     "calendarYearReturns": {
-      "asOfDate": "2026-10-30",
+      "asOfDate": "2026-11-02",
       "periods": [
         {
           "period": "2025",
@@ -2394,35 +2394,35 @@
       "8"
     ],
     "cumulativeReturns": {
-      "asOfDate": "2026-10-30",
+      "asOfDate": "2026-11-02",
       "periods": [
         {
           "period": "m6",
-          "value": -9.09281100447187
+          "value": -8.80776170924969
         },
         {
           "period": "y1",
-          "value": 6.94683731233079
+          "value": 8.89360771945165
         },
         {
           "period": "y3",
-          "value": 74.4117204355025
+          "value": 76.2675024010514
         },
         {
           "period": "y5",
-          "value": 7.49914958097533
+          "value": 8.95144660376181
         },
         {
           "period": "ytd",
-          "value": 9.19428302183132
+          "value": 9.53667347259306
         },
         {
           "period": "si",
-          "value": 247.62
+          "value": 248.71
         },
         {
           "period": "y10",
-          "value": 70.5691854759568
+          "value": 72.7826776335349
         }
       ]
     },
@@ -2466,7 +2466,7 @@
       }
     ],
     "calendarYearReturns": {
-      "asOfDate": "2026-10-30",
+      "asOfDate": "2026-11-02",
       "periods": [
         {
           "period": "2025",
@@ -2531,35 +2531,35 @@
       "8"
     ],
     "cumulativeReturns": {
-      "asOfDate": "2026-10-30",
+      "asOfDate": "2026-11-02",
       "periods": [
         {
           "period": "m6",
-          "value": -1.3611963190184
+          "value": -1.23977505112474
         },
         {
           "period": "y1",
-          "value": 3.58365210388565
+          "value": 4.02530963920302
         },
         {
           "period": "y3",
-          "value": 33.6710833982853
+          "value": 32.5045014147304
         },
         {
           "period": "y5",
-          "value": 5.7409056655477
+          "value": 5.90734649122808
         },
         {
           "period": "ytd",
-          "value": 3.0924392198771
+          "value": 3.21934277317659
         },
         {
           "period": "si",
-          "value": 54.35
+          "value": 54.54
         },
         {
           "period": "y10",
-          "value": 45.2295822356041
+          "value": 45.6001507443
         }
       ]
     },
@@ -2603,7 +2603,7 @@
       }
     ],
     "calendarYearReturns": {
-      "asOfDate": "2026-10-30",
+      "asOfDate": "2026-11-02",
       "periods": [
         {
           "period": "2025",
@@ -2668,35 +2668,35 @@
       "8"
     ],
     "cumulativeReturns": {
-      "asOfDate": "2026-10-30",
+      "asOfDate": "2026-11-02",
       "periods": [
         {
           "period": "m6",
-          "value": -1.49443250634889
+          "value": -1.39187341277593
         },
         {
           "period": "y1",
-          "value": 5.29887757765597
+          "value": 5.81730517268486
         },
         {
           "period": "y3",
-          "value": 47.7006444053896
+          "value": 46.0153312120336
         },
         {
           "period": "y5",
-          "value": 12.8960035822232
+          "value": 13.0705045640365
         },
         {
           "period": "ytd",
-          "value": 4.752012464295
+          "value": 4.86107504544273
         },
         {
           "period": "si",
-          "value": 101.7
+          "value": 101.91
         },
         {
           "period": "y10",
-          "value": 78.0386618412923
+          "value": 79.4915103564761
         }
       ]
     },
@@ -2740,7 +2740,7 @@
       }
     ],
     "calendarYearReturns": {
-      "asOfDate": "2026-10-30",
+      "asOfDate": "2026-11-02",
       "periods": [
         {
           "period": "2025",
@@ -2805,35 +2805,35 @@
       "8"
     ],
     "cumulativeReturns": {
-      "asOfDate": "2026-10-30",
+      "asOfDate": "2026-11-02",
       "periods": [
         {
           "period": "m6",
-          "value": -1.39368874284742
+          "value": -1.28038071497365
         },
         {
           "period": "y1",
-          "value": 3.60119047619047
+          "value": 4.02985074626865
         },
         {
           "period": "y3",
-          "value": 35.9659401609249
+          "value": 34.6287568569883
         },
         {
           "period": "y5",
-          "value": 6.21224141087446
+          "value": 6.37973137973138
         },
         {
           "period": "ytd",
-          "value": 3.10408151175878
+          "value": 3.22255790533736
         },
         {
           "period": "si",
-          "value": 74.05
+          "value": 74.25
         },
         {
           "period": "y10",
-          "value": 54.7936677339025
+          "value": 55.8168648841992
         }
       ]
     },
@@ -2877,7 +2877,7 @@
       }
     ],
     "calendarYearReturns": {
-      "asOfDate": "2026-10-30",
+      "asOfDate": "2026-11-02",
       "periods": [
         {
           "period": "2025",
@@ -2942,35 +2942,35 @@
       "8"
     ],
     "cumulativeReturns": {
-      "asOfDate": "2026-10-30",
+      "asOfDate": "2026-11-02",
       "periods": [
         {
           "period": "m6",
-          "value": -1.76739374083973
+          "value": -1.65100439693078
         },
         {
           "period": "y1",
-          "value": 6.34187316253678
+          "value": 6.99212155317952
         },
         {
           "period": "y3",
-          "value": 61.1484336326993
+          "value": 59.4451044796981
         },
         {
           "period": "y5",
-          "value": 20.8527789563004
+          "value": 21.0409040267388
         },
         {
           "period": "ytd",
-          "value": 5.82826359541169
+          "value": 5.95365253332094
         },
         {
           "period": "si",
-          "value": 127.88
+          "value": 128.15
         },
         {
           "period": "y10",
-          "value": 100.351679268507
+          "value": 102.206859877692
         }
       ]
     },
@@ -3014,7 +3014,7 @@
       }
     ],
     "calendarYearReturns": {
-      "asOfDate": "2026-10-30",
+      "asOfDate": "2026-11-02",
       "periods": [
         {
           "period": "2025",
@@ -3079,35 +3079,35 @@
       "8"
     ],
     "cumulativeReturns": {
-      "asOfDate": "2026-10-30",
+      "asOfDate": "2026-11-02",
       "periods": [
         {
           "period": "m6",
-          "value": -1.60495501604955
+          "value": -1.4874090148741
         },
         {
           "period": "y1",
-          "value": 5.89208388069868
+          "value": 6.47967161845193
         },
         {
           "period": "y3",
-          "value": 54.7827323803428
+          "value": 53.0089179130679
         },
         {
           "period": "y5",
-          "value": 16.9164652162235
+          "value": 17.1127593249489
         },
         {
           "period": "ytd",
-          "value": 5.44573643410853
+          "value": 5.57170542635659
         },
         {
           "period": "si",
-          "value": 117.64
+          "value": 117.9
         },
         {
           "period": "y10",
-          "value": 91.1470226594063
+          "value": 92.9001416430595
         }
       ]
     },
@@ -3151,7 +3151,7 @@
       }
     ],
     "calendarYearReturns": {
-      "asOfDate": "2026-10-30",
+      "asOfDate": "2026-11-02",
       "periods": [
         {
           "period": "2025",
@@ -3216,35 +3216,35 @@
       "8"
     ],
     "cumulativeReturns": {
-      "asOfDate": "2026-10-30",
+      "asOfDate": "2026-11-02",
       "periods": [
         {
           "period": "m6",
-          "value": -1.72766828768877
+          "value": -1.62528794471462
         },
         {
           "period": "y1",
-          "value": 6.25922509225092
+          "value": 6.9074220017616
         },
         {
           "period": "y3",
-          "value": 61.2670633531677
+          "value": 59.5475300954753
         },
         {
           "period": "y5",
-          "value": 21.1071391020923
+          "value": 21.2843168191859
         },
         {
           "period": "ytd",
-          "value": 5.78106345853615
+          "value": 5.89126641564883
         },
         {
           "period": "si",
-          "value": 130.37
+          "value": 130.61
         },
         {
           "period": "y10",
-          "value": 101.954939949154
+          "value": 103.809102960672
         }
       ]
     },
@@ -3288,7 +3288,7 @@
       }
     ],
     "calendarYearReturns": {
-      "asOfDate": "2026-10-30",
+      "asOfDate": "2026-11-02",
       "periods": [
         {
           "period": "2025",
@@ -3353,35 +3353,35 @@
       "8"
     ],
     "cumulativeReturns": {
-      "asOfDate": "2026-10-30",
+      "asOfDate": "2026-11-02",
       "periods": [
         {
           "period": "m6",
-          "value": -7.69537745261057
+          "value": -7.1499833721317
         },
         {
           "period": "y1",
-          "value": -13.1321982974462
+          "value": -11.6902834008097
         },
         {
           "period": "y3",
-          "value": 24.7124370956147
+          "value": 26.701760755128
         },
         {
           "period": "y5",
-          "value": -9.53063885267276
+          "value": -8.22431135362567
         },
         {
           "period": "ytd",
-          "value": -10.4645161290323
+          "value": -9.93548387096774
         },
         {
           "period": "si",
-          "value": 38.78
+          "value": 39.6
         },
         {
           "period": "y10",
-          "value": 11.4609268331861
+          "value": 12.7443062510095
         }
       ]
     },
@@ -3425,7 +3425,7 @@
       }
     ],
     "calendarYearReturns": {
-      "asOfDate": "2026-10-30",
+      "asOfDate": "2026-11-02",
       "periods": [
         {
           "period": "2025",
@@ -3490,35 +3490,35 @@
       "8"
     ],
     "cumulativeReturns": {
-      "asOfDate": "2026-10-30",
+      "asOfDate": "2026-11-02",
       "periods": [
         {
           "period": "m6",
-          "value": -1.26164756328853
+          "value": -1.17094087573184
         },
         {
           "period": "y1",
-          "value": -0.926692040377297
+          "value": -0.745341614906836
         },
         {
           "period": "y3",
-          "value": 14.6056661562022
+          "value": 13.7744446554015
         },
         {
           "period": "y5",
-          "value": -1.00859788359787
+          "value": -0.843881856540085
         },
         {
           "period": "ytd",
-          "value": -0.992227550851643
+          "value": -0.901273358690247
         },
         {
           "period": "si",
-          "value": 19.74
+          "value": 19.85
         },
         {
           "period": "y10",
-          "value": 12.8770739064857
+          "value": 12.6833396013539
         }
       ]
     },
@@ -3562,7 +3562,7 @@
       }
     ],
     "calendarYearReturns": {
-      "asOfDate": "2026-10-30",
+      "asOfDate": "2026-11-02",
       "periods": [
         {
           "period": "2025",
@@ -3627,35 +3627,35 @@
       "8"
     ],
     "cumulativeReturns": {
-      "asOfDate": "2026-10-30",
+      "asOfDate": "2026-11-02",
       "periods": [
         {
           "period": "m6",
-          "value": 3.36500395882819
+          "value": 3.43626286619161
         },
         {
           "period": "y1",
-          "value": 7.54592635307687
+          "value": 7.69103948561538
         },
         {
           "period": "y3",
-          "value": 19.4856306058942
+          "value": 19.3713450292398
         },
         {
           "period": "y5",
-          "value": 12.1274585587907
+          "value": 12.1854873336196
         },
         {
           "period": "ytd",
-          "value": 6.03476283300843
+          "value": 6.10786224821314
         },
         {
           "period": "si",
-          "value": 30.55
+          "value": 30.64
         },
         {
           "period": "y10",
-          "value": 31.7622123536536
+          "value": 31.4682499748415
         }
       ]
     },
@@ -3699,7 +3699,7 @@
       }
     ],
     "calendarYearReturns": {
-      "asOfDate": "2026-10-30",
+      "asOfDate": "2026-11-02",
       "periods": [
         {
           "period": "2025",
@@ -3764,31 +3764,31 @@
       "8"
     ],
     "cumulativeReturns": {
-      "asOfDate": "2026-10-30",
+      "asOfDate": "2026-11-02",
       "periods": [
         {
           "period": "m6",
-          "value": 2.34619958914475
+          "value": 2.24348578224671
         },
         {
           "period": "y1",
-          "value": 6.98462929475585
+          "value": 6.79880286859789
         },
         {
           "period": "y3",
-          "value": 47.1132178102417
+          "value": 43.6066818526955
         },
         {
           "period": "y5",
-          "value": 28.4570498032297
+          "value": 27.7560118886787
         },
         {
           "period": "ytd",
-          "value": 6.32371110861505
+          "value": 6.21700550376276
         },
         {
           "period": "si",
-          "value": 89.32
+          "value": 89.13
         },
         {
           "period": "y10",
@@ -3836,7 +3836,7 @@
       }
     ],
     "calendarYearReturns": {
-      "asOfDate": "2026-10-30",
+      "asOfDate": "2026-11-02",
       "periods": [
         {
           "period": "2025",
@@ -3901,31 +3901,31 @@
       "8"
     ],
     "cumulativeReturns": {
-      "asOfDate": "2026-10-30",
+      "asOfDate": "2026-11-02",
       "periods": [
         {
           "period": "m6",
-          "value": -2.63521411114651
+          "value": -2.61396238444374
         },
         {
           "period": "y1",
-          "value": -0.725893824485369
+          "value": -0.542593597395558
         },
         {
           "period": "y3",
-          "value": 13.8826746209297
+          "value": 12.730627306273
         },
         {
           "period": "y5",
-          "value": -14.4124789837474
+          "value": -14.265668849392
         },
         {
           "period": "ytd",
-          "value": -0.77964266377909
+          "value": -0.757985923118587
         },
         {
           "period": "si",
-          "value": -8.36999999999999
+          "value": -8.35000000000001
         },
         {
           "period": "y10",
@@ -3973,7 +3973,7 @@
       }
     ],
     "calendarYearReturns": {
-      "asOfDate": "2026-10-30",
+      "asOfDate": "2026-11-02",
       "periods": [
         {
           "period": "2025",
@@ -4038,31 +4038,31 @@
       "8"
     ],
     "cumulativeReturns": {
-      "asOfDate": "2026-10-30",
+      "asOfDate": "2026-11-02",
       "periods": [
         {
           "period": "m6",
-          "value": 0.284599121808427
+          "value": 0.325256139209618
         },
         {
           "period": "y1",
-          "value": 1.10673880964092
+          "value": 1.1311475409836
         },
         {
           "period": "y3",
-          "value": 18.8264765391656
+          "value": 17.1811188147022
         },
         {
           "period": "y5",
-          "value": 1.26447163149683
+          "value": 0.998690242305167
         },
         {
           "period": "ytd",
-          "value": 1.09845069267971
+          "value": 1.13943765882447
         },
         {
           "period": "si",
-          "value": 23.33
+          "value": 23.38
         },
         {
           "period": "y10",
@@ -4208,15 +4208,15 @@
       ]
     },
     "nav": {
-      "asOfDate": "2026-10-30",
-      "price": "59.7377",
+      "asOfDate": "2026-11-02",
+      "price": "60.0164",
       "currency": "港元",
       "aum": "",
       "aumCurrency": "",
       "redemptionPrice": "",
       "prevPrice": "",
-      "changePrice": "0.5485999999999933",
-      "changePercent": "0.9268598441266944",
+      "changePrice": "0.2787000000000006",
+      "changePercent": "0.4665395554231258",
       "offerPrice": "",
       "offer3Price": "",
       "offer5Price": "",
@@ -4228,7 +4228,7 @@
       "dividendRecordDate": "",
       "dividendPayoutRate": "",
       "shareClassId": "RBOA",
-      "purchasePrice": "59.7377"
+      "purchasePrice": "60.0164"
     },
     "subManager": "",
     "fundUmbrellaName": "強積金及職業退休計劃"
@@ -4345,15 +4345,15 @@
       ]
     },
     "nav": {
-      "asOfDate": "2026-10-30",
-      "price": "66.0574",
+      "asOfDate": "2026-11-02",
+      "price": "66.3667",
       "currency": "港元",
       "aum": "",
       "aumCurrency": "",
       "redemptionPrice": "",
       "prevPrice": "",
-      "changePrice": "0.6069999999999993",
-      "changePercent": "0.9274198477014644",
+      "changePrice": "0.30929999999999325",
+      "changePercent": "0.4682291461668083",
       "offerPrice": "",
       "offer3Price": "",
       "offer5Price": "",
@@ -4365,7 +4365,7 @@
       "dividendRecordDate": "",
       "dividendPayoutRate": "",
       "shareClassId": "RBOB",
-      "purchasePrice": "66.0574"
+      "purchasePrice": "66.3667"
     },
     "subManager": "",
     "fundUmbrellaName": "強積金及職業退休計劃"
@@ -4482,15 +4482,15 @@
       ]
     },
     "nav": {
-      "asOfDate": "2026-10-30",
-      "price": "67.4304",
+      "asOfDate": "2026-11-02",
+      "price": "67.7461",
       "currency": "港元",
       "aum": "",
       "aumCurrency": "",
       "redemptionPrice": "",
       "prevPrice": "",
-      "changePrice": "0.6196000000000055",
-      "changePercent": "0.927394972070392",
+      "changePrice": "0.31569999999999254",
+      "changePercent": "0.46818645596050523",
       "offerPrice": "",
       "offer3Price": "",
       "offer5Price": "",
@@ -4502,7 +4502,7 @@
       "dividendRecordDate": "",
       "dividendPayoutRate": "",
       "shareClassId": "RBOT",
-      "purchasePrice": "67.4304"
+      "purchasePrice": "67.7461"
     },
     "subManager": "",
     "fundUmbrellaName": "強積金及職業退休計劃"
@@ -4619,15 +4619,15 @@
       ]
     },
     "nav": {
-      "asOfDate": "2026-10-30",
-      "price": "18.5147",
+      "asOfDate": "2026-11-02",
+      "price": "18.5175",
       "currency": "港元",
       "aum": "",
       "aumCurrency": "",
       "redemptionPrice": "",
       "prevPrice": "",
-      "changePrice": "0.0008000000000016882",
-      "changePercent": "0.004321077676781706",
+      "changePrice": "0.002799999999997027",
+      "changePercent": "0.015123118386995343",
       "offerPrice": "",
       "offer3Price": "",
       "offer5Price": "",
@@ -4639,7 +4639,7 @@
       "dividendRecordDate": "",
       "dividendPayoutRate": "",
       "shareClassId": "RBPA",
-      "purchasePrice": "18.5147"
+      "purchasePrice": "18.5175"
     },
     "subManager": "",
     "fundUmbrellaName": "強積金及職業退休計劃"
@@ -4756,15 +4756,15 @@
       ]
     },
     "nav": {
-      "asOfDate": "2026-10-30",
-      "price": "97.9671",
+      "asOfDate": "2026-11-02",
+      "price": "98.3056",
       "currency": "港元",
       "aum": "",
       "aumCurrency": "",
       "redemptionPrice": "",
       "prevPrice": "",
-      "changePrice": "-1.5745000000000005",
-      "changePercent": "-1.581750745416992",
+      "changePrice": "0.33849999999999625",
+      "changePercent": "0.345524160662096",
       "offerPrice": "",
       "offer3Price": "",
       "offer5Price": "",
@@ -4776,7 +4776,7 @@
       "dividendRecordDate": "",
       "dividendPayoutRate": "",
       "shareClassId": "RBIT",
-      "purchasePrice": "97.9671"
+      "purchasePrice": "98.3056"
     },
     "subManager": "",
     "fundUmbrellaName": "強積金及職業退休計劃"
@@ -4893,15 +4893,15 @@
       ]
     },
     "nav": {
-      "asOfDate": "2026-10-30",
-      "price": "43.6198",
+      "asOfDate": "2026-11-02",
+      "price": "43.7076",
       "currency": "港元",
       "aum": "",
       "aumCurrency": "",
       "redemptionPrice": "",
       "prevPrice": "",
-      "changePrice": "-0.6428000000000011",
-      "changePercent": "-1.452241847519127",
+      "changePrice": "0.08780000000000143",
+      "changePercent": "0.20128473766500865",
       "offerPrice": "",
       "offer3Price": "",
       "offer5Price": "",
@@ -4913,7 +4913,7 @@
       "dividendRecordDate": "",
       "dividendPayoutRate": "",
       "shareClassId": "RBUB",
-      "purchasePrice": "43.6198"
+      "purchasePrice": "43.7076"
     },
     "subManager": "",
     "fundUmbrellaName": "強積金及職業退休計劃"
@@ -5030,15 +5030,15 @@
       ]
     },
     "nav": {
-      "asOfDate": "2026-10-30",
-      "price": "42.0768",
+      "asOfDate": "2026-11-02",
+      "price": "42.1615",
       "currency": "港元",
       "aum": "",
       "aumCurrency": "",
       "redemptionPrice": "",
       "prevPrice": "",
-      "changePrice": "-0.6201000000000008",
-      "changePercent": "-1.4523302628528083",
+      "changePrice": "0.084699999999998",
+      "changePercent": "0.20129857783861416",
       "offerPrice": "",
       "offer3Price": "",
       "offer5Price": "",
@@ -5050,7 +5050,7 @@
       "dividendRecordDate": "",
       "dividendPayoutRate": "",
       "shareClassId": "RBUT",
-      "purchasePrice": "42.0768"
+      "purchasePrice": "42.1615"
     },
     "subManager": "",
     "fundUmbrellaName": "強積金及職業退休計劃"
@@ -5167,15 +5167,15 @@
       ]
     },
     "nav": {
-      "asOfDate": "2026-10-30",
-      "price": "19.0376",
+      "asOfDate": "2026-11-02",
+      "price": "19.01",
       "currency": "港元",
       "aum": "",
       "aumCurrency": "",
       "redemptionPrice": "",
       "prevPrice": "",
-      "changePrice": "-0.1701999999999977",
-      "changePercent": "-0.8860983558762466",
+      "changePrice": "-0.027599999999999625",
+      "changePercent": "-0.14497625751144905",
       "offerPrice": "",
       "offer3Price": "",
       "offer5Price": "",
@@ -5187,7 +5187,7 @@
       "dividendRecordDate": "",
       "dividendPayoutRate": "",
       "shareClassId": "CAFB",
-      "purchasePrice": "19.0376"
+      "purchasePrice": "19.01"
     },
     "subManager": "",
     "fundUmbrellaName": "強積金及職業退休計劃"
@@ -5304,15 +5304,15 @@
       ]
     },
     "nav": {
-      "asOfDate": "2026-10-30",
-      "price": "52.5121",
+      "asOfDate": "2026-11-02",
+      "price": "52.611",
       "currency": "港元",
       "aum": "",
       "aumCurrency": "",
       "redemptionPrice": "",
       "prevPrice": "",
-      "changePrice": "-0.31230000000000047",
-      "changePercent": "-0.5912040647882427",
+      "changePrice": "0.09890000000000043",
+      "changePercent": "0.1883375450610439",
       "offerPrice": "",
       "offer3Price": "",
       "offer5Price": "",
@@ -5324,7 +5324,7 @@
       "dividendRecordDate": "",
       "dividendPayoutRate": "",
       "shareClassId": "RBBT",
-      "purchasePrice": "52.5121"
+      "purchasePrice": "52.611"
     },
     "subManager": "",
     "fundUmbrellaName": "強積金及職業退休計劃"
@@ -5441,15 +5441,15 @@
       ]
     },
     "nav": {
-      "asOfDate": "2026-10-30",
-      "price": "18.5908",
+      "asOfDate": "2026-11-02",
+      "price": "18.5638",
       "currency": "港元",
       "aum": "",
       "aumCurrency": "",
       "redemptionPrice": "",
       "prevPrice": "",
-      "changePrice": "-0.1661999999999999",
-      "changePercent": "-0.8860692008316888",
+      "changePrice": "-0.027000000000001023",
+      "changePercent": "-0.1452331260623589",
       "offerPrice": "",
       "offer3Price": "",
       "offer5Price": "",
@@ -5461,7 +5461,7 @@
       "dividendRecordDate": "",
       "dividendPayoutRate": "",
       "shareClassId": "CADA",
-      "purchasePrice": "18.5908"
+      "purchasePrice": "18.5638"
     },
     "subManager": "",
     "fundUmbrellaName": "強積金及職業退休計劃"
@@ -5578,15 +5578,15 @@
       ]
     },
     "nav": {
-      "asOfDate": "2026-10-30",
-      "price": "96.6808",
+      "asOfDate": "2026-11-02",
+      "price": "97.0148",
       "currency": "港元",
       "aum": "",
       "aumCurrency": "",
       "redemptionPrice": "",
       "prevPrice": "",
-      "changePrice": "-1.5537999999999954",
-      "changePercent": "-1.5817237511019493",
+      "changePrice": "0.333999999999989",
+      "changePercent": "0.34546673176058634",
       "offerPrice": "",
       "offer3Price": "",
       "offer5Price": "",
@@ -5598,7 +5598,7 @@
       "dividendRecordDate": "",
       "dividendPayoutRate": "",
       "shareClassId": "RBIB",
-      "purchasePrice": "96.6808"
+      "purchasePrice": "97.0148"
     },
     "subManager": "",
     "fundUmbrellaName": "強積金及職業退休計劃"
@@ -5715,15 +5715,15 @@
       ]
     },
     "nav": {
-      "asOfDate": "2026-10-30",
-      "price": "62.882",
+      "asOfDate": "2026-11-02",
+      "price": "62.9895",
       "currency": "港元",
       "aum": "",
       "aumCurrency": "",
       "redemptionPrice": "",
       "prevPrice": "",
-      "changePrice": "-0.49620000000000175",
-      "changePercent": "-0.7829190478745085",
+      "changePrice": "0.1075000000000017",
+      "changePercent": "0.17095512229255067",
       "offerPrice": "",
       "offer3Price": "",
       "offer5Price": "",
@@ -5735,7 +5735,7 @@
       "dividendRecordDate": "",
       "dividendPayoutRate": "",
       "shareClassId": "RBGT",
-      "purchasePrice": "62.882"
+      "purchasePrice": "62.9895"
     },
     "subManager": "",
     "fundUmbrellaName": "強積金及職業退休計劃"
@@ -5852,15 +5852,15 @@
       ]
     },
     "nav": {
-      "asOfDate": "2026-10-30",
-      "price": "42.9646",
+      "asOfDate": "2026-11-02",
+      "price": "43.0462",
       "currency": "港元",
       "aum": "",
       "aumCurrency": "",
       "redemptionPrice": "",
       "prevPrice": "",
-      "changePrice": "-0.15780000000000172",
-      "changePercent": "-0.36593510565275056",
+      "changePrice": "0.08160000000000167",
+      "changePercent": "0.18992379773115933",
       "offerPrice": "",
       "offer3Price": "",
       "offer5Price": "",
@@ -5872,7 +5872,7 @@
       "dividendRecordDate": "",
       "dividendPayoutRate": "",
       "shareClassId": "RBSB",
-      "purchasePrice": "42.9646"
+      "purchasePrice": "43.0462"
     },
     "subManager": "",
     "fundUmbrellaName": "強積金及職業退休計劃"
@@ -5989,15 +5989,15 @@
       ]
     },
     "nav": {
-      "asOfDate": "2026-10-30",
-      "price": "12.3472",
+      "asOfDate": "2026-11-02",
+      "price": "12.3529",
       "currency": "港元",
       "aum": "",
       "aumCurrency": "",
       "redemptionPrice": "",
       "prevPrice": "",
-      "changePrice": "-0.025299999999999656",
-      "changePercent": "-0.20448575469791597",
+      "changePrice": "0.00569999999999915",
+      "changePercent": "0.04616431255668613",
       "offerPrice": "",
       "offer3Price": "",
       "offer5Price": "",
@@ -6009,7 +6009,7 @@
       "dividendRecordDate": "",
       "dividendPayoutRate": "",
       "shareClassId": "65FT",
-      "purchasePrice": "12.3472"
+      "purchasePrice": "12.3529"
     },
     "subManager": "",
     "fundUmbrellaName": "強積金及職業退休計劃"
@@ -6126,15 +6126,15 @@
       ]
     },
     "nav": {
-      "asOfDate": "2026-10-30",
-      "price": "31.5104",
+      "asOfDate": "2026-11-02",
+      "price": "31.4603",
       "currency": "港元",
       "aum": "",
       "aumCurrency": "",
       "redemptionPrice": "",
       "prevPrice": "",
-      "changePrice": "-0.019899999999999807",
-      "changePercent": "-0.06311389361978734",
+      "changePrice": "-0.05010000000000048",
+      "changePercent": "-0.1589951254189108",
       "offerPrice": "",
       "offer3Price": "",
       "offer5Price": "",
@@ -6146,7 +6146,7 @@
       "dividendRecordDate": "",
       "dividendPayoutRate": "",
       "shareClassId": "RBRB",
-      "purchasePrice": "31.5104"
+      "purchasePrice": "31.4603"
     },
     "subManager": "",
     "fundUmbrellaName": "強積金及職業退休計劃"
@@ -6263,15 +6263,15 @@
       ]
     },
     "nav": {
-      "asOfDate": "2026-10-30",
-      "price": "12.3472",
+      "asOfDate": "2026-11-02",
+      "price": "12.3529",
       "currency": "港元",
       "aum": "",
       "aumCurrency": "",
       "redemptionPrice": "",
       "prevPrice": "",
-      "changePrice": "-0.025299999999999656",
-      "changePercent": "-0.20448575469791597",
+      "changePrice": "0.00569999999999915",
+      "changePercent": "0.04616431255668613",
       "offerPrice": "",
       "offer3Price": "",
       "offer5Price": "",
@@ -6283,7 +6283,7 @@
       "dividendRecordDate": "",
       "dividendPayoutRate": "",
       "shareClassId": "65DB",
-      "purchasePrice": "12.3472"
+      "purchasePrice": "12.3529"
     },
     "subManager": "",
     "fundUmbrellaName": "強積金及職業退休計劃"
@@ -6400,15 +6400,15 @@
       ]
     },
     "nav": {
-      "asOfDate": "2026-10-30",
-      "price": "12.11",
+      "asOfDate": "2026-11-02",
+      "price": "12.1156",
       "currency": "港元",
       "aum": "",
       "aumCurrency": "",
       "redemptionPrice": "",
       "prevPrice": "",
-      "changePrice": "-0.02480000000000082",
-      "changePercent": "-0.20437090022085916",
+      "changePrice": "0.00560000000000116",
+      "changePercent": "0.04624277456648357",
       "offerPrice": "",
       "offer3Price": "",
       "offer5Price": "",
@@ -6420,7 +6420,7 @@
       "dividendRecordDate": "",
       "dividendPayoutRate": "",
       "shareClassId": "65FA",
-      "purchasePrice": "12.11"
+      "purchasePrice": "12.1156"
     },
     "subManager": "",
     "fundUmbrellaName": "強積金及職業退休計劃"
@@ -6537,15 +6537,15 @@
       ]
     },
     "nav": {
-      "asOfDate": "2026-10-30",
-      "price": "12.3472",
+      "asOfDate": "2026-11-02",
+      "price": "12.3529",
       "currency": "港元",
       "aum": "",
       "aumCurrency": "",
       "redemptionPrice": "",
       "prevPrice": "",
-      "changePrice": "-0.025299999999999656",
-      "changePercent": "-0.20448575469791597",
+      "changePrice": "0.00569999999999915",
+      "changePercent": "0.04616431255668613",
       "offerPrice": "",
       "offer3Price": "",
       "offer5Price": "",
@@ -6557,7 +6557,7 @@
       "dividendRecordDate": "",
       "dividendPayoutRate": "",
       "shareClassId": "65FB",
-      "purchasePrice": "12.3472"
+      "purchasePrice": "12.3529"
     },
     "subManager": "",
     "fundUmbrellaName": "強積金及職業退休計劃"
@@ -6674,15 +6674,15 @@
       ]
     },
     "nav": {
-      "asOfDate": "2026-10-30",
-      "price": "16.437",
+      "asOfDate": "2026-11-02",
+      "price": "16.4448",
       "currency": "港元",
       "aum": "",
       "aumCurrency": "",
       "redemptionPrice": "",
       "prevPrice": "",
-      "changePrice": "0.00840000000000174",
-      "changePercent": "0.051130345860278655",
+      "changePrice": "0.007799999999999585",
+      "changePercent": "0.04745391494798068",
       "offerPrice": "",
       "offer3Price": "",
       "offer5Price": "",
@@ -6694,7 +6694,7 @@
       "dividendRecordDate": "",
       "dividendPayoutRate": "",
       "shareClassId": "RBMT",
-      "purchasePrice": "16.437"
+      "purchasePrice": "16.4448"
     },
     "subManager": "",
     "fundUmbrellaName": "強積金及職業退休計劃"
@@ -6811,15 +6811,15 @@
       ]
     },
     "nav": {
-      "asOfDate": "2026-10-30",
-      "price": "87.701",
+      "asOfDate": "2026-11-02",
+      "price": "88.0025",
       "currency": "港元",
       "aum": "",
       "aumCurrency": "",
       "redemptionPrice": "",
       "prevPrice": "",
-      "changePrice": "-1.4100000000000108",
-      "changePercent": "-1.5822962372771157",
+      "changePrice": "0.3015000000000043",
+      "changePercent": "0.3437817128653087",
       "offerPrice": "",
       "offer3Price": "",
       "offer5Price": "",
@@ -6831,7 +6831,7 @@
       "dividendRecordDate": "",
       "dividendPayoutRate": "",
       "shareClassId": "RBIA",
-      "purchasePrice": "87.701"
+      "purchasePrice": "88.0025"
     },
     "subManager": "",
     "fundUmbrellaName": "強積金及職業退休計劃"
@@ -6948,15 +6948,15 @@
       ]
     },
     "nav": {
-      "asOfDate": "2026-10-30",
-      "price": "63.7489",
+      "asOfDate": "2026-11-02",
+      "price": "63.6984",
       "currency": "港元",
       "aum": "",
       "aumCurrency": "",
       "redemptionPrice": "",
       "prevPrice": "",
-      "changePrice": "-1.7042000000000073",
-      "changePercent": "-2.603696387184117",
+      "changePrice": "-0.050499999999999545",
+      "changePercent": "-0.07921705315699493",
       "offerPrice": "",
       "offer3Price": "",
       "offer5Price": "",
@@ -6968,7 +6968,7 @@
       "dividendRecordDate": "",
       "dividendPayoutRate": "",
       "shareClassId": "RBTB",
-      "purchasePrice": "63.7489"
+      "purchasePrice": "63.6984"
     },
     "subManager": "",
     "fundUmbrellaName": "強積金及職業退休計劃"
@@ -7085,15 +7085,15 @@
       ]
     },
     "nav": {
-      "asOfDate": "2026-10-30",
-      "price": "61.5057",
+      "asOfDate": "2026-11-02",
+      "price": "61.6108",
       "currency": "港元",
       "aum": "",
       "aumCurrency": "",
       "redemptionPrice": "",
       "prevPrice": "",
-      "changePrice": "-0.4854000000000056",
-      "changePercent": "-0.7830156264367071",
+      "changePrice": "0.1051000000000002",
+      "changePercent": "0.17087847142622586",
       "offerPrice": "",
       "offer3Price": "",
       "offer5Price": "",
@@ -7105,7 +7105,7 @@
       "dividendRecordDate": "",
       "dividendPayoutRate": "",
       "shareClassId": "RBGB",
-      "purchasePrice": "61.5057"
+      "purchasePrice": "61.6108"
     },
     "subManager": "",
     "fundUmbrellaName": "強積金及職業退休計劃"
@@ -7222,15 +7222,15 @@
       ]
     },
     "nav": {
-      "asOfDate": "2026-10-30",
-      "price": "63.9165",
+      "asOfDate": "2026-11-02",
+      "price": "63.8659",
       "currency": "港元",
       "aum": "",
       "aumCurrency": "",
       "redemptionPrice": "",
       "prevPrice": "",
-      "changePrice": "-1.7087000000000074",
-      "changePercent": "-2.603725398170226",
+      "changePrice": "-0.05059999999999576",
+      "changePercent": "-0.079165786612214",
       "offerPrice": "",
       "offer3Price": "",
       "offer5Price": "",
@@ -7242,7 +7242,7 @@
       "dividendRecordDate": "",
       "dividendPayoutRate": "",
       "shareClassId": "RBTT",
-      "purchasePrice": "63.9165"
+      "purchasePrice": "63.8659"
     },
     "subManager": "",
     "fundUmbrellaName": "強積金及職業退休計劃"
@@ -7359,15 +7359,15 @@
       ]
     },
     "nav": {
-      "asOfDate": "2026-10-30",
-      "price": "49.9366",
+      "asOfDate": "2026-11-02",
+      "price": "50.0298",
       "currency": "港元",
       "aum": "",
       "aumCurrency": "",
       "redemptionPrice": "",
       "prevPrice": "",
-      "changePrice": "-0.2972999999999999",
-      "changePercent": "-0.5918314126516155",
+      "changePrice": "0.09320000000000306",
+      "changePercent": "0.18663665527889978",
       "offerPrice": "",
       "offer3Price": "",
       "offer5Price": "",
@@ -7379,7 +7379,7 @@
       "dividendRecordDate": "",
       "dividendPayoutRate": "",
       "shareClassId": "RBBA",
-      "purchasePrice": "49.9366"
+      "purchasePrice": "50.0298"
     },
     "subManager": "",
     "fundUmbrellaName": "強積金及職業退休計劃"
@@ -7496,15 +7496,15 @@
       ]
     },
     "nav": {
-      "asOfDate": "2026-10-30",
-      "price": "19.0376",
+      "asOfDate": "2026-11-02",
+      "price": "19.01",
       "currency": "港元",
       "aum": "",
       "aumCurrency": "",
       "redemptionPrice": "",
       "prevPrice": "",
-      "changePrice": "-0.1701999999999977",
-      "changePercent": "-0.8860983558762466",
+      "changePrice": "-0.027599999999999625",
+      "changePercent": "-0.14497625751144905",
       "offerPrice": "",
       "offer3Price": "",
       "offer5Price": "",
@@ -7516,7 +7516,7 @@
       "dividendRecordDate": "",
       "dividendPayoutRate": "",
       "shareClassId": "CADB",
-      "purchasePrice": "19.0376"
+      "purchasePrice": "19.01"
     },
     "subManager": "",
     "fundUmbrellaName": "強積金及職業退休計劃"
@@ -7633,15 +7633,15 @@
       ]
     },
     "nav": {
-      "asOfDate": "2026-10-30",
-      "price": "19.0376",
+      "asOfDate": "2026-11-02",
+      "price": "19.01",
       "currency": "港元",
       "aum": "",
       "aumCurrency": "",
       "redemptionPrice": "",
       "prevPrice": "",
-      "changePrice": "-0.1701999999999977",
-      "changePercent": "-0.8860983558762466",
+      "changePrice": "-0.027599999999999625",
+      "changePercent": "-0.14497625751144905",
       "offerPrice": "",
       "offer3Price": "",
       "offer5Price": "",
@@ -7653,7 +7653,7 @@
       "dividendRecordDate": "",
       "dividendPayoutRate": "",
       "shareClassId": "CADT",
-      "purchasePrice": "19.0376"
+      "purchasePrice": "19.01"
     },
     "subManager": "",
     "fundUmbrellaName": "強積金及職業退休計劃"
@@ -7770,15 +7770,15 @@
       ]
     },
     "nav": {
-      "asOfDate": "2026-10-30",
-      "price": "12.11",
+      "asOfDate": "2026-11-02",
+      "price": "12.1156",
       "currency": "港元",
       "aum": "",
       "aumCurrency": "",
       "redemptionPrice": "",
       "prevPrice": "",
-      "changePrice": "-0.02480000000000082",
-      "changePercent": "-0.20437090022085916",
+      "changePrice": "0.00560000000000116",
+      "changePercent": "0.04624277456648357",
       "offerPrice": "",
       "offer3Price": "",
       "offer5Price": "",
@@ -7790,7 +7790,7 @@
       "dividendRecordDate": "",
       "dividendPayoutRate": "",
       "shareClassId": "65DA",
-      "purchasePrice": "12.11"
+      "purchasePrice": "12.1156"
     },
     "subManager": "",
     "fundUmbrellaName": "強積金及職業退休計劃"
@@ -7907,15 +7907,15 @@
       ]
     },
     "nav": {
-      "asOfDate": "2026-10-30",
-      "price": "30.1459",
+      "asOfDate": "2026-11-02",
+      "price": "30.0975",
       "currency": "港元",
       "aum": "",
       "aumCurrency": "",
       "redemptionPrice": "",
       "prevPrice": "",
-      "changePrice": "-0.019199999999997885",
-      "changePercent": "-0.06364971440505049",
+      "changePrice": "-0.04840000000000089",
+      "changePercent": "-0.1605525129453786",
       "offerPrice": "",
       "offer3Price": "",
       "offer5Price": "",
@@ -7927,7 +7927,7 @@
       "dividendRecordDate": "",
       "dividendPayoutRate": "",
       "shareClassId": "RBRA",
-      "purchasePrice": "30.1459"
+      "purchasePrice": "30.0975"
     },
     "subManager": "",
     "fundUmbrellaName": "強積金及職業退休計劃"
@@ -8044,15 +8044,15 @@
       ]
     },
     "nav": {
-      "asOfDate": "2026-10-30",
-      "price": "32.0589",
+      "asOfDate": "2026-11-02",
+      "price": "32.0079",
       "currency": "港元",
       "aum": "",
       "aumCurrency": "",
       "redemptionPrice": "",
       "prevPrice": "",
-      "changePrice": "-0.020199999999995555",
-      "changePercent": "-0.06296934764377915",
+      "changePrice": "-0.05100000000000193",
+      "changePercent": "-0.15908218934524246",
       "offerPrice": "",
       "offer3Price": "",
       "offer5Price": "",
@@ -8064,7 +8064,7 @@
       "dividendRecordDate": "",
       "dividendPayoutRate": "",
       "shareClassId": "RBRT",
-      "purchasePrice": "32.0589"
+      "purchasePrice": "32.0079"
     },
     "subManager": "",
     "fundUmbrellaName": "強積金及職業退休計劃"
@@ -8181,15 +8181,15 @@
       ]
     },
     "nav": {
-      "asOfDate": "2026-10-30",
-      "price": "35.6081",
+      "asOfDate": "2026-11-02",
+      "price": "35.6792",
       "currency": "港元",
       "aum": "",
       "aumCurrency": "",
       "redemptionPrice": "",
       "prevPrice": "",
-      "changePrice": "-0.5249999999999986",
-      "changePercent": "-1.4529614121124361",
+      "changePrice": "0.07110000000000127",
+      "changePercent": "0.19967366975491888",
       "offerPrice": "",
       "offer3Price": "",
       "offer5Price": "",
@@ -8201,7 +8201,7 @@
       "dividendRecordDate": "",
       "dividendPayoutRate": "",
       "shareClassId": "RBUA",
-      "purchasePrice": "35.6081"
+      "purchasePrice": "35.6792"
     },
     "subManager": "",
     "fundUmbrellaName": "強積金及職業退休計劃"
@@ -8318,15 +8318,15 @@
       ]
     },
     "nav": {
-      "asOfDate": "2026-10-30",
-      "price": "54.9534",
+      "asOfDate": "2026-11-02",
+      "price": "54.909",
       "currency": "港元",
       "aum": "",
       "aumCurrency": "",
       "redemptionPrice": "",
       "prevPrice": "",
-      "changePrice": "-1.4694000000000003",
-      "changePercent": "-2.604266360407495",
+      "changePrice": "-0.044400000000003104",
+      "changePercent": "-0.08079572874472389",
       "offerPrice": "",
       "offer3Price": "",
       "offer5Price": "",
@@ -8338,7 +8338,7 @@
       "dividendRecordDate": "",
       "dividendPayoutRate": "",
       "shareClassId": "RBTA",
-      "purchasePrice": "54.9534"
+      "purchasePrice": "54.909"
     },
     "subManager": "",
     "fundUmbrellaName": "強積金及職業退休計劃"
@@ -8455,15 +8455,15 @@
       ]
     },
     "nav": {
-      "asOfDate": "2026-10-30",
-      "price": "44.4096",
+      "asOfDate": "2026-11-02",
+      "price": "44.494",
       "currency": "港元",
       "aum": "",
       "aumCurrency": "",
       "redemptionPrice": "",
       "prevPrice": "",
-      "changePrice": "-0.16310000000000002",
-      "changePercent": "-0.36591904910404804",
+      "changePrice": "0.08440000000000225",
+      "changePercent": "0.19004899841476225",
       "offerPrice": "",
       "offer3Price": "",
       "offer5Price": "",
@@ -8475,7 +8475,7 @@
       "dividendRecordDate": "",
       "dividendPayoutRate": "",
       "shareClassId": "RBST",
-      "purchasePrice": "44.4096"
+      "purchasePrice": "44.494"
     },
     "subManager": "",
     "fundUmbrellaName": "強積金及職業退休計劃"
@@ -8592,15 +8592,15 @@
       ]
     },
     "nav": {
-      "asOfDate": "2026-10-30",
-      "price": "59.0911",
+      "asOfDate": "2026-11-02",
+      "price": "59.1911",
       "currency": "港元",
       "aum": "",
       "aumCurrency": "",
       "redemptionPrice": "",
       "prevPrice": "",
-      "changePrice": "-0.4665999999999997",
-      "changePercent": "-0.7834419394973273",
+      "changePrice": "0.10000000000000142",
+      "changePercent": "0.16923022248697592",
       "offerPrice": "",
       "offer3Price": "",
       "offer5Price": "",
@@ -8612,7 +8612,7 @@
       "dividendRecordDate": "",
       "dividendPayoutRate": "",
       "shareClassId": "RBGA",
-      "purchasePrice": "59.0911"
+      "purchasePrice": "59.1911"
     },
     "subManager": "",
     "fundUmbrellaName": "強積金及職業退休計劃"
@@ -8729,15 +8729,15 @@
       ]
     },
     "nav": {
-      "asOfDate": "2026-10-30",
-      "price": "41.1253",
+      "asOfDate": "2026-11-02",
+      "price": "41.2027",
       "currency": "港元",
       "aum": "",
       "aumCurrency": "",
       "redemptionPrice": "",
       "prevPrice": "",
-      "changePrice": "-0.1512999999999991",
-      "changePercent": "-0.36655150860293506",
+      "changePrice": "0.07739999999999725",
+      "changePercent": "0.1882053140037817",
       "offerPrice": "",
       "offer3Price": "",
       "offer5Price": "",
@@ -8749,7 +8749,7 @@
       "dividendRecordDate": "",
       "dividendPayoutRate": "",
       "shareClassId": "RBSA",
-      "purchasePrice": "41.1253"
+      "purchasePrice": "41.2027"
     },
     "subManager": "",
     "fundUmbrellaName": "強積金及職業退休計劃"
@@ -8866,15 +8866,15 @@
       ]
     },
     "nav": {
-      "asOfDate": "2026-10-30",
-      "price": "16.3746",
+      "asOfDate": "2026-11-02",
+      "price": "16.3824",
       "currency": "港元",
       "aum": "",
       "aumCurrency": "",
       "redemptionPrice": "",
       "prevPrice": "",
-      "changePrice": "0.00840000000000174",
-      "changePercent": "0.05132529237087252",
+      "changePrice": "0.007799999999999585",
+      "changePercent": "0.04763475138323736",
       "offerPrice": "",
       "offer3Price": "",
       "offer5Price": "",
@@ -8886,7 +8886,7 @@
       "dividendRecordDate": "",
       "dividendPayoutRate": "",
       "shareClassId": "RBMA",
-      "purchasePrice": "16.3746"
+      "purchasePrice": "16.3824"
     },
     "subManager": "",
     "fundUmbrellaName": "強積金及職業退休計劃"
@@ -9003,15 +9003,15 @@
       ]
     },
     "nav": {
-      "asOfDate": "2026-10-30",
-      "price": "18.5908",
+      "asOfDate": "2026-11-02",
+      "price": "18.5638",
       "currency": "港元",
       "aum": "",
       "aumCurrency": "",
       "redemptionPrice": "",
       "prevPrice": "",
-      "changePrice": "-0.1661999999999999",
-      "changePercent": "-0.8860692008316888",
+      "changePrice": "-0.027000000000001023",
+      "changePercent": "-0.1452331260623589",
       "offerPrice": "",
       "offer3Price": "",
       "offer5Price": "",
@@ -9023,7 +9023,7 @@
       "dividendRecordDate": "",
       "dividendPayoutRate": "",
       "shareClassId": "CAFA",
-      "purchasePrice": "18.5908"
+      "purchasePrice": "18.5638"
     },
     "subManager": "",
     "fundUmbrellaName": "強積金及職業退休計劃"
@@ -9140,15 +9140,15 @@
       ]
     },
     "nav": {
-      "asOfDate": "2026-10-30",
-      "price": "19.0376",
+      "asOfDate": "2026-11-02",
+      "price": "19.01",
       "currency": "港元",
       "aum": "",
       "aumCurrency": "",
       "redemptionPrice": "",
       "prevPrice": "",
-      "changePrice": "-0.1701999999999977",
-      "changePercent": "-0.8860983558762466",
+      "changePrice": "-0.027599999999999625",
+      "changePercent": "-0.14497625751144905",
       "offerPrice": "",
       "offer3Price": "",
       "offer5Price": "",
@@ -9160,7 +9160,7 @@
       "dividendRecordDate": "",
       "dividendPayoutRate": "",
       "shareClassId": "CAFT",
-      "purchasePrice": "19.0376"
+      "purchasePrice": "19.01"
     },
     "subManager": "",
     "fundUmbrellaName": "強積金及職業退休計劃"
@@ -9277,15 +9277,15 @@
       ]
     },
     "nav": {
-      "asOfDate": "2026-10-30",
-      "price": "32.8285",
+      "asOfDate": "2026-11-02",
+      "price": "32.8943",
       "currency": "港元",
       "aum": "",
       "aumCurrency": "",
       "redemptionPrice": "",
       "prevPrice": "",
-      "changePrice": "-0.05660000000000309",
-      "changePercent": "-0.17211442264126636",
+      "changePrice": "0.06580000000000297",
+      "changePercent": "0.2004355971183666",
       "offerPrice": "",
       "offer3Price": "",
       "offer5Price": "",
@@ -9297,7 +9297,7 @@
       "dividendRecordDate": "",
       "dividendPayoutRate": "",
       "shareClassId": "RBCA",
-      "purchasePrice": "32.8285"
+      "purchasePrice": "32.8943"
     },
     "subManager": "",
     "fundUmbrellaName": "強積金及職業退休計劃"
@@ -9414,15 +9414,15 @@
       ]
     },
     "nav": {
-      "asOfDate": "2026-10-30",
-      "price": "35.2557",
+      "asOfDate": "2026-11-02",
+      "price": "35.3269",
       "currency": "港元",
       "aum": "",
       "aumCurrency": "",
       "redemptionPrice": "",
       "prevPrice": "",
-      "changePrice": "-0.060600000000000875",
-      "changePercent": "-0.17159215433100544",
+      "changePrice": "0.07120000000000459",
+      "changePercent": "0.20195315934729588",
       "offerPrice": "",
       "offer3Price": "",
       "offer5Price": "",
@@ -9434,7 +9434,7 @@
       "dividendRecordDate": "",
       "dividendPayoutRate": "",
       "shareClassId": "RBCT",
-      "purchasePrice": "35.2557"
+      "purchasePrice": "35.3269"
     },
     "subManager": "",
     "fundUmbrellaName": "強積金及職業退休計劃"
@@ -9551,15 +9551,15 @@
       ]
     },
     "nav": {
-      "asOfDate": "2026-10-30",
-      "price": "34.2207",
+      "asOfDate": "2026-11-02",
+      "price": "34.2899",
       "currency": "港元",
       "aum": "",
       "aumCurrency": "",
       "redemptionPrice": "",
       "prevPrice": "",
-      "changePrice": "-0.058799999999997965",
-      "changePercent": "-0.1715310900100584",
+      "changePrice": "0.06920000000000215",
+      "changePercent": "0.20221678691552816",
       "offerPrice": "",
       "offer3Price": "",
       "offer5Price": "",
@@ -9571,7 +9571,7 @@
       "dividendRecordDate": "",
       "dividendPayoutRate": "",
       "shareClassId": "RBCB",
-      "purchasePrice": "34.2207"
+      "purchasePrice": "34.2899"
     },
     "subManager": "",
     "fundUmbrellaName": "強積金及職業退休計劃"
@@ -9688,15 +9688,15 @@
       ]
     },
     "nav": {
-      "asOfDate": "2026-10-30",
-      "price": "18.5239",
+      "asOfDate": "2026-11-02",
+      "price": "18.5267",
       "currency": "港元",
       "aum": "",
       "aumCurrency": "",
       "redemptionPrice": "",
       "prevPrice": "",
-      "changePrice": "0.0008000000000016882",
-      "changePercent": "0.004318931496356918",
+      "changePrice": "0.00280000000000058",
+      "changePercent": "0.015115607404491384",
       "offerPrice": "",
       "offer3Price": "",
       "offer5Price": "",
@@ -9708,7 +9708,7 @@
       "dividendRecordDate": "",
       "dividendPayoutRate": "",
       "shareClassId": "RBPB",
-      "purchasePrice": "18.5239"
+      "purchasePrice": "18.5267"
     },
     "subManager": "",
     "fundUmbrellaName": "強積金及職業退休計劃"
@@ -9825,15 +9825,15 @@
       ]
     },
     "nav": {
-      "asOfDate": "2026-10-30",
-      "price": "18.9099",
+      "asOfDate": "2026-11-02",
+      "price": "18.9127",
       "currency": "港元",
       "aum": "",
       "aumCurrency": "",
       "redemptionPrice": "",
       "prevPrice": "",
-      "changePrice": "0.0008000000000016882",
-      "changePercent": "0.0042307671967554685",
+      "changePrice": "0.00280000000000058",
+      "changePercent": "0.01480705873643213",
       "offerPrice": "",
       "offer3Price": "",
       "offer5Price": "",
@@ -9845,7 +9845,7 @@
       "dividendRecordDate": "",
       "dividendPayoutRate": "",
       "shareClassId": "RBPT",
-      "purchasePrice": "18.9099"
+      "purchasePrice": "18.9127"
     },
     "subManager": "",
     "fundUmbrellaName": "強積金及職業退休計劃"
@@ -9962,15 +9962,15 @@
       ]
     },
     "nav": {
-      "asOfDate": "2026-10-30",
-      "price": "51.7055",
+      "asOfDate": "2026-11-02",
+      "price": "51.8029",
       "currency": "港元",
       "aum": "",
       "aumCurrency": "",
       "redemptionPrice": "",
       "prevPrice": "",
-      "changePrice": "-0.30749999999999744",
-      "changePercent": "-0.5911983542575845",
+      "changePrice": "0.09740000000000038",
+      "changePercent": "0.18837454429412806",
       "offerPrice": "",
       "offer3Price": "",
       "offer5Price": "",
@@ -9982,7 +9982,7 @@
       "dividendRecordDate": "",
       "dividendPayoutRate": "",
       "shareClassId": "RBBB",
-      "purchasePrice": "51.7055"
+      "purchasePrice": "51.8029"
     },
     "subManager": "",
     "fundUmbrellaName": "強積金及職業退休計劃"
@@ -10099,15 +10099,15 @@
       ]
     },
     "nav": {
-      "asOfDate": "2026-10-30",
-      "price": "16.3834",
+      "asOfDate": "2026-11-02",
+      "price": "16.3912",
       "currency": "港元",
       "aum": "",
       "aumCurrency": "",
       "redemptionPrice": "",
       "prevPrice": "",
-      "changePrice": "0.00840000000000174",
-      "changePercent": "0.051297709923674745",
+      "changePrice": "0.007799999999999585",
+      "changePercent": "0.047609165374706004",
       "offerPrice": "",
       "offer3Price": "",
       "offer5Price": "",
@@ -10119,7 +10119,7 @@
       "dividendRecordDate": "",
       "dividendPayoutRate": "",
       "shareClassId": "RBMB",
-      "purchasePrice": "16.3834"
+      "purchasePrice": "16.3912"
     },
     "subManager": "",
     "fundUmbrellaName": "強積金及職業退休計劃"
@@ -10236,15 +10236,15 @@
       ]
     },
     "nav": {
-      "asOfDate": "2026-10-30",
-      "price": "12.3472",
+      "asOfDate": "2026-11-02",
+      "price": "12.3529",
       "currency": "港元",
       "aum": "",
       "aumCurrency": "",
       "redemptionPrice": "",
       "prevPrice": "",
-      "changePrice": "-0.025299999999999656",
-      "changePercent": "-0.20448575469791597",
+      "changePrice": "0.00569999999999915",
+      "changePercent": "0.04616431255668613",
       "offerPrice": "",
       "offer3Price": "",
       "offer5Price": "",
@@ -10256,7 +10256,7 @@
       "dividendRecordDate": "",
       "dividendPayoutRate": "",
       "shareClassId": "65DT",
-      "purchasePrice": "12.3472"
+      "purchasePrice": "12.3529"
     },
     "subManager": "",
     "fundUmbrellaName": "強積金及職業退休計劃"
