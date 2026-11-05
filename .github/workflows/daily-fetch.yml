@@ -2,14 +2,17 @@ name: Daily Fetch Manulife MPF Funds Data
 
 on:
   schedule:
-    # 每天週一至週五 UTC 14:00 執行（相當於香港時間 HKT 22:00，強積金每日收盤公佈淨值後）
-    - cron: '0 14 * * 1-5'
+    # 週二至週六 UTC 00:30 執行（相當於香港時間 HKT 週二至週六早上 08:30，即週一至週五交易日隔天早上）
+    - cron: '30 0 * * 2-6'
   # 支援在 GitHub Actions 頁面手動點擊「Run workflow」按鈕測試與立即抓取
   workflow_dispatch:
 
 # 授予 GitHub Action 推送更新與發佈 Release 的寫入權限
 permissions:
   contents: write
+
+env:
+  TZ: Asia/Hong_Kong
 
 jobs:
   fetch-and-update:
@@ -43,19 +46,23 @@ jobs:
           python fetch_funds.py
 
       - name: Commit and Push Changes to Repository
+        id: check_changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add data/
           if git diff --staged --quiet; then
-            echo "數據無變動，跳過提交。"
+            echo "數據無變動，跳過提交與 Release 發佈。"
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
           else
             echo "檢測到數據更新，正在提交並推送到 GitHub..."
             git commit -m "chore(data): auto-update Manulife MPF fund prices [$(date +'%Y-%m-%d')]"
             git push
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Package Release Assets (Exact 32 files)
+        if: steps.check_changes.outputs.has_changes == 'true' || github.event_name == 'workflow_dispatch'
         run: |
           # 1. 建立打包暫存目錄，將全部 31 個 CSV 收集並打包為單一 ZIP
           mkdir -p package_temp
@@ -73,6 +80,7 @@ jobs:
           echo "包含 ZIP 總共將上傳: $((HISTORY_COUNT + 3)) 個檔案"
 
       - name: Create or Update GitHub Release
+        if: steps.check_changes.outputs.has_changes == 'true' || github.event_name == 'workflow_dispatch'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
