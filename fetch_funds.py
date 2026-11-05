@@ -106,24 +106,32 @@ def format_number(val, decimals=2, is_percent=False):
         return str(val)
 
 
-def fetch_json_with_chrome(chrome_path, url, max_retries=2):
+def fetch_json_with_chrome(chrome_path, url, max_retries=3):
     """
     透過 Chrome 瀏覽器 --headless=new --disable-blink-features=AutomationControlled
-    發起請求，具備 100% 真實瀏覽器 TLS/JA3 指紋與 HTTP/2 協議，徹底解決 Akamai 403 阻擋。
+    發起請求，具備 100% 真實瀏覽器 TLS/JA3 指紋與 HTTP/2 協議，徹底解決 Akamai 403 阻擋，
+    並透過時間戳記參數與無痕/停用快取參數確保取得最新數據。
     """
-    cmd = [
-        chrome_path,
-        "--headless=new",
-        "--disable-gpu",
-        "--no-sandbox",
-        "--disable-dev-shm-usage",
-        "--disable-blink-features=AutomationControlled",
-        f"--user-agent={USER_AGENT}",
-        "--dump-dom",
-        url
-    ]
-
     for attempt in range(1, max_retries + 1):
+        sep = "&" if "?" in url else "?"
+        bust_url = f"{url}{sep}_t={int(time.time() * 1000)}"
+
+        cmd = [
+            chrome_path,
+            "--headless=new",
+            "--incognito",
+            "--disable-gpu",
+            "--no-sandbox",
+            "--disable-dev-shm-usage",
+            "--disable-cache",
+            "--disk-cache-size=0",
+            "--media-cache-size=0",
+            "--disable-blink-features=AutomationControlled",
+            f"--user-agent={USER_AGENT}",
+            "--dump-dom",
+            bust_url
+        ]
+
         try:
             res = subprocess.run(cmd, capture_output=True, text=True, encoding="utf-8", errors="ignore", timeout=30)
             if res.returncode == 0 and res.stdout:
@@ -136,10 +144,10 @@ def fetch_json_with_chrome(chrome_path, url, max_retries=2):
                 elif "Access Denied" in raw_text:
                     logger.warning(f"Akamai 回應 Access Denied (嘗試 {attempt}/{max_retries})")
         except subprocess.TimeoutExpired:
-            logger.warning(f"Chrome 請求逾時 ({url})")
+            logger.warning(f"Chrome 請求逾時 ({url}) (嘗試 {attempt}/{max_retries})")
         except Exception as e:
             logger.warning(f"Chrome 請求失敗 ({url}): {e}")
-        time.sleep(1.0)
+        time.sleep(1.5 * attempt)
 
     return None
 
@@ -261,7 +269,7 @@ def parse_and_save_summary(funds_data, known_meta, output_dir):
         nav_display = format_number(nav_price, 3) if (nav_price and float(nav_price) > 0) else "—"
         chg_price_display = format_number(change_price, 3) if change_price not in [None, "", "-"] else "—"
         chg_pct_display = format_number(change_pct, 2, is_percent=True) if change_pct not in [None, "", "-"] else "—"
-        interest_display = format_number(monthly_interest, 3, is_percent=True) if (monthly_interest and float(str(monthly_interest).replace("%","")) > 0) else "—"
+        interest_display = format_number(monthly_interest, 3, is_percent=True) if (monthly_interest and float(str(monthly_interest).replace("%", "")) > 0) else "—"
 
         rows.append({
             "基金代號": fund_id,
@@ -297,7 +305,8 @@ def parse_and_save_summary(funds_data, known_meta, output_dir):
         writer.writeheader()
         writer.writerows(rows)
 
-    logger.info(f"1. 全計劃基金當日總匯總表 CSV 儲存完成 ({len(rows)} 檔): {summary_csv_path}")
+    sample_dates = sorted({r["截至日期"] for r in rows if r.get("截至日期")})
+    logger.info(f"1. 全計劃基金當日總匯總表 CSV 儲存完成 ({len(rows)} 檔, 截至日期: {sample_dates}): {summary_csv_path}")
     return [r["基金代號"] for r in rows]
 
 
@@ -420,6 +429,7 @@ def main():
     known_funds_list = config.get("known_funds", [])
     known_meta = {f["code"]: f for f in known_funds_list}
 
+    summary_codes = []
     # 1. 抓取全基金清單（生成 1: manulife_mpf_funds_summary.csv）
     if config.get("fetch_summary", True):
         funds_list_url = f"{BASE_URL}/bin/funds/fundslist?productLine={config.get('productLine', 'mpf')}&overrideLocale={config.get('overrideLocale', 'zh_Hant_HK')}"
@@ -429,14 +439,20 @@ def main():
             os.makedirs(output_dir, exist_ok=True)
             with open(os.path.join(output_dir, "funds_list_raw.json"), "w", encoding="utf-8") as f:
                 json.dump(funds_list_data, f, ensure_ascii=False, indent=2)
-            parse_and_save_summary(funds_list_data, known_meta, output_dir)
+            summary_codes = parse_and_save_summary(funds_list_data, known_meta, output_dir)
+            if not summary_codes:
+                logger.error("fundslist 回傳內容無有效基金資料，終止執行以避免發佈舊資料！")
+                sys.exit(1)
         else:
-            logger.warning("未能從 fundslist 取得數據")
+            logger.error("未能從 fundslist 取得數據，終止執行以避免發佈舊資料！")
+            sys.exit(1)
 
     # 確保 29 檔目標基金清單
     target_funds = list(config.get("target_funds", []))
     if not target_funds:
         target_funds = [f["code"] for f in known_funds_list]
+    if not target_funds:
+        target_funds = summary_codes
 
     logger.info(f"目標處理基金數量: {len(target_funds)} 檔")
 
@@ -447,7 +463,10 @@ def main():
             logger.info(f"[{idx}/{len(target_funds)}] 正在抓取基金 {fid} 歷史走勢...")
             hist_url = f"{BASE_URL}/bin/funds/fundhistory?id={fid}&productLine={config.get('productLine', 'mpf')}&overrideLocale={config.get('overrideLocale', 'zh_Hant_HK')}"
             hist_data = fetch_json_with_chrome(chrome_path, hist_url)
-            save_fund_history_csv(fid, hist_data or {}, known_meta, output_dir)
+            if hist_data is not None or fid == "DHK121":
+                save_fund_history_csv(fid, hist_data or {}, known_meta, output_dir)
+            else:
+                logger.warning(f"基金 {fid} 歷史走勢抓取失敗，保留既有 CSV 檔案。")
             time.sleep(delay)
 
     # 3. 抓取 29 檔基金的詳細檔案（生成 2: manulife_mpf_funds_details.csv）
