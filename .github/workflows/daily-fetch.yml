@@ -50,7 +50,7 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add data/
+          git add -A data/
           if git diff --staged --quiet; then
             echo "數據無變動，跳過提交與 Release 發佈。"
             echo "has_changes=false" >> "$GITHUB_OUTPUT"
@@ -61,17 +61,18 @@ jobs:
             echo "has_changes=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Package Release Assets (Exact 32 files)
+      - name: Package Release Assets (Exact 32 files in Traditional Chinese)
         if: steps.check_changes.outputs.has_changes == 'true' || github.event_name == 'workflow_dispatch'
         run: |
-          # 1. 建立打包暫存目錄，將全部 31 個 CSV 收集並打包為單一 ZIP
+          # 建立打包暫存目錄，將全部 31 個繁體中文 CSV 收集並打包為單一 ZIP
           mkdir -p package_temp
-          cp data/manulife_mpf_funds_summary.csv package_temp/
-          cp data/manulife_mpf_funds_details.csv package_temp/
+          cp "data/宏利強積金基金當日總覽.csv" package_temp/
+          cp "data/宏利強積金基金投資檔案.csv" package_temp/
           cp data/history/*.csv package_temp/
 
-          # 打包為 manulife_mpf_all_files.zip (包含全部 31 個 CSV)
-          (cd package_temp && zip -r ../manulife_mpf_all_files.zip .)
+          # 打包為 宏利強積金全部檔案.zip (內含全部 31 個純繁體中文檔名 CSV)
+          rm -f "宏利強積金全部檔案.zip"
+          (cd package_temp && zip -r "../宏利強積金全部檔案.zip" .)
           rm -rf package_temp
 
           # 檢查檔案數量
@@ -86,50 +87,65 @@ jobs:
         run: |
           DATE_STR="$(date +'%Y-%m-%d')"
           TAG_NAME="v$(date +'%Y.%m.%d')"
-          RELEASE_TITLE="Manulife MPF Funds Data (${DATE_STR})"
+          RELEASE_TITLE="宏利強積金基金數據 (${DATE_STR})"
 
           RELEASE_BODY=$(cat <<EOF
           ### 📊 宏利環球精選(強積金)計劃 每日數據自動匯出 (${DATE_STR})
 
-          本 Release 共包含 **32 個檔案**：
+          本發佈版本共包含 **32 個純繁體中文檔案**：
 
-          1. 📄 **manulife_mpf_funds_summary.csv**：全計劃 29 檔基金當日總匯總表（包含基金代號、名稱、幣別、資產類別、NAV、截至日期、每日變動價格/百分比、每月公佈利率、風險級別、各期回報率等）
-          2. 📄 **manulife_mpf_funds_details.csv**：29 檔基金投資檔案總表（包含發行日期、發行價、投資目標說明、管理費等）
-          3. 📦 **manulife_mpf_all_files.zip**：一鍵下載全部 31 個 CSV 的壓縮檔
-          4. 📈 **29 檔個別基金歷史價格走勢 CSV**：
-             - 保證類：\`DHK121.csv\`, \`SHK122.csv\`
-             - 混合資產類：\`SHK123.csv\`, \`SHK124.csv\`, \`SHK134.csv\`, \`SHK135.csv\`, \`SHK138.csv\`, \`SHK140.csv\`, \`SHK141.csv\`, \`SHK142.csv\`, \`SHK143.csv\`, \`SHK144.csv\`, \`SHK148.csv\`, \`SHK149.csv\`, \`SHK150.csv\`
-             - 貨幣市場類：\`SHK125.csv\`
-             - 股票類：\`SHK126.csv\`, \`SHK127.csv\`, \`SHK128.csv\`, \`SHK129.csv\`, \`SHK130.csv\`, \`SHK131.csv\`, \`SHK136.csv\`, \`SHK137.csv\`, \`SHK145.csv\`
-             - 債券類：\`SHK132.csv\`, \`SHK133.csv\`, \`SHK146.csv\`, \`SHK147.csv\`
+          1. 📄 **宏利強積金基金當日總覽.csv**：全計劃 29 檔基金當日總匯總表（包含基金代號、名稱、幣別、資產類別、單位資產淨值、截至日期、每日變動價格/百分比、每月公佈利率、風險級別、各期回報率等）
+          2. 📄 **宏利強積金基金投資檔案.csv**：29 檔基金投資檔案總表（包含發行日期、發行價、投資目標說明、管理費等）
+          3. 📦 **宏利強積金全部檔案.zip**：一鍵下載全部 31 個繁體中文 CSV 的壓縮檔
+          4. 📈 **29 檔個別成份基金歷史價格走勢 CSV**：
+             - **保證類**：\`宏利強積金利息基金.csv\`、\`宏利強積金穩健基金.csv\`
+             - **混合資產類**：\`宏利強積金增長基金.csv\`、\`宏利強積金進取基金.csv\`、\`宏利強積金富達增長基金.csv\`、\`宏利強積金富達平穩增長基金.csv\`、\`宏利強積金智優裕退休基金.csv\`、\`宏利強積金2025退休基金.csv\`、\`宏利強積金2030退休基金.csv\`、\`宏利強積金2035退休基金.csv\`、\`宏利強積金2040退休基金.csv\`、\`宏利強積金2045退休基金.csv\`、\`宏利強積金核心累積基金.csv\`、\`宏利強積金65歲後基金.csv\`、\`宏利強積金退休收益基金.csv\`
+             - **貨幣市場類**：\`宏利強積金保守基金.csv\`
+             - **股票類**：\`宏利強積金香港股票基金.csv\`、\`宏利強積金國際股票基金.csv\`、\`宏利強積金亞太股票基金.csv\`、\`宏利強積金歐洲股票基金.csv\`、\`宏利強積金北美股票基金.csv\`、\`宏利強積金日本股票基金.csv\`、\`宏利強積金中華威力基金.csv\`、\`宏利強積金康健護理基金.csv\`、\`宏利強積金恒指環境社會及管治基金.csv\`
+             - **債券類**：\`宏利強積金香港債券基金.csv\`、\`宏利強積金國際債券基金.csv\`、\`宏利強積金可持續亞太債券基金.csv\`、\`宏利強積金人民幣債券基金.csv\`
 
-          _由 GitHub Actions 自動定時排程生成於 ${DATE_STR}_
+          _由系統自動定時排程生成於 ${DATE_STR}_
           EOF
           )
 
-          # 建立要上傳的 32 個資產清單
-          ASSETS=(
-            "data/manulife_mpf_funds_summary.csv"
-            "data/manulife_mpf_funds_details.csv"
-            "manulife_mpf_all_files.zip"
-          )
+          # GitHub Release 底層上傳 API 僅接受 ASCII 實體檔名，但支援透過「實體路徑#繁體中文顯示名稱」設定頁面上顯示的純中文檔案名稱。
+          # 這裡使用純數字編號作為底層實體檔名，並綁定純繁體中文顯示名稱（完全無英文字母）。
+          rm -rf release_stage
+          mkdir -p release_stage
 
-          # 加入全部 29 個基金歷史 CSV
+          ASSETS=()
+
+          cp "宏利強積金全部檔案.zip" "release_stage/00.zip"
+          ASSETS+=("release_stage/00.zip#宏利強積金全部檔案.zip")
+
+          cp "data/宏利強積金基金當日總覽.csv" "release_stage/01.csv"
+          ASSETS+=("release_stage/01.csv#宏利強積金基金當日總覽.csv")
+
+          cp "data/宏利強積金基金投資檔案.csv" "release_stage/02.csv"
+          ASSETS+=("release_stage/02.csv#宏利強積金基金投資檔案.csv")
+
+          IDX=3
           for f in data/history/*.csv; do
-            [ -e "$f" ] && ASSETS+=("$f")
+            [ -e "$f" ] || continue
+            BASENAME="$(basename "$f")"
+            STAGE_FILE=$(printf "release_stage/%02d.csv" "$IDX")
+            cp "$f" "$STAGE_FILE"
+            ASSETS+=("${STAGE_FILE}#${BASENAME}")
+            IDX=$((IDX + 1))
           done
 
           echo "上傳檔案清單總數: ${#ASSETS[@]}"
 
-          # 檢查當天 Release 是否已存在
+          # 若當天 Release 已存在（例如含舊版英文檔名資產），先刪除再重建，確保頁面上只保留純繁體中文檔案名稱
           if gh release view "$TAG_NAME" >/dev/null 2>&1; then
-            echo "當天 Release ($TAG_NAME) 已存在，正在更新資產與說明..."
-            gh release upload "$TAG_NAME" "${ASSETS[@]}" --clobber
-            gh release edit "$TAG_NAME" --title "$RELEASE_TITLE" --notes "$RELEASE_BODY"
-          else
-            echo "正在建立新 Release: $TAG_NAME ..."
-            gh release create "$TAG_NAME" "${ASSETS[@]}" \
-              --title "$RELEASE_TITLE" \
-              --notes "$RELEASE_BODY"
+            echo "當天 Release ($TAG_NAME) 已存在，正在移除舊資產並重新發佈純繁體中文清單..."
+            gh release delete "$TAG_NAME" --yes
           fi
-          echo "GitHub Release (共 ${#ASSETS[@]} 個檔案) 發佈完成！"
+
+          echo "正在建立 Release: $TAG_NAME ..."
+          gh release create "$TAG_NAME" "${ASSETS[@]}" \
+            --title "$RELEASE_TITLE" \
+            --notes "$RELEASE_BODY"
+
+          rm -rf release_stage
+          echo "GitHub Release (共 ${#ASSETS[@]} 個純繁體中文檔案) 發佈完成！"
