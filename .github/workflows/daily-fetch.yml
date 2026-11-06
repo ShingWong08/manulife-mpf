@@ -2,10 +2,9 @@ name: Daily Fetch Manulife MPF Funds Data
 
 on:
   schedule:
-    # 週二至週六，香港時間 08:17 至 23:17，每小時執行一次
-    # （UTC 00:17 至 15:17，與香港同日，所以星期幾不用換算）
+    # 每天（星期一至日），全日 24 小時，每半小時執行一次（每小時的 :17 和 :47）
     # 避開整點與半點，減少 GitHub 排程高峰期的延遲或丟棄
-    - cron: '17 0-15 * * 2-6'
+    - cron: '17,47 * * * *'
   # 支援在 GitHub Actions 頁面手動點擊「Run workflow」按鈕測試與立即抓取
   workflow_dispatch:
 
