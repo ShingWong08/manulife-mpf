@@ -14,7 +14,7 @@
   },
   "details": {
     "calendarYearReturns": {
-      "asOfDate": "2026-11-16",
+      "asOfDate": "2026-11-17",
       "periods": [
         {
           "period": "2025",
@@ -206,35 +206,35 @@
     ],
     "fundSize": [],
     "cumulativeReturns": {
-      "asOfDate": "2026-11-16",
+      "asOfDate": "2026-11-17",
       "periods": [
         {
           "period": "m6",
-          "value": -3.16415643589419
+          "value": -3.5944817111758
         },
         {
           "period": "y1",
-          "value": 3.41285395688316
+          "value": 3.02292554270644
         },
         {
           "period": "y3",
-          "value": 27.7295492487479
+          "value": 27.2256555871054
         },
         {
           "period": "y5",
-          "value": 4.01740194412343
+          "value": 3.66086009798585
         },
         {
           "period": "ytd",
-          "value": 2.20411434678065
+          "value": 1.74993320865615
         },
         {
           "period": "si",
-          "value": 53.02
+          "value": 52.34
         },
         {
           "period": "y10",
-          "value": 46.5568432142515
+          "value": 45.8078101071976
         }
       ]
     }
