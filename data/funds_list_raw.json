@@ -274,7 +274,7 @@
       }
     ],
     "calendarYearReturns": {
-      "asOfDate": "2026-11-17",
+      "asOfDate": "2026-11-18",
       "periods": [
         {
           "period": "2025",
@@ -339,15 +339,15 @@
       "8"
     ],
     "cumulativeReturns": {
-      "asOfDate": "2026-11-17",
+      "asOfDate": "2026-11-18",
       "periods": [
         {
           "period": "m6",
-          "value": 3.10770204017079
+          "value": 3.02623261694055
         },
         {
           "period": "y1",
-          "value": 7.36105393165911
+          "value": 7.25507937813603
         },
         {
           "period": "y3",
@@ -355,7 +355,7 @@
         },
         {
           "period": "y5",
-          "value": 11.6161616161616
+          "value": 11.7213606374775
         },
         {
           "period": "ytd",
@@ -367,7 +367,7 @@
         },
         {
           "period": "y10",
-          "value": 33.2549821154829
+          "value": 33.486895986896
         }
       ]
     },
@@ -411,7 +411,7 @@
       }
     ],
     "calendarYearReturns": {
-      "asOfDate": "2026-11-17",
+      "asOfDate": "2026-11-18",
       "periods": [
         {
           "period": "2025",
@@ -476,35 +476,35 @@
       "8"
     ],
     "cumulativeReturns": {
-      "asOfDate": "2026-11-17",
+      "asOfDate": "2026-11-18",
       "periods": [
         {
           "period": "m6",
-          "value": -3.61871633752245
+          "value": -3.55737889176126
         },
         {
           "period": "y1",
-          "value": 3.04102687140113
+          "value": 3.53544494720965
         },
         {
           "period": "y3",
-          "value": 28.9811547413469
+          "value": 28.8460094601697
         },
         {
           "period": "y5",
-          "value": 4.06469590501575
+          "value": 4.10701286095607
         },
         {
           "period": "ytd",
-          "value": 1.76529826432084
+          "value": 1.65866951010012
         },
         {
           "period": "si",
-          "value": 71.79
+          "value": 71.61
         },
         {
           "period": "y10",
-          "value": 55.1151241534989
+          "value": 55.514272768464
         }
       ]
     },
@@ -548,7 +548,7 @@
       }
     ],
     "calendarYearReturns": {
-      "asOfDate": "2026-11-17",
+      "asOfDate": "2026-11-18",
       "periods": [
         {
           "period": "2025",
@@ -613,31 +613,31 @@
       "8"
     ],
     "cumulativeReturns": {
-      "asOfDate": "2026-11-17",
+      "asOfDate": "2026-11-18",
       "periods": [
         {
           "period": "m6",
-          "value": -4.29402432575358
+          "value": -4.2884371029225
         },
         {
           "period": "y1",
-          "value": -1.45921812043994
+          "value": -1.21311475409837
         },
         {
           "period": "y3",
-          "value": 8.44918504314478
+          "value": 8.32933844678811
         },
         {
           "period": "y5",
-          "value": -15.940548072457
+          "value": -15.9397377476053
         },
         {
           "period": "ytd",
-          "value": -2.01407688142935
+          "value": -2.122360584732
         },
         {
           "period": "si",
-          "value": -9.51000000000001
+          "value": -9.61000000000001
         },
         {
           "period": "y10",
@@ -685,7 +685,7 @@
       }
     ],
     "calendarYearReturns": {
-      "asOfDate": "2026-11-17",
+      "asOfDate": "2026-11-18",
       "periods": [
         {
           "period": "2025",
@@ -750,35 +750,35 @@
       "8"
     ],
     "cumulativeReturns": {
-      "asOfDate": "2026-11-17",
+      "asOfDate": "2026-11-18",
       "periods": [
         {
           "period": "m6",
-          "value": -2.97357121903086
+          "value": -3.19318786588609
         },
         {
           "period": "y1",
-          "value": 3.21427558228602
+          "value": 4.01418115279051
         },
         {
           "period": "y3",
-          "value": 44.7406110757479
+          "value": 44.7326543602801
         },
         {
           "period": "y5",
-          "value": 25.8500812895638
+          "value": 25.012886155115
         },
         {
           "period": "ytd",
-          "value": -0.222142994268171
+          "value": -0.227628006472302
         },
         {
           "period": "si",
-          "value": 263.82
+          "value": 263.8
         },
         {
           "period": "y10",
-          "value": 168.264267807108
+          "value": 168.983364140481
         }
       ]
     },
@@ -822,7 +822,7 @@
       }
     ],
     "calendarYearReturns": {
-      "asOfDate": "2026-11-17",
+      "asOfDate": "2026-11-18",
       "periods": [
         {
           "period": "2025",
@@ -887,35 +887,35 @@
       "8"
     ],
     "cumulativeReturns": {
-      "asOfDate": "2026-11-17",
+      "asOfDate": "2026-11-18",
       "periods": [
         {
           "period": "m6",
-          "value": 5.63229849045854
+          "value": 5.4163096258212
         },
         {
           "period": "y1",
-          "value": 19.3243514980897
+          "value": 21.772663532129
         },
         {
           "period": "y3",
-          "value": 77.8990286605108
+          "value": 77.0296198584962
         },
         {
           "period": "y5",
-          "value": 84.3429636533085
+          "value": 83.2826370351977
         },
         {
           "period": "ytd",
-          "value": 17.3701491356462
+          "value": 16.7965504964595
         },
         {
           "period": "si",
-          "value": 196.7
+          "value": 195.25
         },
         {
           "period": "y10",
-          "value": 177.186098654709
+          "value": 176.762279715036
         }
       ]
     },
@@ -959,7 +959,7 @@
       }
     ],
     "calendarYearReturns": {
-      "asOfDate": "2026-11-17",
+      "asOfDate": "2026-11-18",
       "periods": [
         {
           "period": "2025",
@@ -1024,35 +1024,35 @@
       "8"
     ],
     "cumulativeReturns": {
-      "asOfDate": "2026-11-17",
+      "asOfDate": "2026-11-18",
       "periods": [
         {
           "period": "m6",
-          "value": 20.2410086428549
+          "value": 18.7313618290259
         },
         {
           "period": "y1",
-          "value": 17.1349247065214
+          "value": 14.773887454207
         },
         {
           "period": "y3",
-          "value": 41.294455971752
+          "value": 39.1358159513669
         },
         {
           "period": "y5",
-          "value": 35.8830736915806
+          "value": 34.0276316712252
         },
         {
           "period": "ytd",
-          "value": 14.3265294100321
+          "value": 12.5798945539159
         },
         {
           "period": "si",
-          "value": 288.15
+          "value": 282.22
         },
         {
           "period": "y10",
-          "value": 115.950817848003
+          "value": 114.93561266378
         }
       ]
     },
@@ -1096,7 +1096,7 @@
       }
     ],
     "calendarYearReturns": {
-      "asOfDate": "2026-11-17",
+      "asOfDate": "2026-11-18",
       "periods": [
         {
           "period": "2025",
@@ -1161,35 +1161,35 @@
       "8"
     ],
     "cumulativeReturns": {
-      "asOfDate": "2026-11-17",
+      "asOfDate": "2026-11-18",
       "periods": [
         {
           "period": "m6",
-          "value": -5.48448497189147
+          "value": -5.56738532517081
         },
         {
           "period": "y1",
-          "value": 4.98574097748057
+          "value": 6.0373599003736
         },
         {
           "period": "y3",
-          "value": 44.4068713648045
+          "value": 43.9672663330177
         },
         {
           "period": "y5",
-          "value": 13.1531531531532
+          "value": 13.1564958537104
         },
         {
           "period": "ytd",
-          "value": 3.44961240310078
+          "value": 3.1346899224806
         },
         {
           "period": "si",
-          "value": 113.52
+          "value": 112.87
         },
         {
           "period": "y10",
-          "value": 90.2013183680741
+          "value": 90.2663568108688
         }
       ]
     },
@@ -1233,7 +1233,7 @@
       }
     ],
     "calendarYearReturns": {
-      "asOfDate": "2026-11-17",
+      "asOfDate": "2026-11-18",
       "periods": [
         {
           "period": "2025",
@@ -1298,35 +1298,35 @@
       "8"
     ],
     "cumulativeReturns": {
-      "asOfDate": "2026-11-17",
+      "asOfDate": "2026-11-18",
       "periods": [
         {
           "period": "m6",
-          "value": -7.79067479834744
+          "value": -7.12715646439752
         },
         {
           "period": "y1",
-          "value": -11.47138449915
+          "value": -10.8731782152902
         },
         {
           "period": "y3",
-          "value": 25.6007146047343
+          "value": 24.5466726217061
         },
         {
           "period": "y5",
-          "value": -9.19599612528254
+          "value": -8.64836532791719
         },
         {
           "period": "ytd",
-          "value": -9.28387096774194
+          "value": -10.0451612903226
         },
         {
           "period": "si",
-          "value": 40.61
+          "value": 39.43
         },
         {
           "period": "y10",
-          "value": 16.5630440189008
+          "value": 15.3362561005873
         }
       ]
     },
@@ -1370,7 +1370,7 @@
       }
     ],
     "calendarYearReturns": {
-      "asOfDate": "2026-11-17",
+      "asOfDate": "2026-11-18",
       "periods": [
         {
           "period": "2025",
@@ -1435,35 +1435,35 @@
       "8"
     ],
     "cumulativeReturns": {
-      "asOfDate": "2026-11-17",
+      "asOfDate": "2026-11-18",
       "periods": [
         {
           "period": "m6",
-          "value": -5.10643898266049
+          "value": -5.49664075879331
         },
         {
           "period": "y1",
-          "value": 5.28217857925095
+          "value": 6.29746249305427
         },
         {
           "period": "y3",
-          "value": 42.9470658207772
+          "value": 42.2234337827121
         },
         {
           "period": "y5",
-          "value": 9.99618611746758
+          "value": 9.81630309988519
         },
         {
           "period": "ytd",
-          "value": 3.13248703736813
+          "value": 2.61040586447345
         },
         {
           "period": "si",
-          "value": 188.41
+          "value": 186.95
         },
         {
           "period": "y10",
-          "value": 83.7474515800204
+          "value": 83.4484081319524
         }
       ]
     },
@@ -1507,7 +1507,7 @@
       }
     ],
     "calendarYearReturns": {
-      "asOfDate": "2026-11-17",
+      "asOfDate": "2026-11-18",
       "periods": [
         {
           "period": "2025",
@@ -1572,35 +1572,35 @@
       "8"
     ],
     "cumulativeReturns": {
-      "asOfDate": "2026-11-17",
+      "asOfDate": "2026-11-18",
       "periods": [
         {
           "period": "m6",
-          "value": -6.21977171599922
+          "value": -6.38101484126404
         },
         {
           "period": "y1",
-          "value": 2.13595301430114
+          "value": 3.18590704647677
         },
         {
           "period": "y3",
-          "value": 38.2974929567419
+          "value": 37.4487357797511
         },
         {
           "period": "y5",
-          "value": 5.29173793814992
+          "value": 5.18817717857047
         },
         {
           "period": "ytd",
-          "value": 1.11334185070269
+          "value": 0.49279065522907
         },
         {
           "period": "si",
-          "value": 287.8
+          "value": 285.42
         },
         {
           "period": "y10",
-          "value": 69.8344573881054
+          "value": 69.3186311118921
         }
       ]
     },
@@ -1644,7 +1644,7 @@
       }
     ],
     "calendarYearReturns": {
-      "asOfDate": "2026-11-17",
+      "asOfDate": "2026-11-18",
       "periods": [
         {
           "period": "2025",
@@ -1709,35 +1709,35 @@
       "8"
     ],
     "cumulativeReturns": {
-      "asOfDate": "2026-11-17",
+      "asOfDate": "2026-11-18",
       "periods": [
         {
           "period": "m6",
-          "value": -4.35421642476576
+          "value": -4.68767234089489
         },
         {
           "period": "y1",
-          "value": 3.75064769420863
+          "value": 4.49433673263735
         },
         {
           "period": "y3",
-          "value": 34.0232725774895
+          "value": 33.47749974256
         },
         {
           "period": "y5",
-          "value": 5.14198004604758
+          "value": 4.97246517654679
         },
         {
           "period": "ytd",
-          "value": 1.95049349835501
+          "value": 1.53532821557263
         },
         {
           "period": "si",
-          "value": 160.3
+          "value": 159.24
         },
         {
           "period": "y10",
-          "value": 59.8109037328094
+          "value": 59.7584273125038
         }
       ]
     },
@@ -1781,7 +1781,7 @@
       }
     ],
     "calendarYearReturns": {
-      "asOfDate": "2026-11-17",
+      "asOfDate": "2026-11-18",
       "periods": [
         {
           "period": "2025",
@@ -1846,35 +1846,35 @@
       "8"
     ],
     "cumulativeReturns": {
-      "asOfDate": "2026-11-17",
+      "asOfDate": "2026-11-18",
       "periods": [
         {
           "period": "m6",
-          "value": -1.6014292675004
+          "value": -2.02479070672984
         },
         {
           "period": "y1",
-          "value": 8.10077796017417
+          "value": 8.79544553741938
         },
         {
           "period": "y3",
-          "value": 47.4996348054731
+          "value": 47.0224472902566
         },
         {
           "period": "y5",
-          "value": 23.6862520926055
+          "value": 22.8997069358515
         },
         {
           "period": "ytd",
-          "value": 4.58500207153709
+          "value": 4.24665101505319
         },
         {
           "period": "si",
-          "value": 202.92
+          "value": 201.94
         },
         {
           "period": "y10",
-          "value": 139.367838798894
+          "value": 139.996820602496
         }
       ]
     },
@@ -1918,7 +1918,7 @@
       }
     ],
     "calendarYearReturns": {
-      "asOfDate": "2026-11-17",
+      "asOfDate": "2026-11-18",
       "periods": [
         {
           "period": "2025",
@@ -1983,35 +1983,35 @@
       "8"
     ],
     "cumulativeReturns": {
-      "asOfDate": "2026-11-17",
+      "asOfDate": "2026-11-18",
       "periods": [
         {
           "period": "m6",
-          "value": -4.85931047728799
+          "value": -4.87347252958724
         },
         {
           "period": "y1",
-          "value": 4.43811933375502
+          "value": 5.28193386933604
         },
         {
           "period": "y3",
-          "value": 38.4722901670278
+          "value": 38.1857572157384
         },
         {
           "period": "y5",
-          "value": 9.64528803054618
+          "value": 9.6976421636616
         },
         {
           "period": "ytd",
-          "value": 2.90314204102831
+          "value": 2.69021033497792
         },
         {
           "period": "si",
-          "value": 98.14
+          "value": 97.73
         },
         {
           "period": "y10",
-          "value": 77.4335094474792
+          "value": 77.6869158878505
         }
       ]
     },
@@ -2055,7 +2055,7 @@
       }
     ],
     "calendarYearReturns": {
-      "asOfDate": "2026-11-17",
+      "asOfDate": "2026-11-18",
       "periods": [
         {
           "period": "2025",
@@ -2120,35 +2120,35 @@
       "8"
     ],
     "cumulativeReturns": {
-      "asOfDate": "2026-11-17",
+      "asOfDate": "2026-11-18",
       "periods": [
         {
           "period": "m6",
-          "value": 4.75351142935831
+          "value": 2.42278729673686
         },
         {
           "period": "y1",
-          "value": 10.6662787314519
+          "value": 11.0782341105456
         },
         {
           "period": "y3",
-          "value": 27.9381096535486
+          "value": 26.2697611839892
         },
         {
           "period": "y5",
-          "value": -1.31797426317972
+          "value": -2.76122882453506
         },
         {
           "period": "ytd",
-          "value": 5.42713010699041
+          "value": 4.05233106048006
         },
         {
           "period": "si",
-          "value": 90.18
+          "value": 87.7
         },
         {
           "period": "y10",
-          "value": 106.403299327111
+          "value": 106.173110720562
         }
       ]
     },
@@ -2192,7 +2192,7 @@
       }
     ],
     "calendarYearReturns": {
-      "asOfDate": "2026-11-17",
+      "asOfDate": "2026-11-18",
       "periods": [
         {
           "period": "2025",
@@ -2257,35 +2257,35 @@
       "8"
     ],
     "cumulativeReturns": {
-      "asOfDate": "2026-11-17",
+      "asOfDate": "2026-11-18",
       "periods": [
         {
           "period": "m6",
-          "value": -17.6183774002212
+          "value": -17.2797566231462
         },
         {
           "period": "y1",
-          "value": 4.26235765633947
+          "value": 5.79404707865896
         },
         {
           "period": "y3",
-          "value": 59.5502336448598
+          "value": 58.82496105919
         },
         {
           "period": "y5",
-          "value": -1.10128835651572
+          "value": -0.448498901635364
         },
         {
           "period": "ytd",
-          "value": 2.96214857860844
+          "value": 2.49411025600752
         },
         {
           "period": "si",
-          "value": 227.78
+          "value": 226.29
         },
         {
           "period": "y10",
-          "value": 65.0536280779495
+          "value": 63.8824711200402
         }
       ]
     },
@@ -2329,7 +2329,7 @@
       }
     ],
     "calendarYearReturns": {
-      "asOfDate": "2026-11-17",
+      "asOfDate": "2026-11-18",
       "periods": [
         {
           "period": "2025",
@@ -2394,31 +2394,31 @@
       "8"
     ],
     "cumulativeReturns": {
-      "asOfDate": "2026-11-17",
+      "asOfDate": "2026-11-18",
       "periods": [
         {
           "period": "m6",
-          "value": -0.594510953660732
+          "value": -0.537590616600125
         },
         {
           "period": "y1",
-          "value": 0.535375998682142
+          "value": 0.767453375144433
         },
         {
           "period": "y3",
-          "value": 13.7134339482019
+          "value": 13.7600149059065
         },
         {
           "period": "y5",
-          "value": -0.277777777777788
+          "value": -0.424039794503772
         },
         {
           "period": "ytd",
-          "value": 0.0573817526026588
+          "value": 0.0983687187474436
         },
         {
           "period": "si",
-          "value": 22.06
+          "value": 22.11
         },
         {
           "period": "y10",
@@ -2466,7 +2466,7 @@
       }
     ],
     "calendarYearReturns": {
-      "asOfDate": "2026-11-17",
+      "asOfDate": "2026-11-18",
       "periods": [
         {
           "period": "2025",
@@ -2531,35 +2531,35 @@
       "8"
     ],
     "cumulativeReturns": {
-      "asOfDate": "2026-11-17",
+      "asOfDate": "2026-11-18",
       "periods": [
         {
           "period": "m6",
-          "value": -6.12176252943156
+          "value": -6.25948406676783
         },
         {
           "period": "y1",
-          "value": 5.281026027914
+          "value": 6.48312185779267
         },
         {
           "period": "y3",
-          "value": 50.0436798602244
+          "value": 49.4456017740743
         },
         {
           "period": "y5",
-          "value": 16.7232997020231
+          "value": 16.6360727959301
         },
         {
           "period": "ytd",
-          "value": 3.69200761621695
+          "value": 3.27868852459017
         },
         {
           "period": "si",
-          "value": 123.28
+          "value": 122.39
         },
         {
           "period": "y10",
-          "value": 99.1260144475163
+          "value": 99.006711409396
         }
       ]
     },
@@ -2603,7 +2603,7 @@
       }
     ],
     "calendarYearReturns": {
-      "asOfDate": "2026-11-17",
+      "asOfDate": "2026-11-18",
       "periods": [
         {
           "period": "2025",
@@ -2668,35 +2668,35 @@
       "8"
     ],
     "cumulativeReturns": {
-      "asOfDate": "2026-11-17",
+      "asOfDate": "2026-11-18",
       "periods": [
         {
           "period": "m6",
-          "value": -6.18243805088973
+          "value": -6.34040601942557
         },
         {
           "period": "y1",
-          "value": 5.16381600410121
+          "value": 6.34732806361529
         },
         {
           "period": "y3",
-          "value": 50.1330671989355
+          "value": 49.4876912840985
         },
         {
           "period": "y5",
-          "value": 16.8928719436386
+          "value": 16.78361661209
         },
         {
           "period": "ytd",
-          "value": 3.61373863532006
+          "value": 3.16833501698965
         },
         {
           "period": "si",
-          "value": 125.65
+          "value": 124.68
         },
         {
           "period": "y10",
-          "value": 100.613442389758
+          "value": 100.42818911686
         }
       ]
     },
@@ -2740,7 +2740,7 @@
       }
     ],
     "calendarYearReturns": {
-      "asOfDate": "2026-11-17",
+      "asOfDate": "2026-11-18",
       "periods": [
         {
           "period": "2025",
@@ -2805,35 +2805,35 @@
       "8"
     ],
     "cumulativeReturns": {
-      "asOfDate": "2026-11-17",
+      "asOfDate": "2026-11-18",
       "periods": [
         {
           "period": "m6",
-          "value": -1.91417633278098
+          "value": -1.859799713877
         },
         {
           "period": "y1",
-          "value": 0.0291358312452639
+          "value": 0.186937726369885
         },
         {
           "period": "y3",
-          "value": 18.084886840476
+          "value": 17.9748228657907
         },
         {
           "period": "y5",
-          "value": -0.2092779909313
+          "value": -0.23849688790647
         },
         {
           "period": "ytd",
-          "value": -1.10611821638437
+          "value": -1.19829473441642
         },
         {
           "period": "si",
-          "value": 71.66
+          "value": 71.5
         },
         {
           "period": "y10",
-          "value": 21.8051514936493
+          "value": 22.0119521912351
         }
       ]
     },
@@ -2877,7 +2877,7 @@
       }
     ],
     "calendarYearReturns": {
-      "asOfDate": "2026-11-17",
+      "asOfDate": "2026-11-18",
       "periods": [
         {
           "period": "2025",
@@ -2942,35 +2942,35 @@
       "8"
     ],
     "cumulativeReturns": {
-      "asOfDate": "2026-11-17",
+      "asOfDate": "2026-11-18",
       "periods": [
         {
           "period": "m6",
-          "value": -1.71888175390804
+          "value": -1.71799027552674
         },
         {
           "period": "y1",
-          "value": -2.54068308998522
+          "value": -2.52057613168725
         },
         {
           "period": "y3",
-          "value": 4.5686680469289
+          "value": 4.62387853692201
         },
         {
           "period": "y5",
-          "value": -12.4870047360518
+          "value": -12.6174419274886
         },
         {
           "period": "ytd",
-          "value": -2.85934094114633
+          "value": -2.80805231439929
         },
         {
           "period": "si",
-          "value": 51.52
+          "value": 51.6
         },
         {
           "period": "y10",
-          "value": -6.84291423301568
+          "value": -6.24033644628611
         }
       ]
     },
@@ -3014,7 +3014,7 @@
       }
     ],
     "calendarYearReturns": {
-      "asOfDate": "2026-11-17",
+      "asOfDate": "2026-11-18",
       "periods": [
         {
           "period": "2025",
@@ -3079,35 +3079,35 @@
       "8"
     ],
     "cumulativeReturns": {
-      "asOfDate": "2026-11-17",
+      "asOfDate": "2026-11-18",
       "periods": [
         {
           "period": "m6",
-          "value": -4.48336252189143
+          "value": -4.53410332448885
         },
         {
           "period": "y1",
-          "value": 0.0774751264067675
+          "value": 0.670699090647231
         },
         {
           "period": "y3",
-          "value": 21.5782434239857
+          "value": 21.1968098281072
         },
         {
           "period": "y5",
-          "value": -4.38288920056101
+          "value": -4.51920074929754
         },
         {
           "period": "ytd",
-          "value": -0.65975876305352
+          "value": -0.971423945600258
         },
         {
           "period": "si",
-          "value": 145.43
+          "value": 144.66
         },
         {
           "period": "y10",
-          "value": 32.0794317081046
+          "value": 32.1200993627821
         }
       ]
     },
@@ -3151,7 +3151,7 @@
       }
     ],
     "calendarYearReturns": {
-      "asOfDate": "2026-11-17",
+      "asOfDate": "2026-11-18",
       "periods": [
         {
           "period": "2025",
@@ -3216,35 +3216,35 @@
       "8"
     ],
     "cumulativeReturns": {
-      "asOfDate": "2026-11-17",
+      "asOfDate": "2026-11-18",
       "periods": [
         {
           "period": "m6",
-          "value": -1.17783676177837
+          "value": -1.05429188112235
         },
         {
           "period": "y1",
-          "value": -1.25973810707776
+          "value": -1.23467020218759
         },
         {
           "period": "y3",
-          "value": 11.3041853512705
+          "value": 11.3508968609865
         },
         {
           "period": "y5",
-          "value": -1.23518196136948
+          "value": -1.35727882148472
         },
         {
           "period": "ytd",
-          "value": -1.4883413262775
+          "value": -1.44699851165866
         },
         {
           "period": "si",
-          "value": 19.14
+          "value": 19.19
         },
         {
           "period": "y10",
-          "value": 15.6362224594778
+          "value": 16.5444411850983
         }
       ]
     },
@@ -3288,7 +3288,7 @@
       }
     ],
     "calendarYearReturns": {
-      "asOfDate": "2026-11-17",
+      "asOfDate": "2026-11-18",
       "periods": [
         {
           "period": "2025",
@@ -3353,35 +3353,35 @@
       "8"
     ],
     "cumulativeReturns": {
-      "asOfDate": "2026-11-17",
+      "asOfDate": "2026-11-18",
       "periods": [
         {
           "period": "m6",
-          "value": 1.1447970945839
+          "value": 1.12075769534334
         },
         {
           "period": "y1",
-          "value": 2.17738076248206
+          "value": 2.16091220795789
         },
         {
           "period": "y3",
-          "value": 8.807542041787
+          "value": 8.81603533208766
         },
         {
           "period": "y5",
-          "value": 12.9419024949308
+          "value": 12.9507185048047
         },
         {
           "period": "ytd",
-          "value": 1.80387794024157
+          "value": 1.81182453909727
         },
         {
           "period": "si",
-          "value": 28.11
+          "value": 28.12
         },
         {
           "period": "y10",
-          "value": 16.9100200766563
+          "value": 16.9191458295309
         }
       ]
     },
@@ -3425,7 +3425,7 @@
       }
     ],
     "calendarYearReturns": {
-      "asOfDate": "2026-11-17",
+      "asOfDate": "2026-11-18",
       "periods": [
         {
           "period": "2025",
@@ -3490,35 +3490,35 @@
       "8"
     ],
     "cumulativeReturns": {
-      "asOfDate": "2026-11-17",
+      "asOfDate": "2026-11-18",
       "periods": [
         {
           "period": "m6",
-          "value": -16.1901826308084
+          "value": -16.1575781098389
         },
         {
           "period": "y1",
-          "value": -13.1344594864422
+          "value": -12.0582966943495
         },
         {
           "period": "y3",
-          "value": 29.0001186098921
+          "value": 28.1105444194046
         },
         {
           "period": "y5",
-          "value": -20.5928521885153
+          "value": -19.7578098881914
         },
         {
           "period": "ytd",
-          "value": -11.5016884332154
+          "value": -12.1119654990032
         },
         {
           "period": "si",
-          "value": 117.52
+          "value": 116.02
         },
         {
           "period": "y10",
-          "value": 20.3297007246777
+          "value": 18.8163467356031
         }
       ]
     },
@@ -3562,7 +3562,7 @@
       }
     ],
     "calendarYearReturns": {
-      "asOfDate": "2026-11-17",
+      "asOfDate": "2026-11-18",
       "periods": [
         {
           "period": "2025",
@@ -3627,35 +3627,35 @@
       "8"
     ],
     "cumulativeReturns": {
-      "asOfDate": "2026-11-17",
+      "asOfDate": "2026-11-18",
       "periods": [
         {
           "period": "m6",
-          "value": -11.7005122390719
+          "value": -11.0799324915106
         },
         {
           "period": "y1",
-          "value": 13.697273059075
+          "value": 16.2753596213672
         },
         {
           "period": "y3",
-          "value": 61.8796629672247
+          "value": 62.3176571025575
         },
         {
           "period": "y5",
-          "value": 31.5953049093268
+          "value": 32.7001274503854
         },
         {
           "period": "ytd",
-          "value": 11.2834906863996
+          "value": 11.5845879050778
         },
         {
           "period": "si",
-          "value": 336.12
+          "value": 337.3
         },
         {
           "period": "y10",
-          "value": 127.881701327202
+          "value": 129.337109293056
         }
       ]
     },
@@ -3699,7 +3699,7 @@
       }
     ],
     "calendarYearReturns": {
-      "asOfDate": "2026-11-17",
+      "asOfDate": "2026-11-18",
       "periods": [
         {
           "period": "2025",
@@ -3764,35 +3764,35 @@
       "8"
     ],
     "cumulativeReturns": {
-      "asOfDate": "2026-11-17",
+      "asOfDate": "2026-11-18",
       "periods": [
         {
           "period": "m6",
-          "value": -1.35076252723312
+          "value": -1.06037924151696
         },
         {
           "period": "y1",
-          "value": -0.595872796838726
+          "value": -0.725998247590431
         },
         {
           "period": "y3",
-          "value": 11.1672278338945
+          "value": 11.2654320987654
         },
         {
           "period": "y5",
-          "value": 3.59524120800105
+          "value": 3.49057219286226
         },
         {
           "period": "ytd",
-          "value": -1.58355585915668
+          "value": -1.4966155374775
         },
         {
           "period": "si",
-          "value": 58.48
+          "value": 58.62
         },
         {
           "period": "y10",
-          "value": 15.2498000145444
+          "value": 15.705011306441
         }
       ]
     },
@@ -3836,7 +3836,7 @@
       }
     ],
     "calendarYearReturns": {
-      "asOfDate": "2026-11-17",
+      "asOfDate": "2026-11-18",
       "periods": [
         {
           "period": "2025",
@@ -3901,35 +3901,35 @@
       "8"
     ],
     "cumulativeReturns": {
-      "asOfDate": "2026-11-17",
+      "asOfDate": "2026-11-18",
       "periods": [
         {
           "period": "m6",
-          "value": -3.5944817111758
+          "value": -3.53701825557809
         },
         {
           "period": "y1",
-          "value": 3.02292554270644
+          "value": 3.5097265678139
         },
         {
           "period": "y3",
-          "value": 27.2256555871054
+          "value": 27.0920327375981
         },
         {
           "period": "y5",
-          "value": 3.66086009798585
+          "value": 3.6789753372394
         },
         {
           "period": "ytd",
-          "value": 1.74993320865615
+          "value": 1.64306705850921
         },
         {
           "period": "si",
-          "value": 52.34
+          "value": 52.18
         },
         {
           "period": "y10",
-          "value": 45.8078101071976
+          "value": 46.312854533218
         }
       ]
     },
@@ -3973,7 +3973,7 @@
       }
     ],
     "calendarYearReturns": {
-      "asOfDate": "2026-11-17",
+      "asOfDate": "2026-11-18",
       "periods": [
         {
           "period": "2025",
@@ -4038,31 +4038,31 @@
       "8"
     ],
     "cumulativeReturns": {
-      "asOfDate": "2026-11-17",
+      "asOfDate": "2026-11-18",
       "periods": [
         {
           "period": "m6",
-          "value": -0.760252703715603
+          "value": -0.953196958337799
         },
         {
           "period": "y1",
-          "value": 5.84137497858732
+          "value": 6.29274179644848
         },
         {
           "period": "y3",
-          "value": 36.4847949340991
+          "value": 36.1902658125322
         },
         {
           "period": "y5",
-          "value": 24.4444444444444
+          "value": 24.0343347639485
         },
         {
           "period": "ytd",
-          "value": 4.09974166011458
+          "value": 3.87509828147814
         },
         {
           "period": "si",
-          "value": 85.36
+          "value": 84.96
         },
         {
           "period": "y10",
